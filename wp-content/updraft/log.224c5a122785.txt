@@ -1,0 +1,825 @@
+0000.001 (0) Opened log file at time: Wed, 03 Sep 2025 09:27:40 +0000 on https://bepilates.albertosancho.es
+0000.014 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.25.7 WP: 6.8.2 PHP: 8.1.33 (cgi-fcgi, Linux info 3.0 #1337 SMP Tue Jan 01 00:00:00 CEST 2000 all GNU/Linux) MySQL: 8.0.36 (max packet size=67108864) WPLANG: es_ES Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: -1 (used: 70.5M | 73M) multisite: N openssl: OpenSSL 1.1.1w  11 Sep 2023 mcrypt: N LANG:  WP Proxy: disabled ZipArchive::addFile: Y
+0000.041 (0) Free space on disk containing Updraft's temporary directory: 360778 MB
+0000.065 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.101 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.128 (0) Set semaphore last lock (fd) time to 2025-09-03 09:27:40
+0000.157 (0) Semaphore lock (fd) complete
+0000.193 (0) Backup run: resumption=0, nonce=224c5a122785, file_nonce=224c5a122785 begun at=1756891660 (0s ago), job type=backup
+0000.225 (0) Scheduling a resumption (1) after 300 seconds (1756891960) in case this run gets aborted
+0000.337 (0) Checking if we have a zip executable available
+0000.339 (0) Testing: /usr/bin/zip
+0000.406 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.409 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.420 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.425 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.445 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.808 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.869 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.942 (0) Working binary zip found: /usr/bin/zip
+0000.965 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.985 (0) Creation of backups of directories: beginning
+0001.029 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0061.407 (0) Total entities for the zip file: 3514 directories, 21775 files (0 skipped as non-modified), 217 MB
+0061.436 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0062.937 (0) backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: size is now: 0.90 MB
+0062.958 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 100 files added (on-disk size: 875 KB)
+0062.978 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 200 files added (on-disk size: 875 KB)
+0062.992 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 300 files added (on-disk size: 875 KB)
+0063.025 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 400 files added (on-disk size: 875 KB)
+0063.045 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 500 files added (on-disk size: 875 KB)
+0063.130 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 600 files added (on-disk size: 875 KB)
+0063.182 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 700 files added (on-disk size: 875 KB)
+0063.251 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 800 files added (on-disk size: 875 KB)
+0063.272 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 900 files added (on-disk size: 875 KB)
+0063.291 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 1000 files added (on-disk size: 875 KB)
+0063.317 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (23.9 MB, 21775 files batched, 1001 (1002) added so far); re-opening (prior size: 875 KB)
+0075.439 (0) backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: size is now: 10.10 MB
+0075.462 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 1100 files added (on-disk size: 10337.6 KB)
+0075.472 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 1200 files added (on-disk size: 10337.6 KB)
+0075.487 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 1300 files added (on-disk size: 10337.6 KB)
+0075.497 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 1400 files added (on-disk size: 10337.6 KB)
+0075.508 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 1500 files added (on-disk size: 10337.6 KB)
+0075.518 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 1600 files added (on-disk size: 10337.6 KB)
+0075.525 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 1700 files added (on-disk size: 10337.6 KB)
+0075.547 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 1800 files added (on-disk size: 10337.6 KB)
+0075.573 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 1900 files added (on-disk size: 10337.6 KB)
+0075.637 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 2000 files added (on-disk size: 10337.6 KB)
+0075.644 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (3.8 MB, 21775 files batched, 1001 (2003) added so far); re-opening (prior size: 10337.6 KB)
+0084.605 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 2100 files added (on-disk size: 11609.9 KB)
+0084.614 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 2200 files added (on-disk size: 11609.9 KB)
+0084.618 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 2300 files added (on-disk size: 11609.9 KB)
+0084.627 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 2400 files added (on-disk size: 11609.9 KB)
+0084.631 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 2500 files added (on-disk size: 11609.9 KB)
+0084.639 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 2600 files added (on-disk size: 11609.9 KB)
+0084.643 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 2700 files added (on-disk size: 11609.9 KB)
+0084.651 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 2800 files added (on-disk size: 11609.9 KB)
+0084.659 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 2900 files added (on-disk size: 11609.9 KB)
+0084.671 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 3000 files added (on-disk size: 11609.9 KB)
+0084.681 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (15 MB, 21775 files batched, 1001 (3004) added so far); re-opening (prior size: 11609.9 KB)
+0097.579 (0) backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: size is now: 22.20 MB
+0097.603 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 3100 files added (on-disk size: 22719.6 KB)
+0097.635 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 3200 files added (on-disk size: 22719.6 KB)
+0097.645 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 3300 files added (on-disk size: 22719.6 KB)
+0097.673 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 3400 files added (on-disk size: 22719.6 KB)
+0097.687 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 3500 files added (on-disk size: 22719.6 KB)
+0097.703 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 3600 files added (on-disk size: 22719.6 KB)
+0097.711 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 3700 files added (on-disk size: 22719.6 KB)
+0097.723 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 3800 files added (on-disk size: 22719.6 KB)
+0097.743 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 3900 files added (on-disk size: 22719.6 KB)
+0097.775 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 4000 files added (on-disk size: 22719.6 KB)
+0097.821 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (12.8 MB, 21775 files batched, 1001 (4005) added so far); re-opening (prior size: 22719.6 KB)
+0109.354 (0) backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: size is now: 30.90 MB
+0109.362 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 4100 files added (on-disk size: 31651.6 KB)
+0109.367 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 4200 files added (on-disk size: 31651.6 KB)
+0109.372 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 4300 files added (on-disk size: 31651.6 KB)
+0109.376 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 4400 files added (on-disk size: 31651.6 KB)
+0109.380 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 4500 files added (on-disk size: 31651.6 KB)
+0109.385 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 4600 files added (on-disk size: 31651.6 KB)
+0109.391 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 4700 files added (on-disk size: 31651.6 KB)
+0109.407 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 4800 files added (on-disk size: 31651.6 KB)
+0109.419 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 4900 files added (on-disk size: 31651.6 KB)
+0109.431 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 5000 files added (on-disk size: 31651.6 KB)
+0109.435 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (18.3 MB, 21775 files batched, 1001 (5006) added so far); re-opening (prior size: 31651.6 KB)
+0121.917 (0) backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: size is now: 37.20 MB
+0121.925 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 5100 files added (on-disk size: 38042.2 KB)
+0121.929 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 5200 files added (on-disk size: 38042.2 KB)
+0121.933 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 5300 files added (on-disk size: 38042.2 KB)
+0121.937 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 5400 files added (on-disk size: 38042.2 KB)
+0121.944 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 5500 files added (on-disk size: 38042.2 KB)
+0121.951 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 5600 files added (on-disk size: 38042.2 KB)
+0121.955 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 5700 files added (on-disk size: 38042.2 KB)
+0121.960 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 5800 files added (on-disk size: 38042.2 KB)
+0121.964 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 5900 files added (on-disk size: 38042.2 KB)
+0121.970 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 6000 files added (on-disk size: 38042.2 KB)
+0121.979 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (23.3 MB, 21775 files batched, 1001 (6007) added so far); re-opening (prior size: 38042.2 KB)
+0133.851 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 6100 files added (on-disk size: 45120 KB)
+0133.858 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 6200 files added (on-disk size: 45120 KB)
+0133.863 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 6300 files added (on-disk size: 45120 KB)
+0133.872 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 6400 files added (on-disk size: 45120 KB)
+0133.877 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 6500 files added (on-disk size: 45120 KB)
+0133.907 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 6600 files added (on-disk size: 45120 KB)
+0133.930 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 6700 files added (on-disk size: 45120 KB)
+0133.954 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 6800 files added (on-disk size: 45120 KB)
+0133.977 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 6900 files added (on-disk size: 45120 KB)
+0133.997 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 7000 files added (on-disk size: 45120 KB)
+0134.013 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (10.2 MB, 21775 files batched, 1001 (7008) added so far); re-opening (prior size: 45120 KB)
+0154.252 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 7100 files added (on-disk size: 48259.7 KB)
+0154.281 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 7200 files added (on-disk size: 48259.7 KB)
+0154.287 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 7300 files added (on-disk size: 48259.7 KB)
+0154.319 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 7400 files added (on-disk size: 48259.7 KB)
+0154.339 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 7500 files added (on-disk size: 48259.7 KB)
+0154.351 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 7600 files added (on-disk size: 48259.7 KB)
+0154.375 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 7700 files added (on-disk size: 48259.7 KB)
+0154.413 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 7800 files added (on-disk size: 48259.7 KB)
+0154.418 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 7900 files added (on-disk size: 48259.7 KB)
+0154.426 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 8000 files added (on-disk size: 48259.7 KB)
+0154.430 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (8 MB, 21775 files batched, 1001 (8009) added so far); re-opening (prior size: 48259.7 KB)
+0171.012 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 8100 files added (on-disk size: 50895.4 KB)
+0171.019 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 8200 files added (on-disk size: 50895.4 KB)
+0171.031 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 8300 files added (on-disk size: 50895.4 KB)
+0171.051 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 8400 files added (on-disk size: 50895.4 KB)
+0171.060 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 8500 files added (on-disk size: 50895.4 KB)
+0171.067 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 8600 files added (on-disk size: 50895.4 KB)
+0171.072 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 8700 files added (on-disk size: 50895.4 KB)
+0171.083 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 8800 files added (on-disk size: 50895.4 KB)
+0171.092 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 8900 files added (on-disk size: 50895.4 KB)
+0171.119 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 9000 files added (on-disk size: 50895.4 KB)
+0171.169 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (17.2 MB, 21775 files batched, 1001 (9010) added so far); re-opening (prior size: 50895.4 KB)
+0193.119 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 9100 files added (on-disk size: 59642.7 KB)
+0193.155 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 9200 files added (on-disk size: 59642.7 KB)
+0193.161 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 9300 files added (on-disk size: 59642.7 KB)
+0193.171 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 9400 files added (on-disk size: 59642.7 KB)
+0193.179 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 9500 files added (on-disk size: 59642.7 KB)
+0193.187 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 9600 files added (on-disk size: 59642.7 KB)
+0193.199 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 9700 files added (on-disk size: 59642.7 KB)
+0193.208 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 9800 files added (on-disk size: 59642.7 KB)
+0193.227 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 9900 files added (on-disk size: 59642.7 KB)
+0193.236 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 10000 files added (on-disk size: 59642.7 KB)
+0193.242 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (7.5 MB, 21775 files batched, 1001 (10011) added so far); re-opening (prior size: 59642.7 KB)
+0207.583 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 10100 files added (on-disk size: 61823 KB)
+0207.601 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 10200 files added (on-disk size: 61823 KB)
+0207.623 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 10300 files added (on-disk size: 61823 KB)
+0207.639 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 10400 files added (on-disk size: 61823 KB)
+0207.643 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 10500 files added (on-disk size: 61823 KB)
+0207.651 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 10600 files added (on-disk size: 61823 KB)
+0207.665 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 10700 files added (on-disk size: 61823 KB)
+0207.681 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 10800 files added (on-disk size: 61823 KB)
+0207.688 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 10900 files added (on-disk size: 61823 KB)
+0207.749 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 11000 files added (on-disk size: 61823 KB)
+0207.778 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (5.3 MB, 21775 files batched, 1001 (11012) added so far); re-opening (prior size: 61823 KB)
+0224.523 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 11100 files added (on-disk size: 63584.2 KB)
+0224.536 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 11200 files added (on-disk size: 63584.2 KB)
+0224.543 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 11300 files added (on-disk size: 63584.2 KB)
+0224.551 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 11400 files added (on-disk size: 63584.2 KB)
+0224.559 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 11500 files added (on-disk size: 63584.2 KB)
+0224.567 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 11600 files added (on-disk size: 63584.2 KB)
+0224.575 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 11700 files added (on-disk size: 63584.2 KB)
+0224.583 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 11800 files added (on-disk size: 63584.2 KB)
+0224.591 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 11900 files added (on-disk size: 63584.2 KB)
+0224.599 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 12000 files added (on-disk size: 63584.2 KB)
+0224.605 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (9.5 MB, 21775 files batched, 1001 (12013) added so far); re-opening (prior size: 63584.2 KB)
+0241.508 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 12100 files added (on-disk size: 65664.6 KB)
+0241.519 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 12200 files added (on-disk size: 65664.6 KB)
+0241.533 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 12300 files added (on-disk size: 65664.6 KB)
+0241.543 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 12400 files added (on-disk size: 65664.6 KB)
+0241.560 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 12500 files added (on-disk size: 65664.6 KB)
+0241.568 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 12600 files added (on-disk size: 65664.6 KB)
+0241.575 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 12700 files added (on-disk size: 65664.6 KB)
+0241.584 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 12800 files added (on-disk size: 65664.6 KB)
+0241.617 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 12900 files added (on-disk size: 65664.6 KB)
+0241.639 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 13000 files added (on-disk size: 65664.6 KB)
+0241.647 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (8 MB, 21775 files batched, 1001 (13014) added so far); re-opening (prior size: 65664.6 KB)
+0245.774 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 13100 files added (on-disk size: 68037.3 KB)
+0245.787 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 13200 files added (on-disk size: 68037.3 KB)
+0245.795 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 13300 files added (on-disk size: 68037.3 KB)
+0245.803 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 13400 files added (on-disk size: 68037.3 KB)
+0245.813 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 13500 files added (on-disk size: 68037.3 KB)
+0245.822 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 13600 files added (on-disk size: 68037.3 KB)
+0245.839 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 13700 files added (on-disk size: 68037.3 KB)
+0245.851 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 13800 files added (on-disk size: 68037.3 KB)
+0245.863 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 13900 files added (on-disk size: 68037.3 KB)
+0245.871 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 14000 files added (on-disk size: 68037.3 KB)
+0245.881 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (3.9 MB, 21775 files batched, 1001 (14015) added so far); re-opening (prior size: 68037.3 KB)
+0247.443 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 14100 files added (on-disk size: 69431.5 KB)
+0247.451 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 14200 files added (on-disk size: 69431.5 KB)
+0247.471 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 14300 files added (on-disk size: 69431.5 KB)
+0247.487 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 14400 files added (on-disk size: 69431.5 KB)
+0247.498 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 14500 files added (on-disk size: 69431.5 KB)
+0247.507 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 14600 files added (on-disk size: 69431.5 KB)
+0247.515 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 14700 files added (on-disk size: 69431.5 KB)
+0247.528 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 14800 files added (on-disk size: 69431.5 KB)
+0247.536 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 14900 files added (on-disk size: 69431.5 KB)
+0247.554 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 15000 files added (on-disk size: 69431.5 KB)
+0247.557 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (6.8 MB, 21775 files batched, 1001 (15016) added so far); re-opening (prior size: 69431.5 KB)
+0249.367 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 15100 files added (on-disk size: 71254.6 KB)
+0249.376 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 15200 files added (on-disk size: 71254.6 KB)
+0249.399 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 15300 files added (on-disk size: 71254.6 KB)
+0249.413 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 15400 files added (on-disk size: 71254.6 KB)
+0249.419 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 15500 files added (on-disk size: 71254.6 KB)
+0249.437 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 15600 files added (on-disk size: 71254.6 KB)
+0249.449 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 15700 files added (on-disk size: 71254.6 KB)
+0249.463 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 15800 files added (on-disk size: 71254.6 KB)
+0249.481 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 15900 files added (on-disk size: 71254.6 KB)
+0249.494 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 16000 files added (on-disk size: 71254.6 KB)
+0249.502 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (6.6 MB, 21775 files batched, 1001 (16017) added so far); re-opening (prior size: 71254.6 KB)
+0251.155 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 16100 files added (on-disk size: 73096.2 KB)
+0251.163 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 16200 files added (on-disk size: 73096.2 KB)
+0251.171 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 16300 files added (on-disk size: 73096.2 KB)
+0251.179 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 16400 files added (on-disk size: 73096.2 KB)
+0251.187 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 16500 files added (on-disk size: 73096.2 KB)
+0251.195 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 16600 files added (on-disk size: 73096.2 KB)
+0251.215 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 16700 files added (on-disk size: 73096.2 KB)
+0251.222 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 16800 files added (on-disk size: 73096.2 KB)
+0251.231 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 16900 files added (on-disk size: 73096.2 KB)
+0251.239 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 17000 files added (on-disk size: 73096.2 KB)
+0251.245 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (16.9 MB, 21775 files batched, 1001 (17018) added so far); re-opening (prior size: 73096.2 KB)
+0254.360 (0) The scheduled resumption is within 45 seconds - will reschedule
+0254.366 (0) Rescheduling resumption 1: moving to 345 seconds from now (1756892260)
+0254.380 (0) To decrease the likelihood of overlaps, increasing resumption interval to: 300 + 45 = 345
+0254.395 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 17100 files added (on-disk size: 77862.7 KB)
+0254.415 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 17200 files added (on-disk size: 77862.7 KB)
+0254.435 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 17300 files added (on-disk size: 77862.7 KB)
+0254.444 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 17400 files added (on-disk size: 77862.7 KB)
+0254.456 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 17500 files added (on-disk size: 77862.7 KB)
+0254.491 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 17600 files added (on-disk size: 77862.7 KB)
+0254.499 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 17700 files added (on-disk size: 77862.7 KB)
+0254.511 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 17800 files added (on-disk size: 77862.7 KB)
+0254.523 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 17900 files added (on-disk size: 77862.7 KB)
+0254.531 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 18000 files added (on-disk size: 77862.7 KB)
+0254.534 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (6.5 MB, 21775 files batched, 1001 (18019) added so far); re-opening (prior size: 77862.7 KB)
+0255.796 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 18100 files added (on-disk size: 79227.1 KB)
+0255.807 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 18200 files added (on-disk size: 79227.1 KB)
+0255.815 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 18300 files added (on-disk size: 79227.1 KB)
+0255.823 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 18400 files added (on-disk size: 79227.1 KB)
+0255.869 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 18500 files added (on-disk size: 79227.1 KB)
+0255.919 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 18600 files added (on-disk size: 79227.1 KB)
+0255.934 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 18700 files added (on-disk size: 79227.1 KB)
+0255.941 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 18800 files added (on-disk size: 79227.1 KB)
+0255.953 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 18900 files added (on-disk size: 79227.1 KB)
+0255.970 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 19000 files added (on-disk size: 79227.1 KB)
+0255.978 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (4.2 MB, 21775 files batched, 1001 (19020) added so far); re-opening (prior size: 79227.1 KB)
+0257.136 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 19100 files added (on-disk size: 80495.5 KB)
+0257.143 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 19200 files added (on-disk size: 80495.5 KB)
+0257.151 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 19300 files added (on-disk size: 80495.5 KB)
+0257.156 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 19400 files added (on-disk size: 80495.5 KB)
+0257.161 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 19500 files added (on-disk size: 80495.5 KB)
+0257.169 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 19600 files added (on-disk size: 80495.5 KB)
+0257.175 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 19700 files added (on-disk size: 80495.5 KB)
+0257.191 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 19800 files added (on-disk size: 80495.5 KB)
+0257.215 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 19900 files added (on-disk size: 80495.5 KB)
+0257.224 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 20000 files added (on-disk size: 80495.5 KB)
+0257.228 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (1.9 MB, 21775 files batched, 1001 (20021) added so far); re-opening (prior size: 80495.5 KB)
+0259.573 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 20100 files added (on-disk size: 81361.9 KB)
+0259.611 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 20200 files added (on-disk size: 81361.9 KB)
+0259.623 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 20300 files added (on-disk size: 81361.9 KB)
+0259.631 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 20400 files added (on-disk size: 81361.9 KB)
+0259.639 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 20500 files added (on-disk size: 81361.9 KB)
+0259.647 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 20600 files added (on-disk size: 81361.9 KB)
+0259.655 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 20700 files added (on-disk size: 81361.9 KB)
+0259.663 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 20800 files added (on-disk size: 81361.9 KB)
+0259.673 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 20900 files added (on-disk size: 81361.9 KB)
+0259.687 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 21000 files added (on-disk size: 81361.9 KB)
+0259.701 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (4.3 MB, 21775 files batched, 1001 (21022) added so far); re-opening (prior size: 81361.9 KB)
+0263.350 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 21100 files added (on-disk size: 82949 KB)
+0263.362 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 21200 files added (on-disk size: 82949 KB)
+0263.372 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 21300 files added (on-disk size: 82949 KB)
+0263.393 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 21400 files added (on-disk size: 82949 KB)
+0263.417 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 21500 files added (on-disk size: 82949 KB)
+0263.423 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 21600 files added (on-disk size: 82949 KB)
+0263.431 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.tmp: 21700 files added (on-disk size: 82949 KB)
+0267.310 (0) Creating zip file manifest (backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.list-temp.tmp)
+0267.907 (0) Successfully created zip file manifest (size: 2107643)
+0276.283 (0) Created plugins zip (0) - 83946.2 KB in 275.2 s (305 KB/s) (sha1: 100f601c2880c61f3018b634fdb0e3ee03ccd62a, sha256: f5a35fe94b8e2092ef178c0401659ed2ee04a42949afae3687bb6353e494e90e)
+0276.468 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0276.477 (0) No remote despatch: user chose no remote backup service
+0276.485 (0) Recording as successfully uploaded: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip
+0276.490 (0) Deleting zip manifest (backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip.list.tmp)
+0276.496 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0276.500 (0) Number of backup sets in history: 2; groups (db): 1
+0276.502 (0) Examining (for databases) backup set with group_id=0, nonce=fa98ad566ff7, datestamp=1756636407 (Aug 31 2025 10:33:27)
+0276.505 (0) This backup set (1756636407) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0276.505 (0) Examining (for databases) backup set with group_id=0, nonce=5367efa39c3c, datestamp=1739099072 (Feb 09 2025 11:04:32)
+0276.505 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0276.513 (0) Number of backup sets in history: 2; groups (files): 1
+0276.516 (0) Examining (for files) backup set with nonce=fa98ad566ff7, datestamp=1756636407 (Aug 31 2025 10:33:27)
+0276.517 (0) This backup set (1756636407) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0276.517 (0) This backup set (1756636407) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0276.517 (0) This backup set (1756636407) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0276.517 (0) This backup set (1756636407) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0276.517 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0276.519 (0) Examining (for files) backup set with nonce=5367efa39c3c, datestamp=1739099072 (Feb 09 2025 11:04:32)
+0276.525 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0276.525 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0276.541 (0) Beginning creation of dump of themes (split every: 400 MB)
+0281.115 (0) Total entities for the zip file: 159 directories, 856 files (0 skipped as non-modified), 32.5 MB
+0281.121 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0281.258 (0) backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-themes.zip.tmp: size is now: 0.00 MB
+0281.276 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-themes.zip.tmp: 100 files added (on-disk size: 35.4 KB)
+0281.283 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-themes.zip.tmp: 200 files added (on-disk size: 35.4 KB)
+0281.318 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-themes.zip.tmp: 300 files added (on-disk size: 35.4 KB)
+0281.336 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-themes.zip.tmp: 400 files added (on-disk size: 35.4 KB)
+0281.375 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-themes.zip.tmp: 500 files added (on-disk size: 35.4 KB)
+0281.430 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-themes.zip.tmp: 600 files added (on-disk size: 35.4 KB)
+0281.455 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-themes.zip.tmp: 700 files added (on-disk size: 35.4 KB)
+0281.485 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25.5 MB, 856 files batched, 710 (711) added so far); re-opening (prior size: 35.4 KB)
+0293.725 (0) backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-themes.zip.tmp: size is now: 18.40 MB
+0293.733 (0) A useful amount of data was added after this amount of zip processing: 13.4 s (normalised: 13.1 s, rate: 1947.8 KB/s)
+0293.741 (0) Performance is good - will increase the amount of data we attempt to batch (time=13.424205064774, normalised_time=13.143143917728, max_time=293.73613381386, data points known=1, old_max_bytes=26214400, new_max_bytes=209715200)
+0293.751 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-themes.zip.tmp: 800 files added (on-disk size: 18799.9 KB)
+0297.423 (0) backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-themes.zip.tmp: size is now: 24.40 MB
+0297.505 (0) Creating zip file manifest (backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-themes.zip.list-temp.tmp)
+0297.539 (0) Successfully created zip file manifest (size: 63675)
+0299.965 (0) Created themes zip (0) - 25036.1 KB in 23.4 s (1069.1 KB/s) (sha1: 451132d4821b1553f94588eb572026a34e0e05f3, sha256: b9220a464ba893c81ecea0c979e58971267b252cab66db911295b466f2ea3bd4)
+0299.981 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0299.985 (0) No remote despatch: user chose no remote backup service
+0300.013 (0) Recording as successfully uploaded: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-themes.zip
+0300.025 (0) Deleting zip manifest (backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-themes.zip.list.tmp)
+0300.041 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0300.053 (0) Number of backup sets in history: 2; groups (db): 1
+0300.056 (0) Examining (for databases) backup set with group_id=0, nonce=fa98ad566ff7, datestamp=1756636407 (Aug 31 2025 10:33:27)
+0300.077 (0) This backup set (1756636407) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0300.097 (0) Examining (for databases) backup set with group_id=0, nonce=5367efa39c3c, datestamp=1739099072 (Feb 09 2025 11:04:32)
+0300.097 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0300.118 (0) Number of backup sets in history: 2; groups (files): 1
+0300.154 (0) Examining (for files) backup set with nonce=fa98ad566ff7, datestamp=1756636407 (Aug 31 2025 10:33:27)
+0300.157 (0) This backup set (1756636407) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0300.157 (0) This backup set (1756636407) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0300.157 (0) This backup set (1756636407) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0300.157 (0) This backup set (1756636407) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0300.157 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0300.177 (0) Examining (for files) backup set with nonce=5367efa39c3c, datestamp=1739099072 (Feb 09 2025 11:04:32)
+0300.177 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0300.177 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0300.237 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots,wp-staging
+0300.245 (0) Looking for candidates to backup in: /homepages/24/d469611663/htdocs/bepilates/wp-content/uploads
+0300.249 (0) finding files: 2025: adding to list (1)
+0300.254 (0) finding files: wpcf7_uploads: adding to list (2)
+0300.256 (0) finding files: siteorigin-widgets: adding to list (3)
+0300.259 (0) finding files: woocommerce_uploads: adding to list (4)
+0300.262 (0) finding files: wc-logs: adding to list (5)
+0300.264 (0) finding files: 2022: adding to list (6)
+0300.269 (0) finding files: 2023: adding to list (7)
+0300.273 (0) finding files: backwpup-eefc27-logs: skipping: excluded by options (glob)
+0300.277 (0) finding files: 2024: adding to list (8)
+0300.280 (0) finding files: backwpup-eefc27-temp: skipping: excluded by options (glob)
+0300.285 (0) finding files: 2019: adding to list (9)
+0300.297 (0) finding files: 2016: adding to list (10)
+0300.319 (0) finding files: 2015: adding to list (11)
+0300.328 (0) finding files: woocommerce-placeholder-1024x1024.png: adding to list (12)
+0300.334 (0) finding files: woocommerce-placeholder-150x150.png: adding to list (13)
+0300.336 (0) finding files: woocommerce-placeholder-1200x715.png: adding to list (14)
+0300.339 (0) finding files: woocommerce-placeholder-272x182.png: adding to list (15)
+0300.341 (0) finding files: woocommerce-placeholder-300x300.png: adding to list (16)
+0300.343 (0) finding files: woocommerce-placeholder-360x180.png: adding to list (17)
+0300.345 (0) finding files: woocommerce-placeholder-360x240.png: adding to list (18)
+0300.348 (0) finding files: woocommerce-placeholder-480x179.png: adding to list (19)
+0300.350 (0) finding files: woocommerce-placeholder-768x768.png: adding to list (20)
+0300.353 (0) finding files: woocommerce-placeholder-848x448.png: adding to list (21)
+0300.355 (0) finding files: woocommerce-placeholder-850x567.png: adding to list (22)
+0300.357 (0) finding files: woocommerce-placeholder-960x358.png: adding to list (23)
+0300.359 (0) finding files: woocommerce-placeholder.png: adding to list (24)
+0300.362 (0) finding files: font-awesome: adding to list (25)
+0300.364 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0303.251 (0) Total entities for the zip file: 54 directories, 1857 files (0 skipped as non-modified), 155.7 MB
+0303.258 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0303.263 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0303.268 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-uploads.zip.tmp: 300 files added (on-disk size: 0 KB)
+0303.272 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-uploads.zip.tmp: 400 files added (on-disk size: 0 KB)
+0303.276 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-uploads.zip.tmp: 500 files added (on-disk size: 0 KB)
+0303.280 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-uploads.zip.tmp: 600 files added (on-disk size: 0 KB)
+0303.284 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-uploads.zip.tmp: 700 files added (on-disk size: 0 KB)
+0303.288 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-uploads.zip.tmp: 800 files added (on-disk size: 0 KB)
+0303.292 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-uploads.zip.tmp: 900 files added (on-disk size: 0 KB)
+0303.309 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 2.0 seconds have passed since the last write (98.8 MB, 901 (901) files added so far); re-opening (prior size: 0 KB)
+0315.334 (0) The time we have been running (315.3) is approaching the resumption interval (345) - increasing resumption interval to 346
+0321.361 (0) The time we have been running (321.3) is approaching the resumption interval (346) - increasing resumption interval to 352
+0324.180 (0) backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-uploads.zip.tmp: size is now: 98.80 MB
+0324.209 (0) The time we have been running (324.2) is approaching the resumption interval (352) - increasing resumption interval to 355
+0324.231 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-uploads.zip.tmp: 1000 files added (on-disk size: 101165.4 KB)
+0324.250 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-uploads.zip.tmp: 1100 files added (on-disk size: 101165.4 KB)
+0324.259 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-uploads.zip.tmp: 1200 files added (on-disk size: 101165.4 KB)
+0324.275 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-uploads.zip.tmp: 1300 files added (on-disk size: 101165.4 KB)
+0324.283 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-uploads.zip.tmp: 1400 files added (on-disk size: 101165.4 KB)
+0324.313 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-uploads.zip.tmp: 1500 files added (on-disk size: 101165.4 KB)
+0324.334 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-uploads.zip.tmp: 1600 files added (on-disk size: 101165.4 KB)
+0324.413 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-uploads.zip.tmp: 1700 files added (on-disk size: 101165.4 KB)
+0324.437 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-uploads.zip.tmp: 1800 files added (on-disk size: 101165.4 KB)
+0330.422 (0) The time we have been running (330.3) is approaching the resumption interval (355) - increasing resumption interval to 361
+0336.335 (0) The time we have been running (336.3) is approaching the resumption interval (361) - increasing resumption interval to 367
+0342.501 (0) The time we have been running (342.5) is approaching the resumption interval (367) - increasing resumption interval to 373
+0348.203 (0) backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-uploads.zip.tmp: size is now: 155.80 MB
+0348.213 (0) The time we have been running (348.2) is approaching the resumption interval (373) - increasing resumption interval to 379
+0348.289 (0) Creating zip file manifest (backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-uploads.zip.list-temp.tmp)
+0348.420 (0) Successfully created zip file manifest (size: 105109)
+0369.117 (0) Created uploads zip (0) - 159583.9 KB in 68.7 s (2323.6 KB/s) (sha1: 407d21e1426ef5011755a4cedeac834457602e19, sha256: 8d0a29efc712c896a1c89f197bb4a36a144c1443ccaea0b4c6fb9256a8bce94e)
+0369.165 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0369.177 (0) No remote despatch: user chose no remote backup service
+0369.191 (0) Recording as successfully uploaded: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-uploads.zip
+0369.285 (0) Deleting zip manifest (backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-uploads.zip.list.tmp)
+0369.317 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0369.329 (0) Number of backup sets in history: 2; groups (db): 1
+0369.345 (0) Examining (for databases) backup set with group_id=0, nonce=fa98ad566ff7, datestamp=1756636407 (Aug 31 2025 10:33:27)
+0369.349 (0) This backup set (1756636407) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0369.349 (0) Examining (for databases) backup set with group_id=0, nonce=5367efa39c3c, datestamp=1739099072 (Feb 09 2025 11:04:32)
+0369.349 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0369.361 (0) Number of backup sets in history: 2; groups (files): 1
+0369.365 (0) Examining (for files) backup set with nonce=fa98ad566ff7, datestamp=1756636407 (Aug 31 2025 10:33:27)
+0369.365 (0) This backup set (1756636407) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0369.365 (0) This backup set (1756636407) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0369.365 (0) This backup set (1756636407) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0369.365 (0) This backup set (1756636407) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0369.365 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0369.373 (0) Examining (for files) backup set with nonce=5367efa39c3c, datestamp=1739099072 (Feb 09 2025 11:04:32)
+0369.373 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0369.373 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0369.405 (0) No backup of mu-plugins: excluded by user's options
+0369.429 (0) Beginning backup of other directories found in the content directory (index: 0)
+0369.449 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0369.453 (0) Looking for candidates to backup in: /homepages/24/d469611663/htdocs/bepilates/wp-content
+0369.465 (0) finding files: backup-migration: skipping: excluded by options (glob)
+0369.485 (0) finding files: plugins: skipping: this is the plugins directory
+0369.513 (0) finding files: themes: skipping: this is the themes directory
+0369.521 (0) finding files: updraft: skipping: this is the updraft directory
+0369.525 (0) finding files: upgrade: skipping: excluded by options
+0369.549 (0) finding files: themes-old: adding to list (1)
+0369.554 (0) finding files: uploads-old: adding to list (2)
+0369.568 (0) finding files: languages-old: adding to list (3)
+0369.572 (0) finding files: languages: adding to list (4)
+0369.585 (0) finding files: upgrade-temp-backup-old: adding to list (5)
+0369.591 (0) finding files: upgrade-temp-backup: adding to list (6)
+0369.597 (0) finding files: index.php-old: adding to list (7)
+0369.605 (0) finding files: index.php: adding to list (8)
+0369.620 (0) finding files: uploads: skipping: this is the uploads directory
+0369.631 (0) finding files: litespeed: adding to list (9)
+0371.457 (0) Total entities for the zip file: 14 directories, 890 files (0 skipped as non-modified), 22 MB
+0371.483 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-others.zip.tmp: 100 files added (on-disk size: 0 KB)
+0371.512 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-others.zip.tmp: 200 files added (on-disk size: 0 KB)
+0371.519 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-others.zip.tmp: 300 files added (on-disk size: 0 KB)
+0371.528 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-others.zip.tmp: 400 files added (on-disk size: 0 KB)
+0371.537 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-others.zip.tmp: 500 files added (on-disk size: 0 KB)
+0371.547 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-others.zip.tmp: 600 files added (on-disk size: 0 KB)
+0371.573 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-others.zip.tmp: 700 files added (on-disk size: 0 KB)
+0371.653 (0) Zip: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-others.zip.tmp: 800 files added (on-disk size: 0 KB)
+0377.457 (0) The time we have been running (377.4) is approaching the resumption interval (379) - increasing resumption interval to 408
+0383.401 (0) The time we have been running (383.4) is approaching the resumption interval (408) - increasing resumption interval to 414
+0389.326 (0) The time we have been running (389.3) is approaching the resumption interval (414) - increasing resumption interval to 420
+0391.949 (0) backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-others.zip.tmp: size is now: 6.50 MB
+0391.962 (0) The time we have been running (392) is approaching the resumption interval (420) - increasing resumption interval to 422
+0391.975 (0) Creating zip file manifest (backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-others.zip.list-temp.tmp)
+0391.988 (0) Successfully created zip file manifest (size: 69623)
+0392.501 (0) Created others zip (0) - 6643.8 KB in 22.8 s (291 KB/s) (sha1: 991ff9b85e66524d6e2ef6c4943783e4c9a20b75, sha256: b20c9edbe6f98d5d6d9a94c51680fa5570bf07c274509657a5d79919fdb472d2)
+0392.541 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0392.553 (0) No remote despatch: user chose no remote backup service
+0392.565 (0) Recording as successfully uploaded: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-others.zip
+0392.585 (0) Deleting zip manifest (backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-others.zip.list.tmp)
+0392.604 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0392.652 (0) Number of backup sets in history: 2; groups (db): 1
+0392.669 (0) Examining (for databases) backup set with group_id=0, nonce=fa98ad566ff7, datestamp=1756636407 (Aug 31 2025 10:33:27)
+0392.693 (0) This backup set (1756636407) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0392.697 (0) Examining (for databases) backup set with group_id=0, nonce=5367efa39c3c, datestamp=1739099072 (Feb 09 2025 11:04:32)
+0392.697 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0392.701 (0) Number of backup sets in history: 2; groups (files): 1
+0392.705 (0) Examining (for files) backup set with nonce=fa98ad566ff7, datestamp=1756636407 (Aug 31 2025 10:33:27)
+0392.705 (0) This backup set (1756636407) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0392.709 (0) This backup set (1756636407) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0392.709 (0) This backup set (1756636407) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0392.709 (0) This backup set (1756636407) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0392.709 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0392.711 (0) Examining (for files) backup set with nonce=5367efa39c3c, datestamp=1739099072 (Feb 09 2025 11:04:32)
+0392.713 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0392.713 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0392.743 (0) Saving backup status to database (elements: 8)
+0392.761 (0) Beginning creation of database dump (WordPress DB)
+0392.773 (0) Couldn't get the sql_mode value (N;); will not attempt any adjustment
+0392.782 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0392.979 (0) Output: /*M!999999\- enable the sandbox mode */ \n/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wp_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!4010 (truncated - 1658 bytes total)
+0392.989 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0393.064 (0) Table wp_options: Total expected rows (via COUNT): 832
+0394.666 (0) Table wp_options: Rows added in this batch (next record: 13260): 824 (uncompressed bytes in this segment=2796021) in 1.64 seconds
+0394.721 (0) The time we have been running (394.7) is approaching the resumption interval (422) - increasing resumption interval to 425
+0394.747 (0) Table wp_options: finishing file(s) (2, 564.3 KB)
+0394.881 (0) Table wp_users: Total expected rows (via COUNT): 1
+0394.889 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0394.914 (0) Table wp_users: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1568) in 0.08 seconds
+0395.002 (0) Table wp_users: finishing file(s) (2, 0.6 KB)
+0395.086 (0) Table wp_usermeta: Total expected rows (via COUNT): 64
+0395.093 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0395.110 (0) Table wp_usermeta: Rows added in this batch (next record: 82): 64 (uncompressed bytes in this segment=5268) in 0.08 seconds
+0395.201 (0) The time we have been running (395.2) is approaching the resumption interval (425) - increasing resumption interval to 426
+0395.217 (0) Table wp_usermeta: finishing file(s) (2, 2.2 KB)
+0395.241 (0) Table wp_commentmeta: Total expected rows (via COUNT): 30
+0395.243 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0395.261 (0) Table wp_commentmeta: Rows added in this batch (next record: 30): 30 (uncompressed bytes in this segment=1567) in 0.03 seconds
+0395.300 (0) Table wp_commentmeta: finishing file(s) (2, 0.6 KB)
+0395.345 (0) Table wp_comments: Total expected rows (via COUNT): 19
+0395.349 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0395.369 (0) Table wp_comments: Rows added in this batch (next record: 19): 19 (uncompressed bytes in this segment=6563) in 0.04 seconds
+0395.412 (0) Table wp_comments: finishing file(s) (2, 2 KB)
+0395.465 (0) Table wp_links: Total expected rows (via COUNT): 0
+0395.477 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1496) in 0.02 seconds
+0395.505 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0395.548 (0) Table wp_postmeta: Total expected rows (approximate): 15572
+0397.281 (0) Table wp_postmeta: binary mysqldump finished (writes: 38, bytes 6048494, return code 0) in 1.72 seconds
+0397.314 (0) The time we have been running (397.3) is approaching the resumption interval (426) - increasing resumption interval to 428
+0397.345 (0) Table wp_postmeta: finishing file(s) (1, 666.2 KB)
+0397.368 (0) Table wp_posts: Total expected rows (via COUNT): 612
+0398.998 (0) Table wp_posts: Rows added in this batch (next record: 8331): 612 (uncompressed bytes in this segment=5620588) in 1.64 seconds
+0399.065 (0) The time we have been running (399) is approaching the resumption interval (428) - increasing resumption interval to 430
+0399.081 (0) Table wp_posts: finishing file(s) (2, 393.2 KB)
+0399.094 (0) Table wp_term_relationships: Total expected rows (approximate): 103
+0399.136 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 107 (uncompressed bytes in this segment=2340) in 0.05 seconds
+0399.177 (0) Table wp_term_relationships: finishing file(s) (2, 0.7 KB)
+0399.238 (0) Table wp_term_taxonomy: Total expected rows (via COUNT): 38
+0399.257 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0399.297 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 38): 38 (uncompressed bytes in this segment=2294) in 0.11 seconds
+0399.376 (0) Table wp_term_taxonomy: finishing file(s) (2, 0.7 KB)
+0399.471 (0) Table wp_termmeta: Total expected rows (via COUNT): 15
+0399.473 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0399.480 (0) Table wp_termmeta: Rows added in this batch (next record: 15): 15 (uncompressed bytes in this segment=1212) in 0.06 seconds
+0399.494 (0) Table wp_termmeta: finishing file(s) (2, 0.5 KB)
+0399.503 (0) Table wp_terms: Total expected rows (via COUNT): 38
+0399.510 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0399.553 (0) Table wp_terms: Rows added in this batch (next record: 38): 38 (uncompressed bytes in this segment=2211) in 0.05 seconds
+0399.561 (0) Table wp_terms: finishing file(s) (2, 0.9 KB)
+0399.591 (0) Table wp_actionscheduler_actions: Total expected rows (via COUNT): 15
+0399.595 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0399.605 (0) Table wp_actionscheduler_actions: Rows added in this batch (next record: 218): 15 (uncompressed bytes in this segment=8067) in 0.02 seconds
+0399.632 (0) Table wp_actionscheduler_actions: finishing file(s) (2, 1.4 KB)
+0399.645 (0) Table wp_actionscheduler_claims: Total expected rows (via COUNT): 0
+0399.651 (0) Table wp_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=621) in 0.01 seconds
+0399.664 (0) Table wp_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0399.750 (0) Table wp_actionscheduler_groups: Total expected rows (via COUNT): 5
+0399.761 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0399.781 (0) Table wp_actionscheduler_groups: Rows added in this batch (next record: 5): 5 (uncompressed bytes in this segment=813) in 0.04 seconds
+0399.817 (0) Table wp_actionscheduler_groups: finishing file(s) (2, 0.5 KB)
+0399.857 (0) Table wp_actionscheduler_logs: Total expected rows (via COUNT): 43
+0399.860 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0399.867 (0) Table wp_actionscheduler_logs: Rows added in this batch (next record: 631): 43 (uncompressed bytes in this segment=4618) in 0.03 seconds
+0399.913 (0) Table wp_actionscheduler_logs: finishing file(s) (2, 0.9 KB)
+0399.972 (0) Table wp_litespeed_url: Total expected rows (via COUNT): 0
+0399.985 (0) Table wp_litespeed_url: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=679) in 0.02 seconds
+0399.994 (0) Table wp_litespeed_url: finishing file(s) (2, 0.4 KB)
+0400.033 (0) Table wp_litespeed_url_file: Total expected rows (via COUNT): 0
+0400.054 (0) Table wp_litespeed_url_file: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1090) in 0.04 seconds
+0400.088 (0) The time we have been running (400.1) is approaching the resumption interval (430) - increasing resumption interval to 431
+0400.145 (0) Table wp_litespeed_url_file: finishing file(s) (2, 0.5 KB)
+0400.246 (0) Table wp_wc_admin_note_actions: Total expected rows (via COUNT): 178
+0400.250 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0400.291 (0) Table wp_wc_admin_note_actions: Rows added in this batch (next record: 11723): 178 (uncompressed bytes in this segment=36880) in 0.07 seconds
+0400.397 (0) Table wp_wc_admin_note_actions: finishing file(s) (2, 5.8 KB)
+0400.477 (0) Table wp_wc_admin_notes: Total expected rows (via COUNT): 138
+0400.496 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0400.515 (0) Table wp_wc_admin_notes: Rows added in this batch (next record: 141): 138 (uncompressed bytes in this segment=65519) in 0.07 seconds
+0400.553 (0) Table wp_wc_admin_notes: finishing file(s) (2, 13.9 KB)
+0400.579 (0) Table wp_wc_category_lookup: Total expected rows (approximate): 6
+0400.614 (0) Table wp_wc_category_lookup: Rows added in this batch (next record: 1000): 6 (uncompressed bytes in this segment=636) in 0.04 seconds
+0400.646 (0) Table wp_wc_category_lookup: finishing file(s) (2, 0.4 KB)
+0400.717 (0) Table wp_wc_customer_lookup: Total expected rows (via COUNT): 0
+0400.734 (0) Table wp_wc_customer_lookup: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1434) in 0.04 seconds
+0400.795 (0) Table wp_wc_customer_lookup: finishing file(s) (2, 0.5 KB)
+0400.849 (0) Table wp_wc_download_log: Total expected rows (via COUNT): 0
+0400.853 (0) Table wp_wc_download_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=757) in 0.02 seconds
+0400.883 (0) Table wp_wc_download_log: finishing file(s) (2, 0.4 KB)
+0400.919 (0) Table wp_wc_order_addresses: Total expected rows (via COUNT): 0
+0400.938 (0) Table wp_wc_order_addresses: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1569) in 0.03 seconds
+0400.961 (0) Table wp_wc_order_addresses: finishing file(s) (2, 0.5 KB)
+0401.010 (0) Table wp_wc_order_coupon_lookup: Total expected rows (approximate): 0
+0401.037 (0) Table wp_wc_order_coupon_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=709) in 0.04 seconds
+0401.081 (0) The time we have been running (401.1) is approaching the resumption interval (431) - increasing resumption interval to 432
+0401.117 (0) Table wp_wc_order_coupon_lookup: finishing file(s) (2, 0.4 KB)
+0401.145 (0) Table wp_wc_order_operational_data: Total expected rows (via COUNT): 0
+0401.149 (0) Table wp_wc_order_operational_data: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1603) in 0.01 seconds
+0401.179 (0) Table wp_wc_order_operational_data: finishing file(s) (2, 0.6 KB)
+0401.209 (0) Table wp_wc_order_product_lookup: Total expected rows (via COUNT): 0
+0401.226 (0) Table wp_wc_order_product_lookup: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1203) in 0.02 seconds
+0401.249 (0) Table wp_wc_order_product_lookup: finishing file(s) (2, 0.5 KB)
+0401.322 (0) Table wp_wc_order_stats: Total expected rows (via COUNT): 0
+0401.342 (0) Table wp_wc_order_stats: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1241) in 0.04 seconds
+0401.421 (0) Table wp_wc_order_stats: finishing file(s) (2, 0.5 KB)
+0401.605 (0) Table wp_wc_order_tax_lookup: Total expected rows (approximate): 0
+0401.617 (0) Table wp_wc_order_tax_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=791) in 0.08 seconds
+0401.665 (0) Table wp_wc_order_tax_lookup: finishing file(s) (2, 0.4 KB)
+0401.735 (0) Table wp_wc_orders: Total expected rows (via COUNT): 0
+0401.744 (0) Table wp_wc_orders: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1896) in 0.03 seconds
+0401.793 (0) Table wp_wc_orders: finishing file(s) (2, 0.6 KB)
+0401.877 (0) Table wp_wc_orders_meta: Total expected rows (via COUNT): 0
+0401.913 (0) Table wp_wc_orders_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=787) in 0.05 seconds
+0401.969 (0) Table wp_wc_orders_meta: finishing file(s) (2, 0.4 KB)
+0402.062 (0) Table wp_wc_product_attributes_lookup: Total expected rows (approximate): 0
+0402.113 (0) Table wp_wc_product_attributes_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=872) in 0.06 seconds
+0402.154 (0) The time we have been running (402.1) is approaching the resumption interval (432) - increasing resumption interval to 433
+0402.201 (0) Table wp_wc_product_attributes_lookup: finishing file(s) (2, 0.4 KB)
+0402.229 (0) Table wp_wc_product_download_directories: Total expected rows (via COUNT): 2
+0402.246 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0402.262 (0) Table wp_wc_product_download_directories: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=951) in 0.05 seconds
+0402.297 (0) Table wp_wc_product_download_directories: finishing file(s) (2, 0.5 KB)
+0402.345 (0) Table wp_wc_product_meta_lookup: Total expected rows (via COUNT): 0
+0402.356 (0) Table wp_wc_product_meta_lookup: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1561) in 0.02 seconds
+0402.385 (0) Table wp_wc_product_meta_lookup: finishing file(s) (2, 0.6 KB)
+0402.408 (0) Table wp_wc_rate_limits: Total expected rows (via COUNT): 0
+0402.433 (0) Table wp_wc_rate_limits: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=710) in 0.04 seconds
+0402.474 (0) Table wp_wc_rate_limits: finishing file(s) (2, 0.4 KB)
+0402.595 (0) Table wp_wc_reserved_stock: Total expected rows (approximate): 0
+0402.619 (0) Table wp_wc_reserved_stock: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=657) in 0.03 seconds
+0402.661 (0) Table wp_wc_reserved_stock: finishing file(s) (2, 0.4 KB)
+0402.685 (0) Table wp_wc_tax_rate_classes: Total expected rows (via COUNT): 2
+0402.688 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0402.694 (0) Table wp_wc_tax_rate_classes: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=852) in 0.02 seconds
+0402.723 (0) Table wp_wc_tax_rate_classes: finishing file(s) (2, 0.4 KB)
+0402.753 (0) Table wp_wc_webhooks: Total expected rows (via COUNT): 0
+0402.761 (0) Table wp_wc_webhooks: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1325) in 0.02 seconds
+0402.793 (0) Table wp_wc_webhooks: finishing file(s) (2, 0.5 KB)
+0402.853 (0) Table wp_woocommerce_api_keys: Total expected rows (via COUNT): 0
+0402.864 (0) Table wp_woocommerce_api_keys: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1170) in 0.04 seconds
+0402.894 (0) Table wp_woocommerce_api_keys: finishing file(s) (2, 0.5 KB)
+0402.927 (0) Table wp_woocommerce_attribute_taxonomies: Total expected rows (via COUNT): 0
+0402.931 (0) Table wp_woocommerce_attribute_taxonomies: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1042) in 0.01 seconds
+0402.953 (0) Table wp_woocommerce_attribute_taxonomies: finishing file(s) (2, 0.4 KB)
+0402.971 (0) Table wp_woocommerce_downloadable_product_permissions: Total expected rows (via COUNT): 0
+0402.977 (0) Table wp_woocommerce_downloadable_product_permissions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1606) in 0.02 seconds
+0402.994 (0) Table wp_woocommerce_downloadable_product_permissions: finishing file(s) (2, 0.5 KB)
+0403.009 (0) Table wp_woocommerce_log: Total expected rows (via COUNT): 0
+0403.013 (0) Table wp_woocommerce_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=781) in 0.01 seconds
+0403.026 (0) The time we have been running (403) is approaching the resumption interval (433) - increasing resumption interval to 434
+0403.037 (0) Table wp_woocommerce_log: finishing file(s) (2, 0.4 KB)
+0403.069 (0) Table wp_woocommerce_order_itemmeta: Total expected rows (via COUNT): 0
+0403.076 (0) Table wp_woocommerce_order_itemmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=807) in 0.02 seconds
+0403.099 (0) Table wp_woocommerce_order_itemmeta: finishing file(s) (2, 0.4 KB)
+0403.110 (0) Table wp_woocommerce_order_items: Total expected rows (via COUNT): 0
+0403.121 (0) Table wp_woocommerce_order_items: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=775) in 0.01 seconds
+0403.153 (0) Table wp_woocommerce_order_items: finishing file(s) (2, 0.4 KB)
+0403.172 (0) Table wp_woocommerce_payment_tokenmeta: Total expected rows (via COUNT): 0
+0403.179 (0) Table wp_woocommerce_payment_tokenmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=834) in 0.01 seconds
+0403.256 (0) Table wp_woocommerce_payment_tokenmeta: finishing file(s) (2, 0.4 KB)
+0403.301 (0) Table wp_woocommerce_payment_tokens: Total expected rows (via COUNT): 0
+0403.308 (0) Table wp_woocommerce_payment_tokens: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=899) in 0.01 seconds
+0403.335 (0) Table wp_woocommerce_payment_tokens: finishing file(s) (2, 0.4 KB)
+0403.361 (0) Table wp_woocommerce_sessions: Total expected rows (via COUNT): 1
+0403.367 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0403.381 (0) Table wp_woocommerce_sessions: Rows added in this batch (next record: 6): 1 (uncompressed bytes in this segment=2249) in 0.03 seconds
+0403.409 (0) Table wp_woocommerce_sessions: finishing file(s) (2, 0.9 KB)
+0403.456 (0) Table wp_woocommerce_shipping_zone_locations: Total expected rows (via COUNT): 1
+0403.459 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0403.475 (0) Table wp_woocommerce_shipping_zone_locations: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1042) in 0.03 seconds
+0403.537 (0) Table wp_woocommerce_shipping_zone_locations: finishing file(s) (2, 0.5 KB)
+0403.576 (0) Table wp_woocommerce_shipping_zone_methods: Total expected rows (via COUNT): 1
+0403.581 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0403.590 (0) Table wp_woocommerce_shipping_zone_methods: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=892) in 0.02 seconds
+0403.604 (0) Table wp_woocommerce_shipping_zone_methods: finishing file(s) (2, 0.4 KB)
+0403.645 (0) Table wp_woocommerce_shipping_zones: Total expected rows (via COUNT): 1
+0403.647 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0403.651 (0) Table wp_woocommerce_shipping_zones: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=735) in 0.01 seconds
+0403.677 (0) Table wp_woocommerce_shipping_zones: finishing file(s) (2, 0.4 KB)
+0403.708 (0) Table wp_woocommerce_tax_rate_locations: Total expected rows (via COUNT): 0
+0403.721 (0) Table wp_woocommerce_tax_rate_locations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=884) in 0.02 seconds
+0403.747 (0) Table wp_woocommerce_tax_rate_locations: finishing file(s) (2, 0.4 KB)
+0403.801 (0) Table wp_woocommerce_tax_rates: Total expected rows (via COUNT): 0
+0403.826 (0) Table wp_woocommerce_tax_rates: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1393) in 0.06 seconds
+0403.848 (0) Table wp_woocommerce_tax_rates: finishing file(s) (2, 0.5 KB)
+0403.862 (0) PHP event: code E_WARNING: filemtime(): stat failed for /homepages/24/d469611663/htdocs/bepilates/wp-content/updraft/backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-db.gz (line 1923, wp-content/plugins/updraftplus/backup.php)
+0403.886 (0) backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-db-table-wp_options.table.tmpr13261.gz (1/52/fopen): adding to final database dump
+0403.910 (0) backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-db-table-wp_options.table.gz (2/52/fopen): adding to final database dump
+0403.919 (0) backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-db-table-wp_users.table.tmpr2.gz (3/52/fopen): adding to final database dump
+0403.922 (0) backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-db-table-wp_users.table.gz (4/52/fopen): adding to final database dump
+0403.924 (0) backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-db-table-wp_usermeta.table.tmpr83.gz (5/52/fopen): adding to final database dump
+0403.928 (0) backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-db-table-wp_usermeta.table.gz (6/52/fopen): adding to final database dump
+0403.930 (0) backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-db-table-wp_commentmeta.table.tmpr31.gz (7/52/fopen): adding to final database dump
+0403.941 (0) backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-db-table-wp_commentmeta.table.gz (8/52/fopen): adding to final database dump
+0403.944 (0) backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-db-table-wp_comments.table.tmpr20.gz (9/52/fopen): adding to final database dump
+0403.946 (0) backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-db-table-wp_comments.table.gz (10/52/fopen): adding to final database dump
+0403.949 (0) backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-db-table-wp_links.table.tmpr0.gz (11/52/fopen): adding to final database dump
+0403.954 (0) backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-db-table-wp_links.table.gz (12/52/fopen): adding to final database dump
+0403.956 (0) backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-db-table-wp_postmeta.table.gz (13/52/fopen): adding to final database dump
+0404.006 (0) backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-db-table-wp_posts.table.tmpr8332.gz (14/52/fopen): adding to final database dump
+0404.233 (0) backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-db-table-wp_posts.table.gz (15/52/fopen): adding to final database dump
+0404.236 (0) backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-db-table-wp_term_relationships.table.tmpr100001.gz (16/52/fopen): adding to final database dump
+0404.240 (0) backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-db-table-wp_term_relationships.table.gz (17/52/fopen): adding to final database dump
+0404.244 (0) backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-db-table-wp_term_taxonomy.table.tmpr39.gz (18/52/fopen): adding to final database dump
+0404.253 (0) backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-db-table-wp_term_taxonomy.table.gz (19/52/fopen): adding to final database dump
+0404.257 (0) backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-db-table-wp_termmeta.table.tmpr16.gz (20/52/fopen): adding to final database dump
+0404.270 (0) backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-db-table-wp_termmeta.table.gz (21/52/fopen): adding to final database dump
+0404.309 (0) backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-db-table-wp_terms.table.tmpr39.gz (22/52/fopen): adding to final database dump
+0404.315 (0) backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-db-table-wp_terms.table.gz (23/52/fopen): adding to final database dump
+0404.319 (0) backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-db-table-wp_actionscheduler_actions.table.tmpr219.gz (24/52/fopen): adding to final database dump
+0404.323 (0) backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-db-table-wp_actionscheduler_actions.table.gz (25/52/fopen): adding to final database dump
+0404.329 (0) backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-db-table-wp_actionscheduler_claims.table.tmpr0.gz (26/52/fopen): adding to final database dump
+0404.332 (0) backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-db-table-wp_actionscheduler_claims.table.gz (27/52/fopen): adding to final database dump
+0404.340 (0) backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-db-table-wp_actionscheduler_groups.table.tmpr6.gz (28/52/fopen): adding to final database dump
+0404.361 (0) backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-db-table-wp_actionscheduler_groups.table.gz (29/52/fopen): adding to final database dump
+0404.490 (0) backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-db-table-wp_actionscheduler_logs.table.tmpr632.gz (30/52/fopen): adding to final database dump
+0404.502 (0) backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-db-table-wp_actionscheduler_logs.table.gz (31/52/fopen): adding to final database dump
+0404.527 (0) backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-db-table-wp_litespeed_url.table.tmpr0.gz (32/52/fopen): adding to final database dump
+0404.545 (0) backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-db-table-wp_litespeed_url.table.gz (33/52/fopen): adding to final database dump
+0404.587 (0) backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-db-table-wp_litespeed_url_file.table.tmpr0.gz (34/52/fopen): adding to final database dump
+0404.593 (0) backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-db-table-wp_litespeed_url_file.table.gz (35/52/fopen): adding to final database dump
+0404.604 (0) backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-db-table-wp_wc_admin_note_actions.table.tmpr11724.gz (36/52/fopen): adding to final database dump
+0404.609 (0) backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-db-table-wp_wc_admin_note_actions.table.gz (37/52/fopen): adding to final database dump
+0404.633 (0) backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-db-table-wp_wc_admin_notes.table.tmpr142.gz (38/52/fopen): adding to final database dump
+0404.641 (0) backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-db-table-wp_wc_admin_notes.table.gz (39/52/fopen): adding to final database dump
+0404.669 (0) backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-db-table-wp_wc_category_lookup.table.tmpr1001.gz (40/52/fopen): adding to final database dump
+0404.690 (0) backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-db-table-wp_wc_category_lookup.table.gz (41/52/fopen): adding to final database dump
+0404.705 (0) backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-db-table-wp_wc_customer_lookup.table.tmpr0.gz (42/52/fopen): adding to final database dump
+0404.714 (0) backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-db-table-wp_wc_customer_lookup.table.gz (43/52/fopen): adding to final database dump
+0404.725 (0) backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-db-table-wp_wc_download_log.table.tmpr0.gz (44/52/fopen): adding to final database dump
+0404.729 (0) backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-db-table-wp_wc_download_log.table.gz (45/52/fopen): adding to final database dump
+0404.741 (0) backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-db-table-wp_wc_order_addresses.table.tmpr0.gz (46/52/fopen): adding to final database dump
+0404.746 (0) backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-db-table-wp_wc_order_addresses.table.gz (47/52/fopen): adding to final database dump
+0404.777 (0) backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-db-table-wp_wc_order_coupon_lookup.table.tmpr1.gz (48/52/fopen): adding to final database dump
+0404.801 (0) backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-db-table-wp_wc_order_coupon_lookup.table.gz (49/52/fopen): adding to final database dump
+0404.850 (0) backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-db-table-wp_wc_order_operational_data.table.tmpr0.gz (50/52/fopen): adding to final database dump
+0404.869 (0) backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-db-table-wp_wc_order_operational_data.table.gz (51/52/fopen): adding to final database dump
+0404.929 (0) backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-db-table-wp_wc_order_product_lookup.table.tmpr0.gz (52/52/fopen): adding to final database dump
+0404.970 (0) backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-db-table-wp_wc_order_product_lookup.table.gz (53/52/fopen): adding to final database dump
+0405.041 (0) backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-db-table-wp_wc_order_stats.table.tmpr0.gz (54/52/fopen): adding to final database dump
+0405.075 (0) backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-db-table-wp_wc_order_stats.table.gz (55/52/fopen): adding to final database dump
+0405.099 (0) backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-db-table-wp_wc_order_tax_lookup.table.tmpr1.gz (56/52/fopen): adding to final database dump
+0405.130 (0) backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-db-table-wp_wc_order_tax_lookup.table.gz (57/52/fopen): adding to final database dump
+0405.137 (0) backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-db-table-wp_wc_orders.table.tmpr0.gz (58/52/fopen): adding to final database dump
+0405.141 (0) backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-db-table-wp_wc_orders.table.gz (59/52/fopen): adding to final database dump
+0405.145 (0) backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-db-table-wp_wc_orders_meta.table.tmpr0.gz (60/52/fopen): adding to final database dump
+0405.148 (0) backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-db-table-wp_wc_orders_meta.table.gz (61/52/fopen): adding to final database dump
+0405.181 (0) backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-db-table-wp_wc_product_attributes_lookup.table.tmpr1.gz (62/52/fopen): adding to final database dump
+0405.189 (0) backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-db-table-wp_wc_product_attributes_lookup.table.gz (63/52/fopen): adding to final database dump
+0405.236 (0) backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-db-table-wp_wc_product_download_directories.table.tmpr3.gz (64/52/fopen): adding to final database dump
+0405.261 (0) backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-db-table-wp_wc_product_download_directories.table.gz (65/52/fopen): adding to final database dump
+0405.289 (0) backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-db-table-wp_wc_product_meta_lookup.table.tmpr0.gz (66/52/fopen): adding to final database dump
+0405.309 (0) backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-db-table-wp_wc_product_meta_lookup.table.gz (67/52/fopen): adding to final database dump
+0405.321 (0) backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-db-table-wp_wc_rate_limits.table.tmpr0.gz (68/52/fopen): adding to final database dump
+0405.329 (0) backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-db-table-wp_wc_rate_limits.table.gz (69/52/fopen): adding to final database dump
+0405.345 (0) backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-db-table-wp_wc_reserved_stock.table.tmpr1.gz (70/52/fopen): adding to final database dump
+0405.418 (0) backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-db-table-wp_wc_reserved_stock.table.gz (71/52/fopen): adding to final database dump
+0405.421 (0) backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-db-table-wp_wc_tax_rate_classes.table.tmpr3.gz (72/52/fopen): adding to final database dump
+0405.495 (0) backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-db-table-wp_wc_tax_rate_classes.table.gz (73/52/fopen): adding to final database dump
+0405.499 (0) backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-db-table-wp_wc_webhooks.table.tmpr0.gz (74/52/fopen): adding to final database dump
+0405.505 (0) backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-db-table-wp_wc_webhooks.table.gz (75/52/fopen): adding to final database dump
+0405.536 (0) backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-db-table-wp_woocommerce_api_keys.table.tmpr0.gz (76/52/fopen): adding to final database dump
+0405.553 (0) backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-db-table-wp_woocommerce_api_keys.table.gz (77/52/fopen): adding to final database dump
+0405.561 (0) backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-db-table-wp_woocommerce_attribute_taxonomies.table.tmpr0.gz (78/52/fopen): adding to final database dump
+0405.585 (0) backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-db-table-wp_woocommerce_attribute_taxonomies.table.gz (79/52/fopen): adding to final database dump
+0405.615 (0) backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-db-table-wp_woocommerce_downloadable_product_permissions.table.tmpr0.gz (80/52/fopen): adding to final database dump
+0405.643 (0) backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-db-table-wp_woocommerce_downloadable_product_permissions.table.gz (81/52/fopen): adding to final database dump
+0405.656 (0) backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-db-table-wp_woocommerce_log.table.tmpr0.gz (82/52/fopen): adding to final database dump
+0405.665 (0) backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-db-table-wp_woocommerce_log.table.gz (83/52/fopen): adding to final database dump
+0405.690 (0) backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-db-table-wp_woocommerce_order_itemmeta.table.tmpr0.gz (84/52/fopen): adding to final database dump
+0405.701 (0) backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-db-table-wp_woocommerce_order_itemmeta.table.gz (85/52/fopen): adding to final database dump
+0405.745 (0) backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-db-table-wp_woocommerce_order_items.table.tmpr0.gz (86/52/fopen): adding to final database dump
+0405.753 (0) backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-db-table-wp_woocommerce_order_items.table.gz (87/52/fopen): adding to final database dump
+0405.785 (0) backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-db-table-wp_woocommerce_payment_tokenmeta.table.tmpr0.gz (88/52/fopen): adding to final database dump
+0405.793 (0) backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-db-table-wp_woocommerce_payment_tokenmeta.table.gz (89/52/fopen): adding to final database dump
+0405.799 (0) backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-db-table-wp_woocommerce_payment_tokens.table.tmpr0.gz (90/52/fopen): adding to final database dump
+0405.841 (0) backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-db-table-wp_woocommerce_payment_tokens.table.gz (91/52/fopen): adding to final database dump
+0405.852 (0) backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-db-table-wp_woocommerce_sessions.table.tmpr7.gz (92/52/fopen): adding to final database dump
+0405.873 (0) backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-db-table-wp_woocommerce_sessions.table.gz (93/52/fopen): adding to final database dump
+0405.905 (0) backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-db-table-wp_woocommerce_shipping_zone_locations.table.tmpr2.gz (94/52/fopen): adding to final database dump
+0406.010 (0) backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-db-table-wp_woocommerce_shipping_zone_locations.table.gz (95/52/fopen): adding to final database dump
+0406.016 (0) backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-db-table-wp_woocommerce_shipping_zone_methods.table.tmpr2.gz (96/52/fopen): adding to final database dump
+0406.023 (0) backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-db-table-wp_woocommerce_shipping_zone_methods.table.gz (97/52/fopen): adding to final database dump
+0406.062 (0) backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-db-table-wp_woocommerce_shipping_zones.table.tmpr2.gz (98/52/fopen): adding to final database dump
+0406.089 (0) backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-db-table-wp_woocommerce_shipping_zones.table.gz (99/52/fopen): adding to final database dump
+0406.217 (0) The time we have been running (406.1) is approaching the resumption interval (434) - increasing resumption interval to 437
+0406.341 (0) backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-db-table-wp_woocommerce_tax_rate_locations.table.tmpr0.gz (100/52/fopen): adding to final database dump
+0406.363 (0) backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-db-table-wp_woocommerce_tax_rate_locations.table.gz (101/52/fopen): adding to final database dump
+0406.369 (0) backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-db-table-wp_woocommerce_tax_rates.table.tmpr0.gz (102/52/fopen): adding to final database dump
+0406.380 (0) backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-db-table-wp_woocommerce_tax_rates.table.gz (103/52/fopen): adding to final database dump
+0406.421 (0) backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-db.gz: finished writing out complete database file (1670.3 KB)
+0407.073 (0) Total database tables backed up: 52 (backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-db.gz, size: 1710459, sha1: cf7ae16393e8964d25d1b2310f99ccba9fc0b336, sha256: 255ad7994aebd889914f12b6c832a4bd13dc4dea799807ec28b09c8861c32b04)
+0407.161 (0) backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-plugins.zip: plugins: This file has already been successfully processed
+0407.170 (0) backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-themes.zip: themes: This file has already been successfully processed
+0407.177 (0) backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-uploads.zip: uploads: This file has already been successfully processed
+0407.180 (0) backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-others.zip: others: This file has already been successfully processed
+0407.185 (0) backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-db.gz: db: This file has not yet been successfully uploaded: will queue
+0407.191 (0) Saving backup history. Total backup size: 270.4 MB
+0407.226 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0407.251 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0407.257 (0) No remote despatch: user chose no remote backup service
+0407.260 (0) Recording as successfully uploaded: backup_2025-09-03-0927_Body_Evolution_Pilates_Salud_Int_224c5a122785-db.gz
+0407.277 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0407.285 (0) Number of backup sets in history: 3; groups (db): 1
+0407.289 (0) Examining (for databases) backup set with group_id=0, nonce=224c5a122785, datestamp=1756891660 (Sep 03 2025 09:27:40)
+0407.297 (0) This backup set is the backup set just made, so will not be deleted.
+0407.300 (0) Examining (for databases) backup set with group_id=0, nonce=fa98ad566ff7, datestamp=1756636407 (Aug 31 2025 10:33:27)
+0407.302 (0) This backup set (1756636407) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0407.303 (0) Examining (for databases) backup set with group_id=0, nonce=5367efa39c3c, datestamp=1739099072 (Feb 09 2025 11:04:32)
+0407.303 (0) 1739099072: db: this set includes a database (backup_2025-02-09-1104_Body_Evolution_Pilates_Salud_Int_5367efa39c3c-db.gz); db count is now 2
+0407.303 (0) 1739099072: db: over retain limit (2); will delete this database
+0407.303 (0) Delete file: backup_2025-02-09-1104_Body_Evolution_Pilates_Salud_Int_5367efa39c3c-db.gz, service=none
+0407.314 (0) Deleting local copy (backup_2025-02-09-1104_Body_Evolution_Pilates_Salud_Int_5367efa39c3c-db.gz)
+0407.377 (0) The time we have been running (407.4) is approaching the resumption interval (437) - increasing resumption interval to 438
+0407.389 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0407.401 (0) Number of backup sets in history: 3; groups (files): 1
+0407.409 (0) Examining (for files) backup set with nonce=224c5a122785, datestamp=1756891660 (Sep 03 2025 09:27:40)
+0407.409 (0) This backup set is the backup set just made, so will not be deleted.
+0407.413 (0) This backup set is the backup set just made, so will not be deleted.
+0407.413 (0) This backup set is the backup set just made, so will not be deleted.
+0407.413 (0) This backup set is the backup set just made, so will not be deleted.
+0407.413 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0407.417 (0) Examining (for files) backup set with nonce=fa98ad566ff7, datestamp=1756636407 (Aug 31 2025 10:33:27)
+0407.420 (0) This backup set (1756636407) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0407.420 (0) This backup set (1756636407) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0407.420 (0) This backup set (1756636407) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0407.420 (0) This backup set (1756636407) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0407.420 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0407.421 (0) Examining (for files) backup set with nonce=5367efa39c3c, datestamp=1739099072 (Feb 09 2025 11:04:32)
+0407.421 (0) plugins: over retain limit (2); will delete this file entity
+0407.421 (0) themes: over retain limit (2); will delete this file entity
+0407.421 (0) uploads: over retain limit (2); will delete this file entity
+0407.421 (0) others: over retain limit (2); will delete this file entity
+0407.421 (0) Delete file: backup_2025-02-09-1104_Body_Evolution_Pilates_Salud_Int_5367efa39c3c-plugins.zip, service=none
+0407.423 (0) Deleting local copy (backup_2025-02-09-1104_Body_Evolution_Pilates_Salud_Int_5367efa39c3c-plugins.zip)
+0407.450 (0) Delete file: backup_2025-02-09-1104_Body_Evolution_Pilates_Salud_Int_5367efa39c3c-themes.zip, service=none
+0407.458 (0) Deleting local copy (backup_2025-02-09-1104_Body_Evolution_Pilates_Salud_Int_5367efa39c3c-themes.zip)
+0407.461 (0) Delete file: backup_2025-02-09-1104_Body_Evolution_Pilates_Salud_Int_5367efa39c3c-uploads.zip, service=none
+0407.469 (0) Deleting local copy (backup_2025-02-09-1104_Body_Evolution_Pilates_Salud_Int_5367efa39c3c-uploads.zip)
+0407.490 (0) Delete file: backup_2025-02-09-1104_Body_Evolution_Pilates_Salud_Int_5367efa39c3c-others.zip, service=none
+0407.501 (0) Deleting local copy (backup_2025-02-09-1104_Body_Evolution_Pilates_Salud_Int_5367efa39c3c-others.zip)
+0407.560 (0) This backup set is now empty; will remove from history
+0407.570 (0) Corresponding log file (log.5367efa39c3c.txt) not found - must have already been deleted
+0407.580 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0407.609 (0) Resume backup (224c5a122785, 0): finish run
+0407.629 (0) Decremented the semaphore (fd) by 1
+0407.657 (0) Semaphore (fd) unlocked
+0407.659 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0407.681 (0) The backup succeeded and is now complete
+0407.684 (0) No email will/can be sent - the user has not configured an email address.
+0407.693 (0) La copia de seguridad se ha realizado correctamente y se ha completado

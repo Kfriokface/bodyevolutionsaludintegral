@@ -1,0 +1,62 @@
+/* 9.0 Breadcrumbs */
+
+.breadcrumbs {
+	position: relative;
+	margin: -60px 0 60px 0;
+	border-bottom: 1px solid #f0f0f0;
+
+	@media(min-width: $screen-xs) {
+		font-size: 14px;
+	}
+	
+	span {
+		position: relative;
+		display: inline-block;
+	}
+
+	a {
+		display: inline-block;
+		padding: 18px 15px 18px 0;
+		color: #cccccc;
+		text-decoration: none;
+
+		&::after {
+			position: relative;
+			content: "\f105";
+			margin-left: 10px;
+			font-family: 'Font Awesome 5 Free';
+			font-weight: 900;
+			font-size: 12px;
+			color: #cecece;
+			border-radius: 50%;
+
+			@media(min-width: $screen-xs) {
+				margin-left: 15px;
+			}
+		}
+
+		@media(min-width: $screen-xs) {
+
+			padding: 18px 20px 18px 0;
+		}
+
+		&:hover {
+			color: $dark-color;
+		}
+	}
+
+	span {
+
+		>span {
+			font-weight: bold;
+			color: $secondary-color;
+		}
+
+		@media(min-width: $screen-xs) {
+
+			&:last-of-type::after {
+				display: none;
+			}
+		}
+	}
+}

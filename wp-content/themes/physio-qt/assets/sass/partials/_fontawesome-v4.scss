@@ -1,0 +1,167 @@
+/* 23.0 Font Awesome 4 Names */
+
+// Font Awesome Fixes
+body {
+
+	&.font-awesome-4 {
+
+		.header-topbar-sidebar {
+
+			.menu {
+
+				> li {
+
+					&.menu-item-has-children {
+
+						> a {
+
+							&::after {
+								font-family: "FontAwesome";
+							}
+						}
+					}
+				}
+			}
+		}
+
+		.main-navigation {
+
+			> li {
+
+				&.menu-item-has-children {
+
+					&::after {
+						font-family: "FontAwesome";
+					}
+				}
+			}
+
+			.sub-menu {
+
+				> li {
+
+					&.menu-item-has-children {
+
+						> a {
+
+							&::after {
+								font-family: "FontAwesome";
+							}
+						}
+					}
+				}
+			}
+		}
+
+		.text-link {
+
+			&::after {
+				font-family: "FontAwesome";
+			}
+		}
+
+		.content-area .widget_nav_menu,
+		.footer .widget_nav_menu {
+
+			ul.menu {
+
+				li {
+
+					a {
+
+						&::before {
+							font-family: "FontAwesome";
+						}
+					}
+				}
+			}
+		}
+
+		.sidebar {
+
+			.widget {
+			
+				&.widget_recent_entries ul,
+				&.widget_recent_comments ul,
+				&.widget_archive ul,
+				&.widget_categories ul,
+				&.widget_meta ul,
+				&.widget_rss ul,
+				&.widget_pages ul,
+				&.widget_calendar ul {
+					
+					li {
+
+						&::before {
+							font-family: "FontAwesome";
+						}
+					}
+				}
+			}
+		}
+
+		.panel-group {
+
+			.panel {
+
+				.panel-heading {
+
+					.panel-title {
+
+						a {
+
+							&::after {
+								font-family: "FontAwesome";
+							}
+						}
+					}
+				}
+			}
+		}
+
+		.breadcrumbs {
+
+			a {
+
+				&::after {
+					font-family: "FontAwesome";
+				}
+			}
+		}
+
+		.brochure {
+
+			&::after {
+				font-family: "FontAwesome";
+			}
+		}
+
+		.news-posts-list {
+
+			a:last-of-type::after {
+			  font-family: "FontAwesome";
+			}
+		}
+
+		.comments-area {
+
+			.comment-list {
+
+				.comment {
+
+					.comment-inner {
+
+						&::before {
+							font-family: "FontAwesome";
+						}
+					}
+				}
+			}
+		}
+
+		.wp-block-categories li a::before,
+		.wp-block-archives li a::before {
+			font-family: "FontAwesome";
+		}
+	}
+}

@@ -1,0 +1,42 @@
+<wpml-config>
+	<admin-texts>
+		<key name="theme_mods_physio-qt">
+			<key name="logo" />
+			<key name="retina_logo" />
+			<key name="featured_button_text" />
+			<key name="featured_button_url" />
+			<key name="header_widgets_margin_desktop_large" />
+			<key name="header_widgets_margin_desktop_small" />
+			<key name="blog_written_by" />
+			<key name="blog_read_more" />
+			<key name="bottom_footer_left" />
+			<key name="bottom_footer_right" />
+			<key name="404_page_text_title" />
+			<key name="404_page_text" />
+			<key name="qt_weekday_monday" />
+			<key name="qt_weekday_monday_from" />
+			<key name="qt_weekday_monday_to" />
+			<key name="qt_weekday_tuesday" />
+			<key name="qt_weekday_tuesday_from" />
+			<key name="qt_weekday_tuesday_to" />
+			<key name="qt_weekday_wednesday" />
+			<key name="qt_weekday_wednesday_from" />
+			<key name="qt_weekday_wednesday_to" />
+			<key name="qt_weekday_thursday" />
+			<key name="qt_weekday_thursday_from" />
+			<key name="qt_weekday_thursday_to" />
+			<key name="qt_weekday_friday" />
+			<key name="qt_weekday_friday_from" />
+			<key name="qt_weekday_friday_to" />
+			<key name="qt_weekday_saturday" />
+			<key name="qt_weekday_saturday_from" />
+			<key name="qt_weekday_saturday_to" />
+			<key name="qt_weekday_sunday" />
+			<key name="qt_weekday_sunday_from" />
+			<key name="qt_weekday_sunday_to" />
+			<key name="qt_opening_closed_text" />
+			<key name="qt_opening_separator" />
+			<key name="qt_opening_extra_info" />
+		</key>
+	</admin-texts>
+</wpml-config>

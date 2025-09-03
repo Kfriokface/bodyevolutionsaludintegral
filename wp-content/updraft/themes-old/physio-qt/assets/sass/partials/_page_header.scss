@@ -1,0 +1,39 @@
+/* 8.0 Page Header Area */
+
+.page-header {
+	position: relative;
+	padding: 0;
+	margin: -60px 0 60px 0;
+	border: none;
+	background: #F5F8FB;
+
+	.page-header--wrap {
+		padding: 60px 0 65px 0;
+	}
+
+	&--title {
+		margin: 0;
+		font-size: 46px;
+		color: $darker-color;
+		word-break: break-word;
+	}
+
+	&--subtitle {
+		margin: 5px 0 0 0;
+		font-family: $content-font;
+		font-size: 16px;
+		font-weight: normal;
+		color: $text-color;
+	}
+}
+
+
+body.widget-bar-overlay {
+
+	.page-header--wrap {
+
+		@media(min-width: $screen-md) {
+			padding: 160px 0 65px 0;
+		}
+	}
+}

@@ -1,0 +1,401 @@
+/* 4.0 Theme Header */
+
+.header {
+	position: relative;
+	margin-bottom: 60px;
+
+	.header-topbar {
+		position: relative;
+		font-size: 13px;
+		color: #C1C7CE;
+		background: #707780;
+
+		@media(min-width: $screen-md) {
+			padding: 10px 0;
+		}
+
+		a {
+			text-decoration: none;
+		}
+
+		.header-description {
+			padding-top: 9px;
+			font-size: 13px;
+
+			@media(min-width: $screen-md) {
+				text-align: left;
+				padding: 0;
+			}
+		}
+
+		.header-topbar-sidebar {
+
+			&.topbar-left {
+				text-align: left;
+
+				@media(min-width: $screen-md) {
+					display: block;
+					float: left;
+				}
+			}
+
+			&.topbar-right {
+				text-align: left;
+
+				@media(min-width: $screen-md) {
+					display: block;
+					float: right;
+					text-align: right;
+				}
+			}
+
+			.widget {
+
+				@media(max-width: $screen-md) {
+					display: inline-block;
+					width: 100%;
+				}
+
+				@media(min-width: $screen-md) {
+					float: left;
+					padding: 0 10px;
+
+					&:last-of-type {
+						padding-right: 0;
+					}
+				}
+			}
+
+			// icon box widget
+			.icon-box {
+
+				&--icon {
+					margin-right: 7px;
+
+					@media(max-width: $screen-md) {
+						width: 15px;
+					}
+
+					i {
+						font-size: 15px;
+						transition: inherit;
+					}
+				}
+
+				&--text {
+					overflow: hidden;
+				}
+
+				&--title {
+					display: inline-block;
+					font-size: 14px;
+					font-weight: normal;
+				}
+
+				&--text {
+					display: block;
+				}
+			}
+
+			// social widget
+			.social-icons {
+
+				a {
+					margin: 0 1px;
+
+					i {
+						font-size: 15px;
+					}
+				}
+			}
+		}
+	}
+
+	.header-wrapper {
+		position: relative;
+		z-index: 500;
+		border-bottom: 1px solid rgba(0,0,0,0.075);
+
+		@media(min-width: $screen-md) {
+			border-bottom: none;
+			box-shadow: 0 1px 3px rgba(50, 50, 50, 0.075);
+
+			&.is-sticky {
+				position: fixed;
+				left: 0;
+				top: 0;
+				right: 0;
+				z-index: 100;
+			}		
+		}
+		
+		.header-logo {
+			float: left;
+			width: 60%;
+			padding: 20px 0;
+
+			@media(min-width: $screen-xs) {
+				width: auto;
+				padding: 30px 0;
+			}
+
+			@media (min-width: $screen-md) {
+				display: table;
+				vertical-align: middle;
+				padding: 0;
+				height: 113px;
+
+				a {
+					display: table-cell;
+					vertical-align: middle;
+				}
+			}
+
+			a {
+				text-decoration: none;
+				color: $primary-color;
+
+				h1 {
+					margin: 0;
+					padding: 15px 0;
+				}
+			}
+
+			img {
+				max-width: 100%;
+				height: auto;
+				border-radius: 0;
+			}
+		}
+
+		.header-navigation {
+
+			@media(min-width: $screen-md) {
+				display: table;
+				float: right;
+				
+				#navbar {
+					float: left;
+				}
+			}
+		}
+
+		.featured-button {
+			position: relative;
+			padding: 20px 0;
+			border-bottom: 1px solid rgba(50, 50, 50, 0.06);
+
+			@media (min-width: $screen-md) {
+				display: table-cell;
+				vertical-align: middle;
+				padding-left: 20px;
+				border: none;
+			}
+
+			@media (min-width: $screen-lg) {
+				padding-left: 30px;
+			}
+
+			a {
+				display: block;
+				padding: 11px 26px;
+				margin: 0;
+				font-size: 13.5px;
+				color: $white-color;
+				text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+				background-color: #f9a828;
+				box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+
+				@media(min-width: $screen-md) {
+					padding: 11px 20px;
+					font-size: 13px;
+				}
+
+				@media(min-width: $screen-lg) {
+					padding: 11px 25px;
+					font-size: 13.5px;
+				}
+
+				&:hover {
+					background: #F3A325;
+				}
+			}
+		}
+	}
+}
+
+.header-widgets {
+	width: 100%;
+	background: $white-color;
+
+	@media(min-width: $screen-md) {
+		z-index: 10;
+		position: relative;
+		background: rgba(255,255,255,0.8);
+	}
+
+	.widget {
+		position: relative;
+		display: inline-block;
+		padding: 20px 0;
+		width: 100%;
+		vertical-align: top;
+		border-bottom: 1px solid rgba(50,50,50,0.1);
+
+		&:last-of-type {
+			border-bottom: none;
+		}
+
+		@media(min-width: $screen-md) {
+			padding: 30px 0;
+			width: auto;
+			margin-right: 20px;
+			border-bottom: none;
+
+			&:last-of-type {
+				margin-right: 0;
+
+				&::after {
+					display: none;
+				}
+			}
+		}
+
+		@media(min-width: $screen-lg) {
+			margin-right: 93px;
+
+			&::after {
+				position: absolute;
+				content: "";
+				top: 30px;
+				right: -42px;
+				width: 1px;
+				height: calc(100% - 60px);
+				background: rgba(50, 50, 50, 0.075);
+
+			}
+
+			&:last-of-type {
+				margin-right: 0;
+			}
+		}
+	}
+
+	.icon-box--icon {
+
+		i {
+			font-size: 34px;
+		}
+	}
+}
+
+body.widget-bar-overlay {
+
+	.header-widgets {
+
+		@media(min-width: $screen-md) {
+			position: absolute;
+		}
+	}
+}
+
+body.widget-bar {
+
+	&-hide-desktop {
+
+		.header-widgets {
+
+			@media(min-width: $screen-md) {
+				display: none;
+			}
+		}
+	}
+
+	&-hide-mobile {
+
+		.header-widgets {
+
+			@media(max-width: $screen-md) {
+				display: none;
+			}
+		}
+	}
+}
+
+body.page-template-template-front-jumbtron {
+
+	.header {
+		margin-bottom: 0;
+	}
+}
+
+// Offset if sticky nav is used
+.sticky-offset {
+	display: none;
+}
+
+body.sticky-navigation {
+
+	.header-wrapper {
+
+		&.is-sticky {
+
+			+ .sticky-offset {
+
+				@media (min-width: $screen-md) {
+					display: block;
+				}
+			}
+		}
+	}
+
+	&.admin-bar {
+
+		.header-wrapper {
+
+			&.is-sticky {
+				top: 32px;
+			}
+		}
+	}
+}
+
+// Font Awesome 4 size fix
+body.font-awesome-4 {
+
+	.header {
+
+		.header-topbar {
+
+			.header-topbar-sidebar {
+
+				.icon-box--icon {
+
+					i {
+						font-size: 18px;
+					}
+				}
+
+				.social-icons {
+
+					a {
+
+						i {
+							font-size: 18px;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.header-widgets {
+
+		.icon-box--icon {
+
+			i {
+				font-size: 40px;
+			}
+		}
+	}
+}

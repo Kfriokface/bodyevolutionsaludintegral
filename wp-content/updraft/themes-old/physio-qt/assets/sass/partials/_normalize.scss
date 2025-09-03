@@ -1,0 +1,118 @@
+/* 3.1 Normalize */
+
+// for Safari Browser
+:focus {
+	outline: none;
+	outline-style: none;
+}
+
+hr {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-top: 1px solid #f0f0f0;
+}
+
+ol {
+	list-style-type: decimal;
+}
+
+ul {
+	list-style-type: disc;
+}
+
+ul, ol {
+	padding-left: 15px;
+	margin-bottom: 20px;
+}
+
+dd {
+	margin: 0 0 10px 40px;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	border-radius: 2px;
+}
+
+.screen-reader-text {
+	clip: rect(1px, 1px, 1px, 1px);
+	position: absolute !important;
+	height: 1px;
+	width: 1px;
+	overflow: hidden;
+}
+
+blockquote {
+	padding: 0 40px;
+	margin: 30px 0;
+	font-size: 20px;
+	font-style: italic;
+	border-left-color: #eee;
+}
+
+th {
+	font-weight: bold;
+}
+
+table {
+	width: 100%;
+	margin-bottom: 30px;
+	border-collapse: collapse;
+	border-spacing: 0;
+
+	thead {
+
+		th {
+			color: #ffffff;
+			border-color: transparent;
+			background-color: $secondary-color;
+		}
+	}
+
+	th,
+	td {
+		padding: 13px 30px;
+		border: 1px solid #e2e2e2;
+	}
+
+	tr {
+
+		td {
+			font-weight: normal;
+
+			&:first-of-type {
+
+				a {
+					font-weight: 500;
+				}
+			}
+		}
+	}
+}
+
+iframe {
+	max-width: 100%;
+}
+
+pre {
+	margin-bottom: 1.6em;
+	max-width: 100%;
+	overflow: auto;
+	padding: 1.6em;
+	font-family: "Courier 10 Pitch", Courier, monospace;
+	font-size: 13px;
+	line-height: 1.6;
+	border: 1px solid #dadada;
+	word-break: break-all;
+	word-wrap: break-word;
+	border-radius: 2px;
+	background: #eeeeee;
+}
+
+code, kbd, tt, var {
+	font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+	font-size: 14px;
+	background: inherit;
+	color: #343434;
+}

@@ -1,0 +1,26 @@
+@import "vars";
+
+// CSS Styles for the WordPress TinyMCE Editor 
+#tinymce.wp-editor { 
+	font-family: $content-font;
+	font-size: 14px;
+
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		font-family: $heading-font;
+
+		.custom-title {
+			padding-bottom: 15px;
+			margin-bottom: 30px;
+		}
+	}
+
+	blockquote {
+		border-left: 3px solid $darker-color;
+		padding-left: 20px;
+	}
+}

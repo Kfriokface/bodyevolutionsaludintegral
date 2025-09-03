@@ -1,0 +1,235 @@
+/* 7.0 Jumbotron */
+
+.jumbotron {
+	padding-top: 0;
+	padding-bottom: 0;
+	margin-bottom: 60px;
+	background: #707780;
+
+	.carousel-inner > .item > img,
+	.carousel-inner > .item > a > img {
+		width: 100%;
+	}
+
+	.slide-image {
+		position: relative;;
+
+		img {
+			width: 100%;
+		}
+
+		&::before {
+		    position: absolute;
+		    content: "";
+		    left: 0;
+		    right: 0;
+		    top: 0;
+		    bottom: 0;
+		    background: transparent;
+		}
+	}
+
+	&.fixed-height {
+
+		.slide-image {
+
+			img {
+				object-fit: cover;
+			}
+		}
+	}
+
+	.jumbotron-caption {
+		position: relative;
+		padding: 30px 0;
+
+		@media(min-width: $screen-md) {
+			position: absolute;
+			width: 550px;
+			top: 50%;
+			padding: 0;
+			left: auto;
+			right: auto;
+			padding: 0;
+			transform: translate(0%, -50%);
+		}
+
+		.caption-small-heading {
+			font-size: 14px;
+			font-weight: bold;
+			color: $primary-color;
+			letter-spacing: 6px;
+			text-shadow: 0 1px 1px rgba(50,50,50,0.1);
+
+			@media(min-width: $screen-md) {
+				font-size: 15px;
+			}
+		}
+
+		.caption-heading {
+
+			.caption-heading-tag {
+				margin: 10px 0 15px 0;
+				font-size: 32px;
+				color: $white-color;
+
+				@media(min-width: $screen-md) {
+					font-size: 40px;
+					text-shadow: 0 1px 1px rgba(50,50,50,0.4);
+				}
+
+				@media(min-width: $screen-lg) {
+					font-size: 50px;
+				}
+			}
+		}
+
+		.caption-content {
+
+			p {
+				font-size: 15px;
+				color: $white-color;
+				text-shadow: 0 1px 1px rgba(50,50,50,0.2);
+
+				@media(min-width: $screen-md) {
+					font-size: 17px;
+					margin-bottom: 25px;
+				}
+			}
+		}
+
+		// Caption alignment
+		&:not(.left) {
+
+			@media(min-width: $screen-md) {
+				width: 940px;
+			}
+
+			@media(min-width: $screen-lg) {
+				width: 1140px;
+			}
+		}
+		
+		&.center {
+
+			@media(min-width: $screen-md) {
+				text-align: center;
+			}
+		}
+
+		&.right {
+
+			@media(min-width: $screen-md) {
+				text-align: right;
+			}
+		}
+	}
+
+	.carousel-control {
+		top: 30px;
+		width: 60px;
+		height: 60px;
+		color: $white-color;
+		opacity: 1;
+		z-index: 2;
+		border-radius: 2px;
+		background-image: none;
+		background: rgba(0, 0, 0, 0.07);
+
+		@media(min-width: $screen-xs) {
+			top: 75px;
+		}
+
+		@media(min-width: $screen-sm) {
+			top: 150px;
+		}
+
+		@media(min-width: $screen-md) {
+			top: 50%;
+			transform: translate(0%, -50%);
+
+			&:hover {
+				background: rgba(0, 0, 0, 0.08);
+				transition: $primary-transition;
+			}
+		}
+
+		&.left {
+			left: 2%;
+		}
+
+		&.right {
+			right: 2%;
+		}
+
+		i {
+			font-size: 22px;
+			line-height: 60px;
+			text-shadow: none;
+		}
+	}
+
+	p {
+		font-size: 15px;
+	}
+
+
+	// Fade Jumbotron Option
+	&.carousel-fade {
+
+    	.carousel-inner {
+    		
+		    .item {
+		    	transition-property: opacity;
+		    }
+	        
+			.item,
+			.active.left,
+			.active.right {
+				opacity: 0;
+			}
+
+			.active,
+			.next.left,
+			.prev.right {
+				opacity: 1;
+			}
+
+			.next,
+			.prev,
+			.active.left,
+			.active.right {
+				left: 0;
+				transform: translate3d(0, 0, 0);
+			}
+	    }
+
+	    .carousel-control {
+	        z-index: 2;
+	    }
+	}
+}
+
+// If widget bar position is no overlay
+body.widget-bar-overlay {
+
+	.jumbotron {
+
+		@media(min-width: $screen-md) {
+
+			.jumbotron-caption {
+				transform: translate(0%, -30%);
+			}
+
+			.carousel-control {
+				transform: translate(0%, 0%);
+			}
+		}
+	}
+}
+
+
+// Slider alt
+.theme-alt-slider {
+	position: relative;
+}

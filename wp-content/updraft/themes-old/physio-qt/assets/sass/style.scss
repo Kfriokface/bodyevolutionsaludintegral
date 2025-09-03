@@ -1,0 +1,633 @@
+/*
+Theme Name: Physio-qt
+Theme URI: http://demo.qreativethemes.com/physio
+Author: QreativeThemes
+Author URI: http://qreativethemes.com/
+Description: A WordPress Theme for Physical Therapy & Medical Clinic by QreativeThemes
+Version: 2.4.2
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: physio-qt
+Tags: custom-background, custom-colors, custom-menu, featured-images, sticky-post, theme-options, translation-ready
+*/
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+01 ------ Variables
+02 ------ Normalize
+03 ------ Typography
+04 ------ Alignements
+05 ------ Shortcodes
+06 ------ Buttons
+07 ------ Forms
+08 ------ Theme Header
+09 ------ Topbar Navigation
+10 ------ Main Navigation
+11 ------ Jumbotron
+12 ------ Page Title Area
+13 ------ Breadcrumbs
+14 ------ WordPress Widgets
+15 ------ (Custom) Theme Widgets
+16 ------ Paginations
+17 ------ Blog
+18 ------ Comments & Respond
+19 ------ WordPress Gallery
+20 ------ Footer
+21 ------ 404 Page
+22 ------ Gutenberg
+23 ------ Font Awesome 4 Names
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# 01 - Variables
+--------------------------------------------------------------*/
+@import "vars";
+@import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/variables";
+@import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins";
+
+/*--------------------------------------------------------------
+# 02 - Normalize
+--------------------------------------------------------------*/
+
+body {
+	font-family: $content-font;
+	line-height: 1.6;
+	color: $text-color;
+	text-rendering: optimizeLegibility;
+
+	&.boxed {
+		
+		> .layout-boxed {
+			max-width: 100%;
+			margin: 0 auto;
+			overflow: hidden;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+			@media (min-width: $screen-sm) {
+				width: ($container-sm + 80px);
+			}
+			@media (min-width: $screen-md) {
+				width: ($container-md + 80px);
+			}
+			@media (min-width: $screen-lg) {
+				width: ($container-lg + 80px);
+			}
+		}
+
+		&.sticky-navigation {
+
+			.header-wrapper.is-sticky {
+				left: auto;
+				right: auto;
+
+				@media (min-width: $screen-md) {
+					width: 1050px;
+				}
+
+				@media (min-width: $screen-lg) {
+					width: 1250px;
+				}
+			}
+		}
+	}
+
+	.layout-boxed {
+		overflow-x: hidden;
+	}
+}
+
+.content-area {
+	margin-bottom: 80px;
+
+	.content {
+		@media(max-width: $screen-md) {
+			margin-bottom: 50px;
+		}
+	}
+
+	.white-featured-box {
+		padding: 35px;
+		border-radius: 2px;
+		background: $white-color;
+		box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+	}
+
+	.featured-box {
+		padding: 34px;
+		color: rgba(255,255,255,0.6);
+		background: #9A65A5;
+		border-radius: 3px;
+
+		strong,
+		a {
+			color: $white-color;
+		}
+
+		p {
+			color: rgba(255,255,255,0.6);
+		}
+
+		hr {
+			border-top: 1px solid rgba(50,50,50,0.2);
+		}
+	}
+}
+
+@media(min-width: $screen-md) {
+
+	.sidebar {
+
+		&.pull--sidebar {
+			margin-top: -110px;
+		}
+	}
+}
+
+/* Booked Appointment Calender styles */
+body {
+
+	.booked-calendarSwitcher {
+
+		&.calendar {
+
+			select {
+				padding: 10px 0;
+			}
+
+			p:before {
+				top: 13px;
+				right: 6px;
+			}
+		}
+	}
+
+	table.booked-calendar {
+
+		th {
+
+			.monthName {
+				font-size: 15px;
+			}
+
+			.page-left,
+			.page-right {
+				font-size: 15px;
+			}
+		}
+
+		tr.days {
+
+			th {
+				padding: 13px 0 12px !important; // need to overrule default plugin style
+				font-size: 12px;
+			}
+		}
+
+		thead {
+
+			tr {
+
+				&:first-child {
+
+					th {
+						padding: 25px 0 23px 0!important; // need to overrule default plugin style
+					}
+				}
+			}
+		}
+		
+		td {
+			font-size: 16px;
+		}
+	}
+
+	.booked-calendar-wrap {
+
+		.booked-appt-list {
+
+			.timeslot {
+
+				.spots-available {
+					padding-bottom: 0;
+					font-size: 10px;
+				}
+
+				.timeslot-people {
+					width: 30%;
+
+					button {
+						float: none;
+						display: block;
+						padding: 0 30px;
+						width: 100%;
+						height: 40px;
+						font-size: 13px;
+						font-weight: 700;
+						border: none;
+						outline: none;
+						border-radius: 25px;
+					}
+				}
+			}
+		}
+
+		&.small {
+
+			table.booked-calendar {
+
+				td {
+					font-size: 16px;
+
+					&.today {
+
+						.date {
+							border: 1px solid #26aeec;
+						}
+					}
+				}
+
+				thead {
+
+					th {
+						padding: 25px 0 23px 0!important; // need to overrule default plugin style
+
+						.page-right {
+							right: 20px;
+							top: 28px;
+							font-size: 15px;
+
+							&:hover {
+								right: 20px;
+							}
+						}
+
+						.page-left {
+							left: 20px;
+							top: 28px;
+							font-size: 15px;
+
+							&:hover {
+								left: 20px;
+							}
+						}
+
+						.monthName {
+							font-size: 15px;
+
+							a {
+								top: 0;
+								font-size: 12px;
+							}
+						}
+					}
+
+					tr.days {
+
+						th {
+							padding: 13px 0 12px!important; // need to overrule default plugin style (have !important)
+							font-size: 12px;
+						}
+					}
+				}
+			}
+
+			.booked-appt-list {
+
+				h2 {
+					font-size: 20px;
+				}
+
+				.timeslot {
+					margin-bottom: 0;
+					border-top: 1px solid #ddd;
+
+					.timeslot-time,
+					.timeslot-count {
+						display: inline-block;
+					}
+
+					.timeslot-time {
+						height: 65px;
+						padding-top: 15px;
+
+						@media (max-width: $screen-sm) {
+							display: block;
+							width: 100%;
+						}
+					}
+
+					.timeslot-people,
+					.timeslot-people:hover {
+						width: 25%;
+						padding: 13px 0;
+
+						@media (max-width: $screen-sm) {
+							display: block;
+							width: 100%;
+							padding-top: 0;
+						}
+
+						button {
+							height: 40px;
+							border-radius: 25px;
+							border: none;
+							outline: none;
+							font-weight: bold;
+
+							.button-timeslot,
+							.spots-available {
+								display: none;
+							}
+
+							.button-text {
+								display: block;
+							}
+						}
+					}
+
+					.spots-available {
+						padding-bottom: 0;
+						font-size: 10px;
+					}
+				}
+			}
+		}
+	}
+
+	.booked-modal {
+
+		.bm-window {
+
+			p.booked-title-bar {
+				padding: 15px 30px 15px 30px;
+			}
+
+			.close {
+				top: 13px;
+				right: 20px;
+				font-size: 15px;
+			}
+
+			p.appointment-info {
+				padding: 2px 8px;
+				font-size: 14px;
+				font-weight: bold;
+				color: #464646;
+			}
+		}
+	}
+
+	.booked-form {
+
+		.field {
+			margin: 12px 0 5px;
+
+			select,
+			input[type=text],
+			input[type=password],
+			input[type=tel],
+			input[type=email],
+			textarea {
+				padding: 10px 20px;
+				border: 1px solid #dbdbdb;
+				-moz-border-radius: 1px;
+				-webkit-border-radius: 1px;
+				border-radius: 1px;
+
+				&:focus {
+					border-color: #cecece;
+				}
+			}
+
+			.checkbox-radio-block {
+				padding: 0;
+			}
+		}
+
+		.cf-block select {
+			padding: 0 20px;
+			height: 42px;
+			outline: 0;
+			border-radius: 0;
+			background-image: url('assets/images/select-bg.png');
+			background-position: 95% center;
+			background-repeat: no-repeat;
+			-webkit-appearance: none;
+			-moz-appearance: none;
+			appearance: none;
+		}
+	}
+
+	.booked-form input[type=submit],
+	.booked-form button {
+		padding: 8px 28px;
+		border-radius: 25px;
+		font-size: 14px;
+		font-weight: bold;
+		border: none;
+		-webkit-transition: all 100ms ease-out;
+		transition: all 100ms ease-out;
+
+		&:hover {
+			border: none;
+		}
+	}
+}
+
+/* Booked Appointment Account styles */
+body #booked-profile-page {
+
+	.booked-user {
+
+		h3 {
+			font-size: 18px!important; // need to overrule default plugin style (have !important)
+			padding: 0 4px;
+
+			@media (min-width: $screen-md) {
+				padding: 4px 0 0px 20px;
+			}
+		}
+	}
+
+	.booked-user-avatar {
+
+		@media (max-width: $screen-md) {
+			display: none;
+		}
+	}
+
+	.booked-profile-header {
+
+		.booked-logout-button {
+
+			@media (min-width: $screen-md) {
+				position: absolute;
+				top: 24px;
+				right: 20px;
+				font-size: 14px;
+			}
+		}
+	}
+
+	.booked-tabs {
+
+		li {
+
+			a {
+
+				@media (max-width: $screen-md) {
+					padding: 0 10px;
+				}
+			}
+		}
+	}
+
+	.booked-profile-appt-list {
+
+		.appt-block {
+			padding: 15px 0 20px;
+		}
+	}
+
+	#booked-page-form {
+
+		input[type=email],
+		input[type=text],
+		input[type=password],
+		textarea {
+			padding: 10px 15px;
+			border: 1px solid #dbdbdb;
+			-moz-border-radius: 1px;
+			-webkit-border-radius: 1px;
+			border-radius: 1px;
+		}
+	}
+
+	input[type=submit].button-primary {
+		padding: 10px 30px;
+		font-size: 13px;
+		font-weight: bold;
+		border: none;
+		border-radius: 25px;
+		-webkit-transition: all 100ms ease-out;
+		transition: all 100ms ease-out;
+
+		&:hover {
+			border: none;
+		}
+	}
+}
+
+
+/* Site Origin Widget Bundle Fixes */
+.sow-slider-images {
+	padding: 0;
+}
+
+@import "partials/normalize";
+
+/*--------------------------------------------------------------
+# 03 - Typography
+--------------------------------------------------------------*/
+@import "partials/typography";
+
+/*--------------------------------------------------------------
+# 04 - Alignments
+--------------------------------------------------------------*/
+@import "partials/alignments";
+
+/*--------------------------------------------------------------
+# 05 - Shortcodes
+--------------------------------------------------------------*/
+@import "partials/shortcodes";
+
+/*--------------------------------------------------------------
+# 06 - Buttons
+--------------------------------------------------------------*/
+@import "partials/buttons";
+
+/*--------------------------------------------------------------
+# 07 - Forms
+--------------------------------------------------------------*/
+@import "partials/forms";
+
+/*--------------------------------------------------------------
+# 08 - Topbar navigation
+--------------------------------------------------------------*/
+@import "partials/topbar_nav";
+
+/*--------------------------------------------------------------
+# 09 - Header
+--------------------------------------------------------------*/
+@import "partials/theme_header";
+
+/*--------------------------------------------------------------
+# 10 - Navigation
+--------------------------------------------------------------*/
+@import "partials/main_navigation";
+
+/*--------------------------------------------------------------
+# 11 - Jumbotron
+--------------------------------------------------------------*/
+@import "partials/jumbotron";
+
+/*--------------------------------------------------------------
+# 12 - Page header
+--------------------------------------------------------------*/
+@import "partials/page_header";
+
+/*--------------------------------------------------------------
+# 13 - Breadcrumbs
+--------------------------------------------------------------*/
+@import "partials/breadcrumbs";
+
+/*--------------------------------------------------------------
+# 14 - WordPress widgets
+--------------------------------------------------------------*/
+@import "partials/wp_widgets";
+
+/*--------------------------------------------------------------
+# 15 - Custom widgets
+--------------------------------------------------------------*/
+@import "partials/custom_widgets";
+
+/*--------------------------------------------------------------
+# 16 - Pagination
+--------------------------------------------------------------*/
+@import "partials/paginations";
+
+/*--------------------------------------------------------------
+# 17 - Blog
+--------------------------------------------------------------*/
+@import "partials/blog";
+
+/*--------------------------------------------------------------
+# 18 - Comments
+--------------------------------------------------------------*/
+@import "partials/comments";
+
+/*--------------------------------------------------------------
+# 19 - Gallery
+--------------------------------------------------------------*/
+@import "partials/gallery";
+
+/*--------------------------------------------------------------
+# 20 - Footer
+--------------------------------------------------------------*/
+@import "partials/footer";
+
+/*--------------------------------------------------------------
+# 21 - 404 page
+--------------------------------------------------------------*/
+@import "partials/404";
+
+/*--------------------------------------------------------------
+# 22 - Gutenberg
+--------------------------------------------------------------*/
+@import "partials/gutenberg";
+
+/*--------------------------------------------------------------
+# 23 - Font Awesome 4 Names
+--------------------------------------------------------------*/
+@import "partials/fontawesome-v4";

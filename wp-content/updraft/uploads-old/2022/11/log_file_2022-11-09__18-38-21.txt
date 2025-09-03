@@ -1,0 +1,58 @@
+
+---Archivos descargados---
+Los archivos de importación para Physio ¡han sido descargados correctamente!
+Tiempo de ejecución máximo inicial = 30
+Información de archivos:
+URL del sitio = http://localhost:8888/bepilates
+Archivo de datos = /Applications/MAMP/htdocs/bepilates/wp-content/themes/physio-qt/demo-files/content.xml
+Archivo de widget = /Applications/MAMP/htdocs/bepilates/wp-content/themes/physio-qt/demo-files/widgets.json
+Archivo del personalizador = /Applications/MAMP/htdocs/bepilates/wp-content/themes/physio-qt/demo-files/customizer.dat
+Archivos de Redux:
+ ¡no definido!
+
+---Importando los widgets---
+blog-sidebar : La barra lateral no existe en el tema (moviendo los widgets a inactivos)
+
+Editor SiteOrigin - About Us - Importado a inactivo
+Buscar - Search Posts - Importado a inactivo
+
+Header : 
+
+QT: Icon Box - Visit our Location - Importado
+QT: Icon Box - Give us a Call - Importado
+QT: Icon Box - Send us a Message - Importado
+QT: Icon Box - Opening Hours - Importado
+
+Page Sidebar : 
+
+Menú de navegación - Our Services - Importado
+QT: Opening Hours - Opening Hours - Importado
+
+Shop Sidebar : 
+
+Buscar - Sin título - Importado
+Productos por lista de puntuaciones - Top Rated Products - Importado
+Categorías de producto - Product Categories - Importado
+Filtrar productos por precio - Filter by Price - Importado
+
+Footer - Top : 
+
+QT: Social Icons - Sin título - Importado
+QT: Icon Box - Visit our Location - Importado
+QT: Icon Box - Give us a Call - Importado
+QT: Icon Box - Send us a Message - Importado
+
+Footer - Main : 
+
+Editor SiteOrigin - About Us - Importado
+Menú de navegación - Extra Navigation - Importado
+Menú de navegación - Our Services - Importado
+QT: Opening Hours - Opening Hours - Importado
+
+
+
+---Importación de los ajustes del personalizador---
+¡Importación de los ajustes del personalizador finalizado!
+
+---ocdi/after_import---
+

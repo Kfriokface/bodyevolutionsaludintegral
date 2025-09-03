@@ -1,0 +1,158 @@
+/* 3.2 Typography */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: $heading-font;
+	font-weight: bold;
+	color: $darker-color;
+	margin-top: 0;
+	margin-bottom: 20px;
+}
+
+p {
+	margin-bottom: 15px;
+}
+
+.content-area {
+
+	span.normal {
+		font-weight: normal;
+	}
+}
+
+.sidebar {
+
+	span.normal {
+		font-weight: bold;
+	}
+}
+
+.textwidget {
+	
+	p {
+		line-height: 1.75;
+
+		&:last-of-type {
+			margin-bottom: 0;
+		}
+	}
+}
+
+
+// Widget Titles
+.widget-title {
+	font-size: 36px;
+	color: $darker-color;
+}
+
+.bigger-widget-title {
+
+	.widget-title {
+		font-size: 46px;
+	}
+}
+
+.smaller-widget-title {
+
+	.widget-title {
+		font-size: 28px;
+	}
+}
+
+.white-title {
+
+	.widget-title {
+		color: $white-color;
+	}
+}
+
+.sidebar {
+
+	.widget-title {
+		font-size: 22px;
+	}
+}
+
+.footer {
+
+	.widget-title {
+		margin-bottom: 25px;
+		font-size: 18px;
+		color: $white-color;
+	}
+}
+
+body.search {
+
+	.hentry--title {
+		margin-top: 0;
+	}
+}
+
+// Links
+a {
+	color: $primary-color;
+	transition: $primary-transition;
+
+	&:hover {
+		color: darken($primary-color, 3);
+	}
+
+	&:focus {
+		outline: none;
+	}
+
+	&[href^="tel"] {
+		color: inherit;
+		text-decoration: none;
+	}
+}
+
+.text-link {
+	position: relative;
+	font-weight: bold;
+
+	&::after {
+		position: absolute;
+		content: "\f105";
+		font-family: 'Font Awesome 5 Free';
+		font-weight: 900;
+		font-size: 14px;
+		top: 0;
+		right: -13px;
+		-webkit-transition: $primary-transition;
+		transition: $primary-transition;
+	}
+
+	&:hover {
+		text-decoration: none;
+
+		&::after {
+			right: -10px;
+		}
+	}
+}
+
+body {
+
+	&.font-awesome-5 {
+
+		.fab {
+			font-family: 'Font Awesome 5 Brands';
+			font-weight: 400;
+		}
+
+		.far {
+			font-family: 'Font Awesome 5 Free';
+			font-weight: 400;
+		}
+
+		.fas {
+			font-family: 'Font Awesome 5 Free';
+		}
+	}
+}

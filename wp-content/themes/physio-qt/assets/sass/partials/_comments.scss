@@ -1,0 +1,157 @@
+/* 14.0 Comments & Respond Form */
+
+.comments-area {
+	margin-top: 30px;
+	padding-top: 40px;
+	border-top: 1px solid rgba(50,50,50,0.1);
+
+	.comments-title {
+		margin-bottom: 30px;
+		font-size: 32px;
+	}
+
+	a {
+		text-decoration: none;
+	}
+
+	// Comments
+	.comment-list {
+		margin: 0 0 50px 0;
+		padding: 50px 50px 20px 50px;
+		background: #F5F8FB;
+		border-radius: 3px;
+
+		.comment {
+			margin-bottom: 50px;
+			list-style: none;
+
+			.comment-avatar {
+				float: left;
+				width: 10%;
+
+				img {
+					border-radius: 2px;
+				}
+			}
+
+			.comment-inner {
+				position: relative;
+				float: left;
+				width: 86%;
+				margin-left: 4%;
+				padding: 30px;
+				background: #fff;
+				border-radius: 2px;
+				box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+
+				&::before {
+					position: absolute;
+					content: "\f0d9";
+					top: 5px;
+					left: -13px;
+					font-size: 42px;
+					font-family: 'Font Awesome 5 Free';
+					font-weight: 900;
+					color: $white-color;
+				}
+
+				.comment-header {
+					display: block;
+					margin-bottom: 20px;
+					padding-bottom: 10px;
+					border-bottom: 1px solid rgba(0,0,0,0.075);
+
+					.author-link {
+						display: inline-block;
+						font-family: $heading-font;
+						font-size: 20px;
+						font-weight: bold;
+						color: $primary-color;
+					}
+
+					.comment-time {
+						float: right;
+						margin-top: 5px;
+						font-size: 13px;
+						font-weight: bold;
+						color: #999;
+					}
+				}
+
+				.comment-actions {
+
+					.comment-reply-link {
+						font-weight: bold;
+					}
+				}
+			}
+		}
+
+		.children {
+			margin-left: 12%;
+			padding: 0;
+		}
+	}
+	
+
+	// Respond Form
+	.comment-respond {
+
+		.comment-reply-title {
+			font-size: 32px;
+		}
+
+		#cancel-comment-reply-link {
+			float: right;
+			margin-top: 5px;
+			font-family: $content-font;
+			font-size: 14px;
+			color: $text-color;
+		}
+
+		.comment-form {
+			
+			label {
+				display: block;
+			}
+			
+			input {
+				padding: 12px 15px;
+			}
+
+			textarea {
+				padding: 15px;
+				width: 100%;
+			}
+
+			.comment-form-author,
+			.comment-form-email,
+			.comment-form-url {
+				float: left;
+				width: 33.333%;
+				margin-bottom: 30px;
+			}
+
+			.form-submit {
+
+				.submit {
+					padding: 11px 28px;
+					font-size: 14px;
+					font-weight: 700;
+					line-height: inherit;
+					color: #fff;
+					text-shadow: 0 1px 1px rgba(50, 50, 50, 0.1);
+					border-radius: 30px;
+					border: 2px solid transparent;
+					outline: none;
+					background: $secondary-color;
+					transition: $primary-transition;
+
+					&:hover {
+						background: darken($secondary-color, 3);
+					}
+				}
+			}
+		}
+	}
+}

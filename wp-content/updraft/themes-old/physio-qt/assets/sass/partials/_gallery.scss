@@ -1,0 +1,125 @@
+/* 15.0 WordPress Gallery */
+
+.bypostauthor {
+	position: static;
+}
+
+.wp-caption {
+	position: relative;
+	max-width: 100% !important; // need to be !important to overwrite
+	width: auto !important; // need to be !important to overwrite
+
+	.wp-caption-text {
+		position: absolute;
+		left: 30px;
+		bottom: 45px;
+		padding: 4px 12px;
+		font-size: 13px;
+		color: $white-color;
+		border-radius: 2px;
+		background: rgba(0,0,0,0.4);
+	}
+
+	&.alignnone {
+		margin: 0;
+
+		img {
+			margin: 5px 20px 1.5em 0;
+		}
+	}
+}
+
+.gallery-icon img {
+	margin: 0 auto;
+}
+
+.gallery-caption {
+	position: absolute;
+	bottom: 7px;
+	left: 7px;
+	right: 7px;
+	padding: 15px;
+	background-color: rgba(0,0,0,0.6);
+	font-family: "Noto Sans", sans-serif;
+	font-size: 12px;
+	color: $white-color;
+	line-height: 1.5;
+	opacity: 0;
+}
+
+.gallery {
+	margin: -7px -7px 20px -7px;
+
+	&::after {
+		display: table;
+		content: "";
+		clear: both;	
+	}
+}
+
+.gallery-item {
+	position: relative;
+	float: left;
+	margin: 0;
+	padding: 0.5em;
+	overflow: hidden;
+
+	img {
+		width: 100%;
+	}
+
+	&:hover {
+
+		.gallery-caption {
+			opacity: 1;
+		}
+	}
+}
+
+.gallery-columns-1 .gallery-item {
+    width: 100%;
+    float: none;
+}
+
+.gallery-columns-2 .gallery-item {
+    width: 50%
+}
+
+.gallery-columns-3 .gallery-item {
+    width: 33.3333%
+}
+
+.gallery-columns-4 .gallery-item {
+    width: 25%
+}
+
+.gallery-columns-5 .gallery-item {
+    width: 20%
+}
+
+.gallery-columns-6 .gallery-item {
+    width: 16.6667%
+}
+
+.gallery-columns-7 .gallery-item {
+    width: 14.2857%
+}
+
+.gallery-columns-8 .gallery-item {
+    width: 12.5%
+}
+
+.gallery-columns-9 .gallery-item {
+    width: 11.1111%
+}
+
+.gallery-columns-2 .gallery-item:nth-child(2n+1),
+.gallery-columns-3 .gallery-item:nth-child(3n+1),
+.gallery-columns-4 .gallery-item:nth-child(4n+1),
+.gallery-columns-5 .gallery-item:nth-child(5n+1),
+.gallery-columns-6 .gallery-item:nth-child(6n+1),
+.gallery-columns-7 .gallery-item:nth-child(7n+1),
+.gallery-columns-8 .gallery-item:nth-child(8n+1),
+.gallery-columns-9 .gallery-item:nth-child(9n+1) {
+	clear: left;
+}

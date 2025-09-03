@@ -1,0 +1,34 @@
+/* Theme customizer controls */
+li.customize-control {
+	margin-bottom: 15px;
+	padding-bottom: 15px;
+	border-bottom: 1px solid #dfdfdf;
+}
+li.customize-control:last-of-type {
+	padding-bottom: 0;
+	border-bottom: none;
+}
+#customize-controls .description {
+	color: #7f7e7e;
+}
+li.customize-control .description {
+	margin-bottom: 15px;
+	margin-top: -3px;
+	font-size: 12px;
+	font-style: normal;
+}
+
+/* TGMPA plugin notice fix */
+.themes-php .wrap h1,
+.subsubsub {
+	float: none;
+}
+
+/* Removed SiteOrigin teaser */
+body .siteorigin-widget-teaser {
+	display: none;
+}
+
+textarea {
+	max-width: 100%;
+}

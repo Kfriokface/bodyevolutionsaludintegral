@@ -1,0 +1,1905 @@
+# Copyright (C) 2020 QreativeThemes
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Physio-qt 2.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/physio-qt\n"
+"POT-Creation-Date: 2020-01-10 14:56:14+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2020-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: grunt-wp-i18n 0.5.4\n"
+
+#: inc/theme-customizer.php:1421 inc/theme-customizer.php:1466
+msgid "1"
+msgstr ""
+
+#: inc/theme-customizer.php:1422 inc/theme-customizer.php:1467
+msgid "2"
+msgstr ""
+
+#: inc/theme-customizer.php:1423 inc/theme-customizer.php:1468
+msgid "3"
+msgstr ""
+
+#: inc/theme-customizer.php:1424 inc/theme-customizer.php:1469
+msgid "4"
+msgstr ""
+
+#: comments.php:40 comments.php:58
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:41 comments.php:61
+msgid "Older Comments"
+msgstr ""
+
+#: comments.php:42 comments.php:62
+msgid "Newer Comments"
+msgstr ""
+
+#: comments.php:74
+msgid "Comments are closed."
+msgstr ""
+
+#: functions.php:80
+msgid "Theme blue"
+msgstr ""
+
+#: functions.php:85
+msgid "Theme purple"
+msgstr ""
+
+#: functions.php:90
+msgid "Theme text color"
+msgstr ""
+
+#: functions.php:117
+msgid "Main Navigation"
+msgstr ""
+
+#: functions.php:118
+msgid "Topbar Navigation"
+msgstr ""
+
+#: functions.php:119
+msgid "Footer Navigation"
+msgstr ""
+
+#: functions.php:120
+msgid "Services Navigation"
+msgstr ""
+
+#: inc/demo-import.php:19
+msgid ""
+"Please use the demo importer only on a clean installation. Use the %1s "
+"plugin to clean the installation (this will delete all content)"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:334
+msgid "Install Required Plugins"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:335
+msgid "Install Plugins"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:337
+#. translators: %s: plugin name.
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:339
+#. translators: %s: plugin name.
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:340
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:377
+#. translators: 1: plugin name(s).
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:382
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:387
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:392
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:393
+#: inc/tgmpa/class-tgm-plugin-activation.php:912
+#: inc/tgmpa/class-tgm-plugin-activation.php:2618
+#: inc/tgmpa/class-tgm-plugin-activation.php:3665
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:394
+#: inc/tgmpa/class-tgm-plugin-activation.php:3244
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:395
+#: inc/tgmpa/class-tgm-plugin-activation.php:3037
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:397
+#. translators: 1: plugin name.
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:399
+#. translators: 1: plugin name.
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:401
+#. translators: 1: dashboard link.
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:607
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:608
+msgid "Update Required"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:1019
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:1019
+#: inc/tgmpa/class-tgm-plugin-activation.php:1022
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:1022
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2067
+#. translators: %s: version number
+msgid "TGMPA v%s"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2358
+msgid "Required"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2361
+msgid "Recommended"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2377
+msgid "WordPress Repository"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2380
+msgid "External Source"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2383
+msgid "Pre-Packaged"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2400
+msgid "Not Installed"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2404
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2406
+msgid "Active"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2412
+msgid "Required Update not Available"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2415
+msgid "Requires Update"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2418
+msgid "Update recommended"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2477
+#. translators: 1: number of plugins.
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2481
+#. translators: 1: number of plugins.
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2485
+#. translators: 1: number of plugins.
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2575
+msgid "Installed version:"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2583
+msgid "Minimum required version:"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2595
+msgid "Available version:"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2618
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2632
+msgid "Plugin"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2633
+msgid "Source"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2634
+msgid "Type"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2638
+msgid "Version"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2639
+msgid "Status"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2688
+#. translators: %2$s: plugin name in screen reader markup
+msgid "Install %2$s"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2693
+#. translators: %2$s: plugin name in screen reader markup
+msgid "Update %2$s"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2699
+#. translators: %2$s: plugin name in screen reader markup
+msgid "Activate %2$s"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2769
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2802
+msgid "Install"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2808
+msgid "Update"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2811
+msgid "Activate"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2842
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2844
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2885
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2887
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2993
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:3019
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:3243
+msgid "Plugin activation failed."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:3583
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:3586
+#. translators: 1: plugin name, 2: error message.
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:3588
+#. translators: 1: plugin name.
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:3592
+msgid ""
+"The installation and activation process is starting. This process may take "
+"a while on some hosts, so please be patient."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:3594
+#: inc/tgmpa/class-tgm-plugin-activation.php:3602
+#. translators: 1: plugin name.
+msgid "%1$s done."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:3595
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:3597
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:3600
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:3603
+msgid "All installations have been completed."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:3605
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/theme-actions.php:26
+msgid "Required: Install \"Physio Toolkit\" plugin"
+msgstr ""
+
+#: inc/theme-actions.php:29
+msgid ""
+"Due to new WordPress requirements from Envato we are required to move some "
+"theme files (widgets and custom fields) to a plugin. %s Installing this "
+"plugin is necessary for the theme. The benefit of this plugin is that you "
+"won't lose any content when switching themes."
+msgstr ""
+
+#: inc/theme-actions.php:35
+msgid "Please navigate to %s → %s to install and activate the %s plugin."
+msgstr ""
+
+#: inc/theme-custom-comments.php:18
+msgid "Pingback:"
+msgstr ""
+
+#: inc/theme-custom-comments.php:18 inc/theme-custom-comments.php:40
+msgid "(Edit)"
+msgstr ""
+
+#: inc/theme-custom-comments.php:29
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: inc/theme-custom-comments.php:38
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: inc/theme-customizer.php:50
+msgid "Theme Options"
+msgstr ""
+
+#: inc/theme-customizer.php:56 inc/theme-customizer.php:176
+msgid "Logo"
+msgstr ""
+
+#: inc/theme-customizer.php:62 inc/theme-customizer.php:239
+msgid "Topbar"
+msgstr ""
+
+#: inc/theme-customizer.php:68 inc/theme-sidebars.php:44
+msgid "Header"
+msgstr ""
+
+#: inc/theme-customizer.php:74
+msgid "Navigation"
+msgstr ""
+
+#: inc/theme-customizer.php:80
+msgid "Mobile Navigation"
+msgstr ""
+
+#: inc/theme-customizer.php:81
+msgid ""
+"Resize the browser or click the mobile icon at the bottom to enable mobile "
+"view"
+msgstr ""
+
+#: inc/theme-customizer.php:87
+msgid "Slider"
+msgstr ""
+
+#: inc/theme-customizer.php:88
+msgid "Color settings for the homepage slider"
+msgstr ""
+
+#: inc/theme-customizer.php:94
+msgid "Page Header"
+msgstr ""
+
+#: inc/theme-customizer.php:100 inc/theme-customizer.php:1011
+msgid "Breadcrumbs"
+msgstr ""
+
+#: inc/theme-customizer.php:106
+msgid "Layout &amp; Colors"
+msgstr ""
+
+#: inc/theme-customizer.php:112 template-parts/page-header.php:71
+msgid "Blog"
+msgstr ""
+
+#: inc/theme-customizer.php:119
+msgid "Shop"
+msgstr ""
+
+#: inc/theme-customizer.php:126
+msgid "Footer"
+msgstr ""
+
+#: inc/theme-customizer.php:132
+msgid "Bottom Footer"
+msgstr ""
+
+#: inc/theme-customizer.php:138
+msgid "Typography"
+msgstr ""
+
+#: inc/theme-customizer.php:139
+msgid ""
+"Change the default theme font to another with the settings below. If you're "
+"looking for more advanced font options please install the %s plugin or use "
+"the child theme to add custom fonts"
+msgstr ""
+
+#: inc/theme-customizer.php:145
+msgid "404 Page"
+msgstr ""
+
+#: inc/theme-customizer.php:151
+msgid "Opening Hours & Translation"
+msgstr ""
+
+#: inc/theme-customizer.php:152
+msgid ""
+"Set global opening hours and translate the weekdays for the opening hour "
+"widget. %s To show the global opening hours on your website make sure to "
+"enable the global settings checkbox inside the QT: Opening Hours widget."
+msgstr ""
+
+#: inc/theme-customizer.php:158
+msgid "Font Awesome"
+msgstr ""
+
+#: inc/theme-customizer.php:159
+msgid "Please only use this to upgrade from Font Awesome 4 to version 5."
+msgstr ""
+
+#: inc/theme-customizer.php:164
+msgid "ACF"
+msgstr ""
+
+#: inc/theme-customizer.php:177
+msgid "Recommended height is not higher than 90 pixels"
+msgstr ""
+
+#: inc/theme-customizer.php:188
+msgid "Logo retina (2x)"
+msgstr ""
+
+#: inc/theme-customizer.php:189
+msgid ""
+"Please do not upload the regular logo here. Only add a logo that is exact "
+"2x the size of the regular logo"
+msgstr ""
+
+#: inc/theme-customizer.php:200
+msgid "Logo margin top"
+msgstr ""
+
+#: inc/theme-customizer.php:201
+msgid "Change the logo top margin. Please don't include px "
+msgstr ""
+
+#: inc/theme-customizer.php:218
+msgid "Logo width"
+msgstr ""
+
+#: inc/theme-customizer.php:219
+msgid "Change the logo width. Please don't include px "
+msgstr ""
+
+#: inc/theme-customizer.php:240
+msgid "Show or hide the topbar"
+msgstr ""
+
+#: inc/theme-customizer.php:245 inc/theme-customizer.php:475
+#: inc/theme-customizer.php:867 inc/theme-customizer.php:1017
+#: inc/theme-customizer.php:1187 inc/theme-customizer.php:1244
+#: inc/theme-customizer.php:1261 inc/theme-customizer.php:1278
+#: inc/theme-customizer.php:1947
+msgid "Show"
+msgstr ""
+
+#: inc/theme-customizer.php:246 inc/theme-customizer.php:476
+msgid "Hide all"
+msgstr ""
+
+#: inc/theme-customizer.php:247 inc/theme-customizer.php:478
+msgid "Hide mobile only"
+msgstr ""
+
+#: inc/theme-customizer.php:258 inc/theme-customizer.php:924
+#: inc/theme-customizer.php:1029
+msgid "Background color"
+msgstr ""
+
+#: inc/theme-customizer.php:259
+msgid "Change the background color of the topbar"
+msgstr ""
+
+#: inc/theme-customizer.php:271 inc/theme-customizer.php:1042
+#: inc/theme-customizer.php:1081
+msgid "Text color"
+msgstr ""
+
+#: inc/theme-customizer.php:272
+msgid "Change the text color of the topbar"
+msgstr ""
+
+#: inc/theme-customizer.php:284 inc/theme-customizer.php:591
+msgid "Link color"
+msgstr ""
+
+#: inc/theme-customizer.php:285
+msgid "Change the link color of the topbar"
+msgstr ""
+
+#: inc/theme-customizer.php:297 inc/theme-customizer.php:604
+msgid "Link hover color"
+msgstr ""
+
+#: inc/theme-customizer.php:298
+msgid "Change the link hover color of the topbar"
+msgstr ""
+
+#: inc/theme-customizer.php:310 inc/theme-customizer.php:630
+msgid "Submenu background color"
+msgstr ""
+
+#: inc/theme-customizer.php:311
+msgid "Change the submenu background color from menu's in the topbar"
+msgstr ""
+
+#: inc/theme-customizer.php:323
+msgid "Submenu text color"
+msgstr ""
+
+#: inc/theme-customizer.php:324
+msgid "Change the submenu text color from menu's in the topbar"
+msgstr ""
+
+#: inc/theme-customizer.php:338
+msgid "Background color mobile"
+msgstr ""
+
+#: inc/theme-customizer.php:350
+msgid "Background color desktop"
+msgstr ""
+
+#: inc/theme-customizer.php:360
+msgid "Button text"
+msgstr ""
+
+#: inc/theme-customizer.php:361
+msgid "Add a cta button to the header next to the menu"
+msgstr ""
+
+#: inc/theme-customizer.php:374
+msgid "Button link"
+msgstr ""
+
+#: inc/theme-customizer.php:375
+msgid "Add the full link (e.g. http://yourdomain.com)"
+msgstr ""
+
+#: inc/theme-customizer.php:389
+msgid "Button target"
+msgstr ""
+
+#: inc/theme-customizer.php:390
+msgid "Open link in a new browser window?"
+msgstr ""
+
+#: inc/theme-customizer.php:395
+msgid "Same window"
+msgstr ""
+
+#: inc/theme-customizer.php:396
+msgid "New window"
+msgstr ""
+
+#: inc/theme-customizer.php:407 inc/theme-customizer.php:1129
+msgid "Button background color"
+msgstr ""
+
+#: inc/theme-customizer.php:408 inc/theme-customizer.php:1130
+msgid "Change the background color of the button"
+msgstr ""
+
+#: inc/theme-customizer.php:421 inc/theme-customizer.php:1153
+msgid "Button text color"
+msgstr ""
+
+#: inc/theme-customizer.php:422 inc/theme-customizer.php:1154
+msgid "Change the text color of the button"
+msgstr ""
+
+#: inc/theme-customizer.php:435
+msgid "Show button on desktop"
+msgstr ""
+
+#: inc/theme-customizer.php:440 inc/theme-customizer.php:457
+#: inc/theme-customizer.php:662 inc/theme-customizer.php:2106
+msgid "Yes"
+msgstr ""
+
+#: inc/theme-customizer.php:441 inc/theme-customizer.php:458
+#: inc/theme-customizer.php:663 inc/theme-customizer.php:2105
+msgid "No"
+msgstr ""
+
+#: inc/theme-customizer.php:452
+msgid "Show button on mobile"
+msgstr ""
+
+#: inc/theme-customizer.php:469
+msgid "Bottom header"
+msgstr ""
+
+#: inc/theme-customizer.php:470
+msgid "Display the bottom header with contact details"
+msgstr ""
+
+#: inc/theme-customizer.php:477
+msgid "Hide desktop only"
+msgstr ""
+
+#: inc/theme-customizer.php:489
+msgid "Bottom header background type"
+msgstr ""
+
+#: inc/theme-customizer.php:490
+msgid ""
+"Make the bottom header overlay the slider / page heading for transparent "
+"background"
+msgstr ""
+
+#: inc/theme-customizer.php:495
+msgid "Transparent background"
+msgstr ""
+
+#: inc/theme-customizer.php:496
+msgid "No transparent background"
+msgstr ""
+
+#: inc/theme-customizer.php:507
+msgid "Bottom header opacity"
+msgstr ""
+
+#: inc/theme-customizer.php:508
+msgid "Opacity range is from 0 to 1 (example: 0.6)"
+msgstr ""
+
+#: inc/theme-customizer.php:521
+msgid "Bottom header background color"
+msgstr ""
+
+#: inc/theme-customizer.php:533
+msgid "Bottom header text color"
+msgstr ""
+
+#: inc/theme-customizer.php:545
+msgid "Bottom header desktop alignment"
+msgstr ""
+
+#: inc/theme-customizer.php:546
+msgid ""
+"Change the alignment of the icon box widgets in the header for desktop "
+"screen. Default is 93"
+msgstr ""
+
+#: inc/theme-customizer.php:558
+msgid "Bottom header tablet alignment"
+msgstr ""
+
+#: inc/theme-customizer.php:559
+msgid ""
+"Change the alignment of the icon box widgets in the header for tablet "
+"screen. Default is 20"
+msgstr ""
+
+#: inc/theme-customizer.php:573
+msgid "Sticky navigation"
+msgstr ""
+
+#: inc/theme-customizer.php:574
+msgid "Enable the sticky navigation"
+msgstr ""
+
+#: inc/theme-customizer.php:579
+msgid "Static"
+msgstr ""
+
+#: inc/theme-customizer.php:580
+msgid "Sticky"
+msgstr ""
+
+#: inc/theme-customizer.php:592 inc/theme-customizer.php:677
+msgid "Change the color of the parent links"
+msgstr ""
+
+#: inc/theme-customizer.php:605
+msgid "Change the hover color of the parent links"
+msgstr ""
+
+#: inc/theme-customizer.php:617
+msgid "Link active color"
+msgstr ""
+
+#: inc/theme-customizer.php:618 inc/theme-customizer.php:690
+msgid "Change the color of the active parent link"
+msgstr ""
+
+#: inc/theme-customizer.php:631
+msgid "Change the background color of the submenu's"
+msgstr ""
+
+#: inc/theme-customizer.php:643
+msgid "Submenu link color"
+msgstr ""
+
+#: inc/theme-customizer.php:644
+msgid "Change the link color of the submenu's"
+msgstr ""
+
+#: inc/theme-customizer.php:656
+msgid "Enable doubletap touch laptop"
+msgstr ""
+
+#: inc/theme-customizer.php:657
+msgid ""
+"When using a touch laptop the main navigation parent links will open the "
+"submenu on the first tab, the second tab will go to the actual page"
+msgstr ""
+
+#: inc/theme-customizer.php:676
+msgid "Mobile link color"
+msgstr ""
+
+#: inc/theme-customizer.php:689
+msgid "Mobile link active color"
+msgstr ""
+
+#: inc/theme-customizer.php:702
+msgid "Mobile link background color"
+msgstr ""
+
+#: inc/theme-customizer.php:703
+msgid "Change the background color of the parent links"
+msgstr ""
+
+#: inc/theme-customizer.php:715
+msgid "Mobile submenu background color"
+msgstr ""
+
+#: inc/theme-customizer.php:716
+msgid "Change the background color of the submenu links"
+msgstr ""
+
+#: inc/theme-customizer.php:728
+msgid "Mobile submenu link color"
+msgstr ""
+
+#: inc/theme-customizer.php:729
+msgid "Change the text color of the submenu links"
+msgstr ""
+
+#: inc/theme-customizer.php:741
+msgid "Mobile submenu active link color"
+msgstr ""
+
+#: inc/theme-customizer.php:742
+msgid "Change the color of the active submenu link"
+msgstr ""
+
+#: inc/theme-customizer.php:755
+msgid "Top heading color"
+msgstr ""
+
+#: inc/theme-customizer.php:756
+msgid "Change the color of the small top heading"
+msgstr ""
+
+#: inc/theme-customizer.php:768
+msgid "Heading color"
+msgstr ""
+
+#: inc/theme-customizer.php:769
+msgid "Change the color of the heading"
+msgstr ""
+
+#: inc/theme-customizer.php:781
+msgid "Content color"
+msgstr ""
+
+#: inc/theme-customizer.php:782
+msgid "Change the color of the content text"
+msgstr ""
+
+#: inc/theme-customizer.php:794
+msgid "Primary button background color"
+msgstr ""
+
+#: inc/theme-customizer.php:795
+msgid "Change the background color of the primary button"
+msgstr ""
+
+#: inc/theme-customizer.php:807
+msgid "Primary button color"
+msgstr ""
+
+#: inc/theme-customizer.php:808
+msgid "Change the text color of the primary button"
+msgstr ""
+
+#: inc/theme-customizer.php:820
+msgid "Controls background color"
+msgstr ""
+
+#: inc/theme-customizer.php:821
+msgid "Change the background color of the slider controls"
+msgstr ""
+
+#: inc/theme-customizer.php:833
+msgid "Controls arrow color"
+msgstr ""
+
+#: inc/theme-customizer.php:834
+msgid "Change the color of the slider controls icon"
+msgstr ""
+
+#: inc/theme-customizer.php:845
+msgid "(Mobile) Caption background color"
+msgstr ""
+
+#: inc/theme-customizer.php:846
+msgid "Change the background color of the slider captions on mobile"
+msgstr ""
+
+#: inc/theme-customizer.php:861
+msgid "Page header"
+msgstr ""
+
+#: inc/theme-customizer.php:862
+msgid "Show or hide the page header on all pages"
+msgstr ""
+
+#: inc/theme-customizer.php:868 inc/theme-customizer.php:1018
+#: inc/theme-customizer.php:1188 inc/theme-customizer.php:1245
+#: inc/theme-customizer.php:1262 inc/theme-customizer.php:1279
+#: inc/theme-customizer.php:1347 inc/theme-customizer.php:1948
+msgid "Hide"
+msgstr ""
+
+#: inc/theme-customizer.php:879
+msgid "Page header alignment"
+msgstr ""
+
+#: inc/theme-customizer.php:880
+msgid "Change the alignment of the page header titles"
+msgstr ""
+
+#: inc/theme-customizer.php:885 inc/theme-customizer.php:1348
+msgid "Left"
+msgstr ""
+
+#: inc/theme-customizer.php:886
+msgid "Center"
+msgstr ""
+
+#: inc/theme-customizer.php:887 inc/theme-customizer.php:1349
+msgid "Right"
+msgstr ""
+
+#: inc/theme-customizer.php:898
+msgid "Page title color"
+msgstr ""
+
+#: inc/theme-customizer.php:899
+msgid "Change the color of the page title"
+msgstr ""
+
+#: inc/theme-customizer.php:911
+msgid "Subtitle color"
+msgstr ""
+
+#: inc/theme-customizer.php:912
+msgid "Change the color of the subtitle"
+msgstr ""
+
+#: inc/theme-customizer.php:925
+msgid "Change the background color of the page header"
+msgstr ""
+
+#: inc/theme-customizer.php:936
+msgid "Background image"
+msgstr ""
+
+#: inc/theme-customizer.php:937
+msgid "Add a background image to the page header"
+msgstr ""
+
+#: inc/theme-customizer.php:949
+msgid "Background position"
+msgstr ""
+
+#: inc/theme-customizer.php:954
+msgid "Left Top"
+msgstr ""
+
+#: inc/theme-customizer.php:955
+msgid "Left Center"
+msgstr ""
+
+#: inc/theme-customizer.php:956
+msgid "Left Bottom"
+msgstr ""
+
+#: inc/theme-customizer.php:957
+msgid "Right Top"
+msgstr ""
+
+#: inc/theme-customizer.php:958
+msgid "Right Center"
+msgstr ""
+
+#: inc/theme-customizer.php:959
+msgid "Right Bottom"
+msgstr ""
+
+#: inc/theme-customizer.php:960
+msgid "Center Top"
+msgstr ""
+
+#: inc/theme-customizer.php:961
+msgid "Center Center"
+msgstr ""
+
+#: inc/theme-customizer.php:962
+msgid "Center Bottom"
+msgstr ""
+
+#: inc/theme-customizer.php:974
+msgid "Background repeat"
+msgstr ""
+
+#: inc/theme-customizer.php:979
+msgid "No repeat"
+msgstr ""
+
+#: inc/theme-customizer.php:980
+msgid "Repeat"
+msgstr ""
+
+#: inc/theme-customizer.php:992
+msgid "Background size"
+msgstr ""
+
+#: inc/theme-customizer.php:997
+msgid "Default"
+msgstr ""
+
+#: inc/theme-customizer.php:998
+msgid "Cover"
+msgstr ""
+
+#: inc/theme-customizer.php:1012
+msgid "Show or hide the breadcrumbs on all pages"
+msgstr ""
+
+#: inc/theme-customizer.php:1030
+msgid "Change the background color of the breadcrumbs"
+msgstr ""
+
+#: inc/theme-customizer.php:1043
+msgid "Change the color of the breadcrumb links"
+msgstr ""
+
+#: inc/theme-customizer.php:1055
+msgid "Active color"
+msgstr ""
+
+#: inc/theme-customizer.php:1056
+msgid "Change the color of the active breadcrumb link"
+msgstr ""
+
+#: inc/theme-customizer.php:1069
+msgid "Content background color"
+msgstr ""
+
+#: inc/theme-customizer.php:1070
+msgid "Change the background color of the theme"
+msgstr ""
+
+#: inc/theme-customizer.php:1082
+msgid "Change the color of the content texts"
+msgstr ""
+
+#: inc/theme-customizer.php:1093
+msgid "Widget title color"
+msgstr ""
+
+#: inc/theme-customizer.php:1094
+msgid "Change the color of the widget titles"
+msgstr ""
+
+#: inc/theme-customizer.php:1105
+msgid "Primary color"
+msgstr ""
+
+#: inc/theme-customizer.php:1106
+msgid "Change the primary color scheme"
+msgstr ""
+
+#: inc/theme-customizer.php:1117
+msgid "Secondary color"
+msgstr ""
+
+#: inc/theme-customizer.php:1118
+msgid "Change the secondary color scheme"
+msgstr ""
+
+#: inc/theme-customizer.php:1141
+msgid "Button hover background color"
+msgstr ""
+
+#: inc/theme-customizer.php:1142
+msgid "Change the background color of the button on hover"
+msgstr ""
+
+#: inc/theme-customizer.php:1164
+msgid "Boxed layout"
+msgstr ""
+
+#: inc/theme-customizer.php:1165
+msgid "Enable the boxed layout"
+msgstr ""
+
+#: inc/theme-customizer.php:1170 inc/theme-customizer.php:1367
+#: inc/theme-customizer.php:1384 inc/theme-customizer.php:1401
+#: inc/theme-customizer.php:2085
+msgid "Disable"
+msgstr ""
+
+#: inc/theme-customizer.php:1171 inc/theme-customizer.php:1366
+#: inc/theme-customizer.php:1383 inc/theme-customizer.php:1400
+#: inc/theme-customizer.php:2084
+msgid "Enable"
+msgstr ""
+
+#: inc/theme-customizer.php:1181
+msgid "Scroll to top button"
+msgstr ""
+
+#: inc/theme-customizer.php:1182
+msgid "Enable the scroll to top button"
+msgstr ""
+
+#: inc/theme-customizer.php:1200
+msgid "Blog layout"
+msgstr ""
+
+#: inc/theme-customizer.php:1201
+msgid "Change the layout of the blog post page"
+msgstr ""
+
+#: inc/theme-customizer.php:1206
+msgid "List (default)"
+msgstr ""
+
+#: inc/theme-customizer.php:1207
+msgid "Grid"
+msgstr ""
+
+#: inc/theme-customizer.php:1217
+msgid "Blog grid columns"
+msgstr ""
+
+#: inc/theme-customizer.php:1218
+msgid "Change the amount of columns"
+msgstr ""
+
+#: inc/theme-customizer.php:1223
+msgid "2 columns"
+msgstr ""
+
+#: inc/theme-customizer.php:1224
+msgid "3 columns"
+msgstr ""
+
+#: inc/theme-customizer.php:1225
+msgid "4 columns"
+msgstr ""
+
+#: inc/theme-customizer.php:1226
+msgid "5 columns"
+msgstr ""
+
+#: inc/theme-customizer.php:1227
+msgid "6 columns"
+msgstr ""
+
+#: inc/theme-customizer.php:1238
+msgid "Display date on image"
+msgstr ""
+
+#: inc/theme-customizer.php:1239
+msgid "Display the post date on the image"
+msgstr ""
+
+#: inc/theme-customizer.php:1255
+msgid "Display post metadata"
+msgstr ""
+
+#: inc/theme-customizer.php:1256
+msgid "Show or hide the blog post metadata"
+msgstr ""
+
+#: inc/theme-customizer.php:1272
+msgid "Display comment section"
+msgstr ""
+
+#: inc/theme-customizer.php:1273
+msgid "Show or hide the comment section on all blog posts"
+msgstr ""
+
+#: inc/theme-customizer.php:1284 template-parts/blog-grid.php:26
+#: template-parts/content-single.php:25 template-parts/content.php:26
+msgid "By "
+msgstr ""
+
+#: inc/theme-customizer.php:1289
+msgid "Written by text"
+msgstr ""
+
+#: inc/theme-customizer.php:1290
+msgid "Change the 'by' text in the post meta"
+msgstr ""
+
+#: inc/theme-customizer.php:1301
+msgid "Read more text"
+msgstr ""
+
+#: inc/theme-customizer.php:1302
+msgid "Change the read more link text"
+msgstr ""
+
+#: inc/theme-customizer.php:1313
+msgid "Custom excerpt length"
+msgstr ""
+
+#: inc/theme-customizer.php:1314
+msgid "Change the excerpt length for the blog page posts (e.g. 80)"
+msgstr ""
+
+#: inc/theme-customizer.php:1330
+msgid "Products per page"
+msgstr ""
+
+#: inc/theme-customizer.php:1342
+msgid "Sidebar on single product pages"
+msgstr ""
+
+#: inc/theme-customizer.php:1360
+msgid "Single product image zoom"
+msgstr ""
+
+#: inc/theme-customizer.php:1361
+msgid "Use the WooCommerce product image zoom. Changes are visible on the front-end"
+msgstr ""
+
+#: inc/theme-customizer.php:1377
+msgid "Single product image lightbox"
+msgstr ""
+
+#: inc/theme-customizer.php:1378
+msgid ""
+"Use the WooCommerce product image lightbox. Changes are visible on the "
+"front-end"
+msgstr ""
+
+#: inc/theme-customizer.php:1394
+msgid "Single product image gallery slider"
+msgstr ""
+
+#: inc/theme-customizer.php:1395
+msgid ""
+"Use the WooCommerce product image gallery slider. Changes are visible on "
+"the front-end"
+msgstr ""
+
+#: inc/theme-customizer.php:1415
+msgid "Top footer columns"
+msgstr ""
+
+#: inc/theme-customizer.php:1416
+msgid "Select how many columns you want to display in the top footer"
+msgstr ""
+
+#: inc/theme-customizer.php:1420
+msgid "Hide top footer"
+msgstr ""
+
+#: inc/theme-customizer.php:1435
+msgid "Top footer text color"
+msgstr ""
+
+#: inc/theme-customizer.php:1436
+msgid "Change the text color of the top footer"
+msgstr ""
+
+#: inc/theme-customizer.php:1447
+msgid "Top footer background color"
+msgstr ""
+
+#: inc/theme-customizer.php:1448
+msgid "Change the background color of the top footer"
+msgstr ""
+
+#: inc/theme-customizer.php:1460
+msgid "Main footer columns"
+msgstr ""
+
+#: inc/theme-customizer.php:1461
+msgid "Select how many columns you want to display in the middle footer"
+msgstr ""
+
+#: inc/theme-customizer.php:1465
+msgid "Hide main footer"
+msgstr ""
+
+#: inc/theme-customizer.php:1480
+msgid "Main footer widget title color"
+msgstr ""
+
+#: inc/theme-customizer.php:1481
+msgid "Change the widget title color of the main footer"
+msgstr ""
+
+#: inc/theme-customizer.php:1493
+msgid "Main footer text color"
+msgstr ""
+
+#: inc/theme-customizer.php:1494
+msgid "Change the text color of the main footer"
+msgstr ""
+
+#: inc/theme-customizer.php:1505
+msgid "Main footer link color"
+msgstr ""
+
+#: inc/theme-customizer.php:1506
+msgid "Change the link color of the main footer"
+msgstr ""
+
+#: inc/theme-customizer.php:1517
+msgid "Main footer link color hover"
+msgstr ""
+
+#: inc/theme-customizer.php:1518
+msgid "Change the link hover color of the main footer"
+msgstr ""
+
+#: inc/theme-customizer.php:1529
+msgid "Main footer background color"
+msgstr ""
+
+#: inc/theme-customizer.php:1530
+msgid "Change the background color of the main footer"
+msgstr ""
+
+#: inc/theme-customizer.php:1542
+msgid "Footer background pattern"
+msgstr ""
+
+#: inc/theme-customizer.php:1543
+msgid "Change the background image of the footer"
+msgstr ""
+
+#: inc/theme-customizer.php:1556
+msgid "Bottom footer background color"
+msgstr ""
+
+#: inc/theme-customizer.php:1557
+msgid "Change the background color of the bottom footer"
+msgstr ""
+
+#: inc/theme-customizer.php:1568
+msgid "Bottom footer text color"
+msgstr ""
+
+#: inc/theme-customizer.php:1569
+msgid "Change the text color of the bottom footer"
+msgstr ""
+
+#: inc/theme-customizer.php:1580
+msgid "Bottom footer link color"
+msgstr ""
+
+#: inc/theme-customizer.php:1581
+msgid "Change the link color of the bottom footer"
+msgstr ""
+
+#: inc/theme-customizer.php:1592
+msgid "Bottom footer left text"
+msgstr ""
+
+#: inc/theme-customizer.php:1593
+msgid "Add a text to the left side of the bottom footer"
+msgstr ""
+
+#: inc/theme-customizer.php:1605
+msgid "Bottom footer right text"
+msgstr ""
+
+#: inc/theme-customizer.php:1606
+msgid "Add a text to the right side of the bottom footer"
+msgstr ""
+
+#: inc/theme-customizer.php:1622
+msgid "Primary font"
+msgstr ""
+
+#: inc/theme-customizer.php:1623
+msgid "Change the content text font"
+msgstr ""
+
+#: inc/theme-customizer.php:1636
+msgid "Primary font size"
+msgstr ""
+
+#: inc/theme-customizer.php:1637 inc/theme-customizer.php:1686
+#: inc/theme-customizer.php:1704 inc/theme-customizer.php:1722
+#: inc/theme-customizer.php:1740 inc/theme-customizer.php:1758
+#: inc/theme-customizer.php:1776 inc/theme-customizer.php:1794
+#: inc/theme-customizer.php:1812 inc/theme-customizer.php:1830
+#: inc/theme-customizer.php:1848 inc/theme-customizer.php:1866
+#: inc/theme-customizer.php:1884
+msgid "Please don't include px in your string"
+msgstr ""
+
+#: inc/theme-customizer.php:1654
+msgid "Secondary font"
+msgstr ""
+
+#: inc/theme-customizer.php:1655
+msgid "Change the heading and title font"
+msgstr ""
+
+#: inc/theme-customizer.php:1668
+msgid "First word widget title"
+msgstr ""
+
+#: inc/theme-customizer.php:1669
+msgid "Change the font weight of the first widget title word"
+msgstr ""
+
+#: inc/theme-customizer.php:1674
+msgid "Normal weight"
+msgstr ""
+
+#: inc/theme-customizer.php:1675
+msgid "Bold weight"
+msgstr ""
+
+#: inc/theme-customizer.php:1685
+msgid "Large widget title size"
+msgstr ""
+
+#: inc/theme-customizer.php:1703
+msgid "Normal widget title size"
+msgstr ""
+
+#: inc/theme-customizer.php:1721
+msgid "Main navigation link size"
+msgstr ""
+
+#: inc/theme-customizer.php:1739
+msgid "Main navigation submenu link size"
+msgstr ""
+
+#: inc/theme-customizer.php:1757
+msgid "Page header title size"
+msgstr ""
+
+#: inc/theme-customizer.php:1775
+msgid "Footer widget title size"
+msgstr ""
+
+#: inc/theme-customizer.php:1793
+msgid "Header 1 (H1) size"
+msgstr ""
+
+#: inc/theme-customizer.php:1811
+msgid "Header 2 (H2) size"
+msgstr ""
+
+#: inc/theme-customizer.php:1829
+msgid "Header 3 (H3) size"
+msgstr ""
+
+#: inc/theme-customizer.php:1847
+msgid "Header 4 (H4) size"
+msgstr ""
+
+#: inc/theme-customizer.php:1865
+msgid "Header 5 (H5) size"
+msgstr ""
+
+#: inc/theme-customizer.php:1883
+msgid "Header 6 (H6) size"
+msgstr ""
+
+#: inc/theme-customizer.php:1901
+msgid "404 page logo"
+msgstr ""
+
+#: inc/theme-customizer.php:1902
+msgid ""
+"To reach the 404 page navigate to a page that don't exisint via the browser "
+"domain bar"
+msgstr ""
+
+#: inc/theme-customizer.php:1916
+msgid "404 page text title"
+msgstr ""
+
+#: inc/theme-customizer.php:1929
+msgid "404 page text"
+msgstr ""
+
+#: inc/theme-customizer.php:1942
+msgid "404 page search bar"
+msgstr ""
+
+#: inc/theme-customizer.php:1982
+msgid "(Translate)"
+msgstr ""
+
+#: inc/theme-customizer.php:1983
+msgid "Translate the weekday"
+msgstr ""
+
+#: inc/theme-customizer.php:1995
+msgid "(From)"
+msgstr ""
+
+#: inc/theme-customizer.php:1996
+msgid "Example: 7:00 AM or 08:00"
+msgstr ""
+
+#: inc/theme-customizer.php:2008
+msgid "(To)"
+msgstr ""
+
+#: inc/theme-customizer.php:2009
+msgid "Example: 5:00 PM or 17:00"
+msgstr ""
+
+#: inc/theme-customizer.php:2022
+msgid "Closed Text"
+msgstr ""
+
+#: inc/theme-customizer.php:2023
+msgid "Leave \"From\" and \"To\" fields empty to display the closed message"
+msgstr ""
+
+#: inc/theme-customizer.php:2035
+msgid "Separator"
+msgstr ""
+
+#: inc/theme-customizer.php:2036
+msgid "Separator symbol between opening hours"
+msgstr ""
+
+#: inc/theme-customizer.php:2048
+msgid "Extra info"
+msgstr ""
+
+#: inc/theme-customizer.php:2049
+msgid "Define lunchbreaks or vacations"
+msgstr ""
+
+#: inc/theme-customizer.php:2061
+msgid "Font Awesome version"
+msgstr ""
+
+#: inc/theme-customizer.php:2062
+msgid ""
+"Change the version of the Font Awesome icon library. Please note that v5 "
+"has different icon names and the design of some icons are slightly different"
+msgstr ""
+
+#: inc/theme-customizer.php:2067
+msgid "Version 4"
+msgstr ""
+
+#: inc/theme-customizer.php:2068
+msgid "Version 5"
+msgstr ""
+
+#: inc/theme-customizer.php:2078
+msgid "Icon fallback support"
+msgstr ""
+
+#: inc/theme-customizer.php:2079
+msgid ""
+"An extra stylesheet and script file will be loaded to your website to "
+"ensure the icons with old names (v4) are displayed as icons from v5. "
+"However, it is recommend to go through your website and replace all old "
+"icon names with names from v5 so you don't have to enable this option"
+msgstr ""
+
+#: inc/theme-customizer.php:2099
+msgid "Show ACF admin tab"
+msgstr ""
+
+#: inc/theme-customizer.php:2100
+msgid ""
+"If you want to use the ACF plugin and make the admin tab visible set this "
+"to \"Yes\". Please do not change if you don't know what you're doing."
+msgstr ""
+
+#: inc/theme-filters.php:149
+msgid "Read More"
+msgstr ""
+
+#: inc/theme-filters.php:202
+msgid "Big Widget Title"
+msgstr ""
+
+#: inc/theme-filters.php:205
+msgid "Use bigger widget title"
+msgstr ""
+
+#: inc/theme-filters.php:210
+msgid "Small Widget Title"
+msgstr ""
+
+#: inc/theme-filters.php:213
+msgid "Use smaller widget title"
+msgstr ""
+
+#: inc/theme-filters.php:218
+msgid "White Widget Title"
+msgstr ""
+
+#: inc/theme-filters.php:221
+msgid "Use white colored title"
+msgstr ""
+
+#: inc/theme-filters.php:226
+msgid "Featured Box"
+msgstr ""
+
+#: inc/theme-filters.php:229
+msgid "Set widget in color featured box"
+msgstr ""
+
+#: inc/theme-filters.php:234
+msgid "White Featured Box"
+msgstr ""
+
+#: inc/theme-filters.php:237
+msgid "Set widget in white featured box"
+msgstr ""
+
+#: inc/theme-filters.php:331
+msgid "Homepage"
+msgstr ""
+
+#: inc/theme-filters.php:332
+msgid ""
+"Slider need to configured manually. Please select the slider page template "
+"to enable the slider on the page"
+msgstr ""
+
+#: inc/theme-filters.php:340
+msgid "About Us"
+msgstr ""
+
+#: inc/theme-filters.php:348
+msgid "Careers"
+msgstr ""
+
+#: inc/theme-filters.php:356
+msgid "Faq"
+msgstr ""
+
+#: inc/theme-filters.php:364
+msgid "Single Location"
+msgstr ""
+
+#: inc/theme-filters.php:372
+msgid "Price List"
+msgstr ""
+
+#: inc/theme-filters.php:380
+msgid "Services"
+msgstr ""
+
+#: inc/theme-filters.php:388
+msgid "Single Service"
+msgstr ""
+
+#: inc/theme-filters.php:396
+msgid "Single Therapist"
+msgstr ""
+
+#: inc/theme-filters.php:404
+msgid "Contact Us"
+msgstr ""
+
+#: inc/theme-sidebars.php:15
+msgid "Blog Sidebar"
+msgstr ""
+
+#: inc/theme-sidebars.php:16
+msgid "Widgets for the blog sidebar"
+msgstr ""
+
+#: inc/theme-sidebars.php:26
+msgid "Topbar - Left Side"
+msgstr ""
+
+#: inc/theme-sidebars.php:27
+msgid ""
+"Widgets for the left topbar side. Icon box, social, menu or text widget "
+"only is recommended. If no widgets are added the site tagline under "
+"Settings > Reading will be displayed"
+msgstr ""
+
+#: inc/theme-sidebars.php:35
+msgid "Topbar - Right Side"
+msgstr ""
+
+#: inc/theme-sidebars.php:36
+msgid ""
+"Widgets for the right topbar side. Icon box, social, menu or text widget "
+"only is recommended. If no widgets are added the default topbar menu under "
+"Appearance > Menu's will be displayed"
+msgstr ""
+
+#: inc/theme-sidebars.php:45
+msgid ""
+"Contact details in the header. Icon box and social widget only is "
+"recommended."
+msgstr ""
+
+#: inc/theme-sidebars.php:53
+msgid "Page Sidebar"
+msgstr ""
+
+#: inc/theme-sidebars.php:54
+msgid "Widgets for the default page(s) sidebar"
+msgstr ""
+
+#: inc/theme-sidebars.php:64
+msgid "Shop Sidebar"
+msgstr ""
+
+#: inc/theme-sidebars.php:65
+msgid "Widgets for the shop (WooCommerce) sidebar"
+msgstr ""
+
+#: inc/theme-sidebars.php:77
+msgid "Footer - Top"
+msgstr ""
+
+#: inc/theme-sidebars.php:78
+msgid ""
+"Widgets for the top footer. Change column amount at: Appearance &gt; "
+"Customize &gt; Theme Options &gt; Top Footer"
+msgstr ""
+
+#: inc/theme-sidebars.php:91
+msgid "Footer - Main"
+msgstr ""
+
+#: inc/theme-sidebars.php:92
+msgid ""
+"Widgets for the main footer. Change column amount at: Appearance &gt; "
+"Customize &gt; Theme Options &gt; Main Footer"
+msgstr ""
+
+#: seachform.php:11
+msgid "Search for:"
+msgstr ""
+
+#: seachform.php:12
+msgid "Search..."
+msgstr ""
+
+#: seachform.php:14
+msgid "Search"
+msgstr ""
+
+#: template-parts/blog-grid.php:34 template-parts/content-single.php:33
+#: template-parts/content.php:34
+msgid "Comments"
+msgstr ""
+
+#: template-parts/content-none.php:12
+msgid "Nothing Found"
+msgstr ""
+
+#: template-parts/content-none.php:17
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:21
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:25
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: template-parts/content-page.php:16
+msgid "Pages:"
+msgstr ""
+
+#: template-parts/page-header.php:87
+msgid "Search Results For"
+msgstr ""
+
+#: template-parts/page-header.php:91
+msgid "Error 404"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Physio-qt"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "http://demo.qreativethemes.com/physio"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "A WordPress Theme for Physical Therapy & Medical Clinic by QreativeThemes"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "QreativeThemes"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://qreativethemes.com/"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Front Page Slider"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Front Page Alternative Slider"
+msgstr ""
+
+#: comments.php:31
+msgctxt "comments title"
+msgid "One comment on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:1206
+#: inc/tgmpa/class-tgm-plugin-activation.php:3033
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2427
+#. translators: 1: install status, 2: update status
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2473
+#. translators: 1: number of plugins.
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2567
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""

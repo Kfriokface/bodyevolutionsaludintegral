@@ -1,0 +1,701 @@
+# Copyright (C) 2020 QreativeThemes
+# This file is distributed under the same license as the Physio Toolkit package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Physio Toolkit 1.5.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/physio-toolkit\n"
+"POT-Creation-Date: 2020-07-03 10:11:02+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2020-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: grunt-wp-i18n 1.0.3\n"
+
+#: includes/widgets/files/widget-testimonials.php:200
+msgid "1"
+msgstr ""
+
+#: includes/widgets/files/widget-testimonials.php:201
+msgid "2"
+msgstr ""
+
+#: includes/widgets/files/widget-testimonials.php:202
+msgid "3"
+msgstr ""
+
+#: includes/widgets/files/widget-testimonials.php:203
+msgid "4"
+msgstr ""
+
+#: includes/widgets/files/widget-brand-image.php:17
+msgid "QT: Brand Logo"
+msgstr ""
+
+#: includes/widgets/files/widget-brand-image.php:19
+msgid "Add a small logo of a company or brand"
+msgstr ""
+
+#: includes/widgets/files/widget-brand-image.php:94
+msgid "Upload Image"
+msgstr ""
+
+#: includes/widgets/files/widget-brand-image.php:100
+msgid "Add Link (optional)"
+msgstr ""
+
+#: includes/widgets/files/widget-brand-image.php:106
+#: includes/widgets/files/widget-brochure.php:125
+msgid "Open link in new browser tab"
+msgstr ""
+
+#: includes/widgets/files/widget-brand-image.php:110
+msgid "Tooltip text (optional)"
+msgstr ""
+
+#: includes/widgets/files/widget-brand-image.php:115
+msgid "Image alt text (optional)"
+msgstr ""
+
+#: includes/widgets/files/widget-brand-image.php:121
+msgid "Add border around image?"
+msgstr ""
+
+#: includes/widgets/files/widget-brand-image.php:126
+msgid "Enable opacity hover effect?"
+msgstr ""
+
+#: includes/widgets/files/widget-brochure.php:17
+msgid "QT: Brochure"
+msgstr ""
+
+#: includes/widgets/files/widget-brochure.php:19
+msgid "Add a brochure or PDF file to your website"
+msgstr ""
+
+#: includes/widgets/files/widget-brochure.php:91
+#: includes/widgets/files/widget-facebook.php:118
+#: includes/widgets/files/widget-opening-hours.php:216
+#: includes/widgets/files/widget-single-testimonial.php:120
+#: includes/widgets/files/widget-testimonials.php:193
+msgid "Widget Title"
+msgstr ""
+
+#: includes/widgets/files/widget-brochure.php:98
+#: includes/widgets/files/widget-brochure.php:106
+#: includes/widgets/files/widget-counter.php:122
+#: includes/widgets/files/widget-counter.php:130
+#: includes/widgets/files/widget-cta-button.php:99
+#: includes/widgets/files/widget-cta-button.php:107
+#: includes/widgets/files/widget-icon-box.php:105
+#: includes/widgets/files/widget-icon-box.php:113
+msgid "Icon"
+msgstr ""
+
+#: includes/widgets/files/widget-brochure.php:113
+msgid "Upload File"
+msgstr ""
+
+#: includes/widgets/files/widget-brochure.php:119
+msgid "Text on Button"
+msgstr ""
+
+#: includes/widgets/files/widget-counter.php:17
+msgid "QT: Counter"
+msgstr ""
+
+#: includes/widgets/files/widget-counter.php:19
+msgid "Animated counter"
+msgstr ""
+
+#: includes/widgets/files/widget-counter.php:105
+msgid "Number"
+msgstr ""
+
+#: includes/widgets/files/widget-counter.php:110
+msgid "Symbol before number (optional)"
+msgstr ""
+
+#: includes/widgets/files/widget-counter.php:115
+msgid "Symbol after number (optional)"
+msgstr ""
+
+#: includes/widgets/files/widget-counter.php:137
+#: includes/widgets/files/widget-icon-box.php:120
+msgid "Title"
+msgstr ""
+
+#: includes/widgets/files/widget-counter.php:142
+msgid "Speed (1000 = 1s)"
+msgstr ""
+
+#: includes/widgets/files/widget-counter.php:148
+msgid "Use light text for the counter?"
+msgstr ""
+
+#: includes/widgets/files/widget-cta-banner.php:17
+msgid "QT: Call To Action"
+msgstr ""
+
+#: includes/widgets/files/widget-cta-banner.php:19
+msgid "Call to action banner"
+msgstr ""
+
+#: includes/widgets/files/widget-cta-banner.php:115
+msgid ""
+"Please add the background image to the page builder row, instead of the "
+"widget settings. See %s how-to."
+msgstr ""
+
+#: includes/widgets/files/widget-cta-banner.php:120
+msgid "Title:"
+msgstr ""
+
+#: includes/widgets/files/widget-cta-banner.php:125
+msgid "Subtitle:"
+msgstr ""
+
+#: includes/widgets/files/widget-cta-banner.php:130
+msgid "Buttons:"
+msgstr ""
+
+#: includes/widgets/files/widget-cta-banner.php:137
+msgid ""
+"Example of the button shortcode: [button "
+"href=\"http://yourdomain.com/services\"] Text on button [/button]"
+msgstr ""
+
+#: includes/widgets/files/widget-cta-banner.php:139
+msgid "See %s for all button attributes"
+msgstr ""
+
+#: includes/widgets/files/widget-cta-banner.php:146
+msgid "Title color:"
+msgstr ""
+
+#: includes/widgets/files/widget-cta-banner.php:151
+msgid "Subtitle color:"
+msgstr ""
+
+#: includes/widgets/files/widget-cta-banner.php:156
+msgid "Layout:"
+msgstr ""
+
+#: includes/widgets/files/widget-cta-banner.php:158
+msgid "Inline (Text left, buttons right)"
+msgstr ""
+
+#: includes/widgets/files/widget-cta-banner.php:159
+msgid "Block (Text top, button bottom)"
+msgstr ""
+
+#: includes/widgets/files/widget-cta-button.php:17
+msgid "QT: Button"
+msgstr ""
+
+#: includes/widgets/files/widget-cta-button.php:19
+msgid "Default theme button"
+msgstr ""
+
+#: includes/widgets/files/widget-cta-button.php:114
+#: includes/widgets/files/widget-icon-box.php:125
+msgid "Text"
+msgstr ""
+
+#: includes/widgets/files/widget-cta-button.php:119
+#: includes/widgets/files/widget-icon-box.php:130
+#: includes/widgets/files/widget-social-icons.php:192
+#: includes/widgets/files/widget-social-icons.php:197
+#: includes/widgets/files/widget-social-icons.php:202
+#: includes/widgets/files/widget-social-icons.php:207
+#: includes/widgets/files/widget-social-icons.php:212
+#: includes/widgets/files/widget-social-icons.php:217
+#: includes/widgets/files/widget-social-icons.php:222
+#: includes/widgets/files/widget-social-icons.php:227
+#: includes/widgets/files/widget-social-icons.php:232
+#: includes/widgets/files/widget-social-icons.php:237
+msgid "Link"
+msgstr ""
+
+#: includes/widgets/files/widget-cta-button.php:125
+#: includes/widgets/files/widget-icon-box.php:136
+#: includes/widgets/files/widget-social-icons.php:188
+msgid "Open link in new browser tab?"
+msgstr ""
+
+#: includes/widgets/files/widget-cta-button.php:129
+msgid "Button style"
+msgstr ""
+
+#: includes/widgets/files/widget-cta-button.php:131
+msgid "Primary"
+msgstr ""
+
+#: includes/widgets/files/widget-cta-button.php:132
+msgid "Outline Dark"
+msgstr ""
+
+#: includes/widgets/files/widget-cta-button.php:133
+msgid "Outline Light"
+msgstr ""
+
+#: includes/widgets/files/widget-cta-button.php:139
+msgid "Make button full width?"
+msgstr ""
+
+#: includes/widgets/files/widget-facebook.php:17
+msgid "QT: Facebook"
+msgstr ""
+
+#: includes/widgets/files/widget-facebook.php:19
+msgid "Display your Facebook page box"
+msgstr ""
+
+#: includes/widgets/files/widget-facebook.php:123
+msgid "Facebook Page URL"
+msgstr ""
+
+#: includes/widgets/files/widget-facebook.php:128
+msgid "Height (in pixels)"
+msgstr ""
+
+#: includes/widgets/files/widget-facebook.php:133
+msgid "Width (in pixels)"
+msgstr ""
+
+#: includes/widgets/files/widget-facebook.php:139
+msgid "Hide cover photo in the header"
+msgstr ""
+
+#: includes/widgets/files/widget-facebook.php:144
+msgid "Show profile photos when friends like this"
+msgstr ""
+
+#: includes/widgets/files/widget-facebook.php:149
+msgid "Show posts from the Page's timeline"
+msgstr ""
+
+#: includes/widgets/files/widget-facebook.php:154
+msgid "Use the small header instead"
+msgstr ""
+
+#: includes/widgets/files/widget-featured-page.php:17
+msgid "QT: Featured Page"
+msgstr ""
+
+#: includes/widgets/files/widget-featured-page.php:19
+msgid "Featured page can be used to list your service pages"
+msgstr ""
+
+#: includes/widgets/files/widget-featured-page.php:136
+msgid "Read More"
+msgstr ""
+
+#: includes/widgets/files/widget-featured-page.php:141
+msgid "Select page"
+msgstr ""
+
+#: includes/widgets/files/widget-featured-page.php:154
+msgid ""
+"The image and excerpt can be changed by editing the above selected page via "
+"the Pages tab. %s Please see %s for a screenshot how-to"
+msgstr ""
+
+#: includes/widgets/files/widget-featured-page.php:159
+msgid "Read more text"
+msgstr ""
+
+#: includes/widgets/files/widget-featured-page.php:164
+msgid "Excerpt length"
+msgstr ""
+
+#: includes/widgets/files/widget-featured-page.php:165
+msgid "(180 = default | hide excerpt = 0)"
+msgstr ""
+
+#: includes/widgets/files/widget-google-map-iframe.php:17
+msgid "QT: Google Maps (Free)"
+msgstr ""
+
+#: includes/widgets/files/widget-google-map-iframe.php:19
+msgid "Display iframe embedded Google Map (free and no setup required)"
+msgstr ""
+
+#: includes/widgets/files/widget-google-map-iframe.php:95
+msgid "Address"
+msgstr ""
+
+#: includes/widgets/files/widget-google-map-iframe.php:100
+msgid "Map Zoom:"
+msgstr ""
+
+#: includes/widgets/files/widget-google-map-iframe.php:111
+msgid "Width"
+msgstr ""
+
+#: includes/widgets/files/widget-google-map-iframe.php:111
+msgid "(Default is 100)"
+msgstr ""
+
+#: includes/widgets/files/widget-google-map-iframe.php:115
+msgid "Unit"
+msgstr ""
+
+#: includes/widgets/files/widget-google-map-iframe.php:115
+msgid "(Default is %)"
+msgstr ""
+
+#: includes/widgets/files/widget-google-map-iframe.php:127
+msgid "Height"
+msgstr ""
+
+#: includes/widgets/files/widget-google-map-iframe.php:127
+msgid "(Default is 450)"
+msgstr ""
+
+#: includes/widgets/files/widget-icon-box.php:17
+msgid "QT: Icon Box"
+msgstr ""
+
+#: includes/widgets/files/widget-icon-box.php:19
+msgid "A box with an icon, heading and text"
+msgstr ""
+
+#: includes/widgets/files/widget-icon-box.php:130
+msgid "Optional"
+msgstr ""
+
+#: includes/widgets/files/widget-opening-hours.php:20
+msgid "QT: Opening Hours"
+msgstr ""
+
+#: includes/widgets/files/widget-opening-hours.php:22
+msgid "Show your opening hours"
+msgstr ""
+
+#: includes/widgets/files/widget-opening-hours.php:37
+msgid "Monday"
+msgstr ""
+
+#: includes/widgets/files/widget-opening-hours.php:38
+msgid "Tuesday"
+msgstr ""
+
+#: includes/widgets/files/widget-opening-hours.php:39
+msgid "Wednesday"
+msgstr ""
+
+#: includes/widgets/files/widget-opening-hours.php:40
+msgid "Thursday"
+msgstr ""
+
+#: includes/widgets/files/widget-opening-hours.php:41
+msgid "Friday"
+msgstr ""
+
+#: includes/widgets/files/widget-opening-hours.php:42
+msgid "Saturday"
+msgstr ""
+
+#: includes/widgets/files/widget-opening-hours.php:43
+msgid "Sunday"
+msgstr ""
+
+#: includes/widgets/files/widget-opening-hours.php:195
+msgid "Opening Hours"
+msgstr ""
+
+#: includes/widgets/files/widget-opening-hours.php:211
+msgid ""
+"By default the opening hours under Appearance → Customize → Theme Options → "
+"Opening Hours are displayed. There are cases where you need to show "
+"different opening hours (e.g. multiple locations). Leave all opening hours "
+"in the theme customizer empty and add them below to the fields to show "
+"different hours"
+msgstr ""
+
+#: includes/widgets/files/widget-opening-hours.php:229
+msgid "From"
+msgstr ""
+
+#: includes/widgets/files/widget-opening-hours.php:233
+msgid "To"
+msgstr ""
+
+#: includes/widgets/files/widget-opening-hours.php:243
+msgid "Time Separator"
+msgstr ""
+
+#: includes/widgets/files/widget-opening-hours.php:248
+msgid "Closed Text"
+msgstr ""
+
+#: includes/widgets/files/widget-opening-hours.php:250
+msgid "Leave both fields empty to display the closed message"
+msgstr ""
+
+#: includes/widgets/files/widget-opening-hours.php:255
+msgid "Highlight closed text?"
+msgstr ""
+
+#: includes/widgets/files/widget-opening-hours.php:259
+msgid "Extra Information (lunchbreaks, vacations)"
+msgstr ""
+
+#: includes/widgets/files/widget-recent-posts-block.php:17
+msgid "QT: Latest Blog Posts"
+msgstr ""
+
+#: includes/widgets/files/widget-recent-posts-block.php:19
+msgid "Displays latest blog posts"
+msgstr ""
+
+#: includes/widgets/files/widget-recent-posts-block.php:57
+msgid "More news"
+msgstr ""
+
+#: includes/widgets/files/widget-recent-posts-block.php:224
+msgid "Widget Title:"
+msgstr ""
+
+#: includes/widgets/files/widget-recent-posts-block.php:229
+msgid "Filter posts by Category"
+msgstr ""
+
+#: includes/widgets/files/widget-recent-posts-block.php:236
+msgid "All Categories"
+msgstr ""
+
+#: includes/widgets/files/widget-recent-posts-block.php:242
+msgid "Display number of posts"
+msgstr ""
+
+#: includes/widgets/files/widget-recent-posts-block.php:247
+msgid "Posts in a row"
+msgstr ""
+
+#: includes/widgets/files/widget-recent-posts-block.php:257
+msgid "Hide sticky posts?"
+msgstr ""
+
+#: includes/widgets/files/widget-recent-posts-block.php:262
+msgid "Hide post date?"
+msgstr ""
+
+#: includes/widgets/files/widget-recent-posts-block.php:266
+msgid "Read post text"
+msgstr ""
+
+#: includes/widgets/files/widget-recent-posts-block.php:271
+msgid "Link to blog page text"
+msgstr ""
+
+#: includes/widgets/files/widget-recent-posts-block.php:276
+msgid "Link to blog page"
+msgstr ""
+
+#: includes/widgets/files/widget-recent-posts-block.php:282
+msgid "Select a page"
+msgstr ""
+
+#: includes/widgets/files/widget-single-testimonial.php:17
+msgid "QT: Single Testimonial"
+msgstr ""
+
+#: includes/widgets/files/widget-single-testimonial.php:19
+msgid "Add a single testimonial"
+msgstr ""
+
+#: includes/widgets/files/widget-single-testimonial.php:125
+msgid "Author Image (optional)"
+msgstr ""
+
+#: includes/widgets/files/widget-single-testimonial.php:131
+msgid "Author Name"
+msgstr ""
+
+#: includes/widgets/files/widget-single-testimonial.php:136
+#: includes/widgets/files/widget-testimonials.php:243
+msgid "Author Description"
+msgstr ""
+
+#: includes/widgets/files/widget-single-testimonial.php:141
+#: includes/widgets/files/widget-testimonials.php:235
+msgid "Quote"
+msgstr ""
+
+#: includes/widgets/files/widget-single-testimonial.php:146
+msgid "Testimonial Style"
+msgstr ""
+
+#: includes/widgets/files/widget-single-testimonial.php:148
+msgid "Simple"
+msgstr ""
+
+#: includes/widgets/files/widget-single-testimonial.php:149
+msgid "Boxed"
+msgstr ""
+
+#: includes/widgets/files/widget-single-testimonial.php:154
+msgid "Alignment"
+msgstr ""
+
+#: includes/widgets/files/widget-single-testimonial.php:156
+msgid "Left"
+msgstr ""
+
+#: includes/widgets/files/widget-single-testimonial.php:157
+msgid "Center"
+msgstr ""
+
+#: includes/widgets/files/widget-single-testimonial.php:158
+msgid "Right"
+msgstr ""
+
+#: includes/widgets/files/widget-single-testimonial.php:163
+msgid "Quote Font Style"
+msgstr ""
+
+#: includes/widgets/files/widget-single-testimonial.php:165
+msgid "Italic"
+msgstr ""
+
+#: includes/widgets/files/widget-single-testimonial.php:166
+msgid "Normal"
+msgstr ""
+
+#: includes/widgets/files/widget-social-icons.php:17
+msgid "QT: Social Icons"
+msgstr ""
+
+#: includes/widgets/files/widget-social-icons.php:19
+msgid "Icons to link to your social media profiles"
+msgstr ""
+
+#: includes/widgets/files/widget-team-member.php:17
+msgid "QT: Team Member"
+msgstr ""
+
+#: includes/widgets/files/widget-team-member.php:19
+msgid "Display a team member"
+msgstr ""
+
+#: includes/widgets/files/widget-team-member.php:168
+msgid "Name"
+msgstr ""
+
+#: includes/widgets/files/widget-team-member.php:173
+msgid "Tag"
+msgstr ""
+
+#: includes/widgets/files/widget-team-member.php:178
+msgid "Image url"
+msgstr ""
+
+#: includes/widgets/files/widget-team-member.php:184
+msgid "Description"
+msgstr ""
+
+#: includes/widgets/files/widget-team-member.php:189
+msgid "Link to (optional)"
+msgstr ""
+
+#: includes/widgets/files/widget-team-member.php:194
+msgid "Link to text (optional)"
+msgstr ""
+
+#: includes/widgets/files/widget-team-member.php:199
+#: includes/widgets/files/widget-team-member.php:204
+#: includes/widgets/files/widget-team-member.php:209
+#: includes/widgets/files/widget-team-member.php:214
+msgid "URL"
+msgstr ""
+
+#: includes/widgets/files/widget-team-member.php:219
+msgid "Email Address"
+msgstr ""
+
+#: includes/widgets/files/widget-team-member.php:225
+msgid "Open social links in new browser tab?"
+msgstr ""
+
+#: includes/widgets/files/widget-testimonials.php:20
+msgid "QT: Testimonials"
+msgstr ""
+
+#: includes/widgets/files/widget-testimonials.php:22
+msgid "Display a testimonial carousel"
+msgstr ""
+
+#: includes/widgets/files/widget-testimonials.php:198
+msgid "Show amount of testimonials in a row"
+msgstr ""
+
+#: includes/widgets/files/widget-testimonials.php:208
+msgid "Auto cycle carousel"
+msgstr ""
+
+#: includes/widgets/files/widget-testimonials.php:210
+#: includes/widgets/files/widget-testimonials.php:223
+msgid "Yes"
+msgstr ""
+
+#: includes/widgets/files/widget-testimonials.php:211
+#: includes/widgets/files/widget-testimonials.php:224
+msgid "No"
+msgstr ""
+
+#: includes/widgets/files/widget-testimonials.php:216
+msgid "Interval (in miliseconds)"
+msgstr ""
+
+#: includes/widgets/files/widget-testimonials.php:221
+msgid "Enable touch support (for mouse, table and mobile)"
+msgstr ""
+
+#: includes/widgets/files/widget-testimonials.php:230
+msgid "Testimonials"
+msgstr ""
+
+#: includes/widgets/files/widget-testimonials.php:239
+msgid "Author"
+msgstr ""
+
+#: includes/widgets/files/widget-testimonials.php:248
+msgid "Remove Testimonial"
+msgstr ""
+
+#: includes/widgets/files/widget-testimonials.php:254
+msgid "Add New Testimonial"
+msgstr ""
+
+#: includes/widgets/widget-functions.php:19
+msgid "See %s for all available icons"
+msgstr ""
+
+#: includes/widgets/widget-functions.php:19
+msgid "See %s for all available icon classes (example: fa-home)"
+msgstr ""
+
+#: includes/widgets/widget-functions.php:84
+msgid "QreativeThemes Widgets"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Physio Toolkit"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.qreativethemes.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"All plugin territory functionalities for the Physio WordPress Theme, by "
+"QreativeThemes"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "QreativeThemes"
+msgstr ""

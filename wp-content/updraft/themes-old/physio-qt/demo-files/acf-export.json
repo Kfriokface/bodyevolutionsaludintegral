@@ -1,0 +1,957 @@
+[
+    {
+        "key": "group_5656136da36c1",
+        "title": "Page Subtitle",
+        "fields": [
+            {
+                "key": "field_5656137207688",
+                "label": "",
+                "name": "subtitle",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "Subtitle",
+                "append": "",
+                "maxlength": "",
+                "readonly": 0,
+                "disabled": 0
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "page"
+                },
+                {
+                    "param": "page_template",
+                    "operator": "!=",
+                    "value": "template-front-jumbtron.php"
+                },
+                {
+                    "param": "page_template",
+                    "operator": "!=",
+                    "value": "template-front-slider-premium.php"
+                }
+            ]
+        ],
+        "menu_order": 1,
+        "position": "acf_after_title",
+        "style": "seamless",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": 1,
+        "description": ""
+    },
+    {
+        "key": "group_565614e5b6a4d",
+        "title": "Alternative Slider Option",
+        "fields": [
+            {
+                "key": "field_5656151f21ae4",
+                "label": "Use this Slider",
+                "name": "use_this_slider",
+                "type": "radio",
+                "instructions": "If you prefer Revolution Slider or Layout Slider you can use them with this theme. Select which slider you want to use and fill in the <strong>ID only.<\/strong> Please note that both sliders are not included, you can buy Revolution Slider <a href=\"http:\/\/codecanyon.net\/item\/slider-revolution-responsive-wordpress-plugin\/2751380?ref=QreativeThemes\">here<\/a> and Layer Slider <a href=\"http:\/\/codecanyon.net\/item\/layerslider-responsive-wordpress-slider-plugin-\/1362246?ref=QreativeThemes\">here<\/a>",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "rev": "Revolution Slider",
+                    "layer": "Layer Slider"
+                },
+                "other_choice": 0,
+                "save_other_choice": 0,
+                "default_value": "",
+                "layout": "horizontal",
+                "allow_null": 0,
+                "return_format": "value"
+            },
+            {
+                "key": "field_5656154721ae5",
+                "label": "Revolution Slider",
+                "name": "revolution_slider_id",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": [
+                    [
+                        {
+                            "field": "field_5656151f21ae4",
+                            "operator": "==",
+                            "value": "rev"
+                        }
+                    ]
+                ],
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": "",
+                "readonly": 0,
+                "disabled": 0
+            },
+            {
+                "key": "field_5656155d21ae6",
+                "label": "Layer Slider",
+                "name": "layer_slider_id",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": [
+                    [
+                        {
+                            "field": "field_5656151f21ae4",
+                            "operator": "==",
+                            "value": "layer"
+                        }
+                    ],
+                    [
+                        {
+                            "field": "field_5656151f21ae4",
+                            "operator": "==",
+                            "value": "layer"
+                        }
+                    ]
+                ],
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": "",
+                "readonly": 0,
+                "disabled": 0
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "page_template",
+                    "operator": "==",
+                    "value": "template-front-slider-premium.php"
+                }
+            ]
+        ],
+        "menu_order": 2,
+        "position": "acf_after_title",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": 1,
+        "description": ""
+    },
+    {
+        "key": "group_56561139cbe1f",
+        "title": "Jumbotron Frontpage",
+        "fields": [
+            {
+                "key": "field_5671882add8de",
+                "label": "Slide Animation",
+                "name": "slide_animation",
+                "type": "radio",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": 100,
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "carousel-slide": "Slide",
+                    "carousel-fade": "Fade"
+                },
+                "other_choice": 0,
+                "save_other_choice": 0,
+                "default_value": "",
+                "layout": "horizontal",
+                "allow_null": 0,
+                "return_format": "value"
+            },
+            {
+                "key": "field_5656129fd76a3",
+                "label": "Slider Autocycle",
+                "name": "slide_autocycle",
+                "type": "true_false",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "message": "Automatically cycle the slider",
+                "default_value": 1
+            },
+            {
+                "key": "field_565612ded76a4",
+                "label": "Slide Interval",
+                "name": "slide_interval",
+                "type": "number",
+                "instructions": "Cycle interval (1s = 1000ms)",
+                "required": 0,
+                "conditional_logic": [
+                    [
+                        {
+                            "field": "field_5656129fd76a3",
+                            "operator": "==",
+                            "value": "1"
+                        }
+                    ]
+                ],
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": 8000,
+                "placeholder": "",
+                "prepend": "",
+                "append": "ms",
+                "min": "",
+                "max": "",
+                "step": "",
+                "readonly": 0,
+                "disabled": 0
+            },
+            {
+                "key": "field_56561143d769d",
+                "label": "Captions on Slides",
+                "name": "slide_captions",
+                "type": "radio",
+                "instructions": "Enable captions for each slide",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "use_captions": "Use captions",
+                    "no_captions": "Don't use captions"
+                },
+                "other_choice": 0,
+                "save_other_choice": 0,
+                "default_value": "use_captions",
+                "layout": "horizontal",
+                "allow_null": 0,
+                "return_format": "value"
+            },
+            {
+                "key": "field_56561180d769e",
+                "label": "Image Slides",
+                "name": "slides",
+                "type": "repeater",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "min": "",
+                "max": "",
+                "layout": "row",
+                "button_label": "Add Row",
+                "collapsed": "",
+                "sub_fields": [
+                    {
+                        "key": "field_565611f5d769f",
+                        "label": "Slide Image",
+                        "name": "slide_image",
+                        "type": "image",
+                        "instructions": "",
+                        "required": 1,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": 100,
+                            "class": "",
+                            "id": ""
+                        },
+                        "return_format": "id",
+                        "preview_size": "physio-qt-slider-l",
+                        "library": "all",
+                        "min_width": "",
+                        "min_height": "",
+                        "min_size": "",
+                        "max_width": "",
+                        "max_height": "",
+                        "max_size": "",
+                        "mime_types": ""
+                    },
+                    {
+                        "key": "field_56561229d76a0",
+                        "label": "Small Heading",
+                        "name": "slide_small_heading",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": [
+                            [
+                                {
+                                    "field": "field_56561143d769d",
+                                    "operator": "==",
+                                    "value": "use_captions"
+                                }
+                            ]
+                        ],
+                        "wrapper": {
+                            "width": 100,
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": "",
+                        "readonly": 0,
+                        "disabled": 0
+                    },
+                    {
+                        "key": "field_56561246d76a1",
+                        "label": "Heading",
+                        "name": "slide_heading",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": [
+                            [
+                                {
+                                    "field": "field_56561143d769d",
+                                    "operator": "==",
+                                    "value": "use_captions"
+                                }
+                            ]
+                        ],
+                        "wrapper": {
+                            "width": 100,
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": "",
+                        "readonly": 0,
+                        "disabled": 0
+                    },
+                    {
+                        "key": "field_5656126fd76a2",
+                        "label": "Content",
+                        "name": "slide_content",
+                        "type": "wysiwyg",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": [
+                            [
+                                {
+                                    "field": "field_56561143d769d",
+                                    "operator": "==",
+                                    "value": "use_captions"
+                                }
+                            ]
+                        ],
+                        "wrapper": {
+                            "width": 100,
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "tabs": "all",
+                        "toolbar": "basic",
+                        "media_upload": 0
+                    },
+                    {
+                        "key": "field_56717e88b42fb",
+                        "label": "Link Slide",
+                        "name": "slide_link",
+                        "type": "text",
+                        "instructions": "(Optional) Link the image to a URL",
+                        "required": 0,
+                        "conditional_logic": [
+                            [
+                                {
+                                    "field": "field_56561143d769d",
+                                    "operator": "==",
+                                    "value": "no_captions"
+                                }
+                            ]
+                        ],
+                        "wrapper": {
+                            "width": 100,
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": "",
+                        "readonly": 0,
+                        "disabled": 0
+                    },
+                    {
+                        "key": "field_5671849ba861b",
+                        "label": "Target Link",
+                        "name": "slide_link_target",
+                        "type": "radio",
+                        "instructions": "Open link in new browser window?",
+                        "required": 0,
+                        "conditional_logic": [
+                            [
+                                {
+                                    "field": "field_56561143d769d",
+                                    "operator": "==",
+                                    "value": "no_captions"
+                                }
+                            ]
+                        ],
+                        "wrapper": {
+                            "width": 100,
+                            "class": "",
+                            "id": ""
+                        },
+                        "choices": {
+                            "no": "No",
+                            "yes": "Yes"
+                        },
+                        "other_choice": 0,
+                        "save_other_choice": 0,
+                        "default_value": "",
+                        "layout": "horizontal",
+                        "allow_null": 0,
+                        "return_format": "value"
+                    }
+                ]
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "page_template",
+                    "operator": "==",
+                    "value": "template-front-jumbtron.php"
+                }
+            ]
+        ],
+        "menu_order": 3,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": 1,
+        "description": ""
+    },
+    {
+        "key": "group_5655fd6b3b271",
+        "title": "Page Header Settings",
+        "fields": [
+            {
+                "key": "field_573f002b12837",
+                "label": "Settings",
+                "name": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "left",
+                "endpoint": 0
+            },
+            {
+                "key": "field_573eff8212835",
+                "label": "Topbar",
+                "name": "topbar",
+                "type": "radio",
+                "instructions": "Show or hide the topbar",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "show": "Show",
+                    "hide": "Hide"
+                },
+                "other_choice": 0,
+                "save_other_choice": 0,
+                "default_value": "",
+                "layout": "horizontal",
+                "allow_null": 0,
+                "return_format": "value"
+            },
+            {
+                "key": "field_5821cb1834a9e",
+                "label": "Widget Bar",
+                "name": "widget_bar",
+                "type": "radio",
+                "instructions": "Show or hide the header widget bar",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "show": "Show",
+                    "hide": "Hide"
+                },
+                "allow_null": 0,
+                "other_choice": 0,
+                "save_other_choice": 0,
+                "default_value": "",
+                "layout": "horizontal",
+                "return_format": "value"
+            },
+            {
+                "key": "field_5821d82b57218",
+                "label": "Page Header",
+                "name": "page_header",
+                "type": "radio",
+                "instructions": "Show or hide the page header",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "show": "Show",
+                    "hide": "Hide"
+                },
+                "allow_null": 0,
+                "other_choice": 0,
+                "save_other_choice": 0,
+                "default_value": "",
+                "layout": "horizontal",
+                "return_format": "value"
+            },
+            {
+                "key": "field_573effb412836",
+                "label": "Pages Header Align",
+                "name": "header_text_align",
+                "type": "radio",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "left": "Left",
+                    "center": "Center",
+                    "right": "Right"
+                },
+                "allow_null": 0,
+                "other_choice": 0,
+                "save_other_choice": 0,
+                "default_value": "left",
+                "layout": "horizontal",
+                "return_format": "value"
+            },
+            {
+                "key": "field_573f0176dc619",
+                "label": "Display Page Title",
+                "name": "display_page_title",
+                "type": "radio",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "show": "Show",
+                    "hide": "Hide"
+                },
+                "other_choice": 0,
+                "save_other_choice": 0,
+                "default_value": "",
+                "layout": "horizontal",
+                "allow_null": 0,
+                "return_format": "value"
+            },
+            {
+                "key": "field_56a7a33f17e79",
+                "label": "Page Title Color",
+                "name": "page_title_color",
+                "type": "color_picker",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": ""
+            },
+            {
+                "key": "field_573f01aadc61a",
+                "label": "Subtitle Color",
+                "name": "subtitle_color",
+                "type": "color_picker",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": ""
+            },
+            {
+                "key": "field_5821dbb10d926",
+                "label": "Breadcrumbs",
+                "name": "breadcrumbs",
+                "type": "radio",
+                "instructions": "Show or hide the breadcrumbs",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "show": "Show",
+                    "hide": "Hide"
+                },
+                "allow_null": 0,
+                "other_choice": 0,
+                "save_other_choice": 0,
+                "default_value": "",
+                "layout": "horizontal",
+                "return_format": "value"
+            },
+            {
+                "key": "field_573f003f12838",
+                "label": "Background",
+                "name": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "left",
+                "endpoint": 0
+            },
+            {
+                "key": "field_5655fda0b8697",
+                "label": "Background Image",
+                "name": "header_bg",
+                "type": "image",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "return_format": "url",
+                "preview_size": "medium",
+                "library": "all",
+                "min_width": "",
+                "min_height": "",
+                "min_size": "",
+                "max_width": "",
+                "max_height": "",
+                "max_size": "",
+                "mime_types": ""
+            },
+            {
+                "key": "field_5655fe25b8698",
+                "label": "Background Image Horizontal Position",
+                "name": "header_bg_horizontal",
+                "type": "radio",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "left": "Left",
+                    "center": "Center",
+                    "right": "Right"
+                },
+                "other_choice": 0,
+                "save_other_choice": 0,
+                "default_value": "left",
+                "layout": "horizontal",
+                "allow_null": 0,
+                "return_format": "value"
+            },
+            {
+                "key": "field_5655fe6bb8699",
+                "label": "Background Image Vertical Position",
+                "name": "header_bg_vertical",
+                "type": "radio",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "top": "Top",
+                    "center": "Center",
+                    "bottom": "Bottom"
+                },
+                "other_choice": 0,
+                "save_other_choice": 0,
+                "default_value": "",
+                "layout": "horizontal",
+                "allow_null": 0,
+                "return_format": "value"
+            },
+            {
+                "key": "field_5655fe8bb869a",
+                "label": "Background Image Size",
+                "name": "header_bg_size",
+                "type": "radio",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "auto": "Auto",
+                    "cover": "Cover"
+                },
+                "other_choice": 0,
+                "save_other_choice": 0,
+                "default_value": "",
+                "layout": "horizontal",
+                "allow_null": 0,
+                "return_format": "value"
+            },
+            {
+                "key": "field_5655fea3b869b",
+                "label": "Background Image Attachment",
+                "name": "header_bg_attachment",
+                "type": "radio",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "scroll": "Scroll",
+                    "fixed": "Fixed"
+                },
+                "other_choice": 0,
+                "save_other_choice": 0,
+                "default_value": "",
+                "layout": "horizontal",
+                "allow_null": 0,
+                "return_format": "value"
+            },
+            {
+                "key": "field_5655fee3b869c",
+                "label": "Background Color",
+                "name": "header_bg_color",
+                "type": "color_picker",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": ""
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "page"
+                },
+                {
+                    "param": "page_template",
+                    "operator": "!=",
+                    "value": "template-front-jumbtron.php"
+                },
+                {
+                    "param": "page_template",
+                    "operator": "!=",
+                    "value": "template-front-slider-premium.php"
+                }
+            ]
+        ],
+        "menu_order": 4,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": 1,
+        "description": ""
+    },
+    {
+        "key": "group_5655eb257204f",
+        "title": "Sidebar Settings",
+        "fields": [
+            {
+                "key": "field_5655eb4b31ecd",
+                "label": "Display the Sidebar",
+                "name": "sidebar",
+                "type": "radio",
+                "instructions": "Set the position of the sidebar on this page",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "hide": "Hide",
+                    "left": "Left",
+                    "right": "Right"
+                },
+                "other_choice": 0,
+                "save_other_choice": 0,
+                "default_value": "right",
+                "layout": "horizontal",
+                "allow_null": 0,
+                "return_format": "value"
+            },
+            {
+                "key": "field_5655f6b4f706f",
+                "label": "Pull the Sidebar",
+                "name": "pull_sidebar",
+                "type": "radio",
+                "instructions": "Pull the sidebar upwards",
+                "required": 0,
+                "conditional_logic": [
+                    [
+                        {
+                            "field": "field_5655eb4b31ecd",
+                            "operator": "==",
+                            "value": "left"
+                        }
+                    ],
+                    [
+                        {
+                            "field": "field_5655eb4b31ecd",
+                            "operator": "==",
+                            "value": "right"
+                        }
+                    ]
+                ],
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "no_pull": "Don't Pull Sidebar",
+                    "pull": "Pull Sidebar"
+                },
+                "other_choice": 0,
+                "save_other_choice": 0,
+                "default_value": "no_pull",
+                "layout": "horizontal",
+                "allow_null": 0,
+                "return_format": "value"
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "post"
+                }
+            ],
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "page"
+                },
+                {
+                    "param": "page_template",
+                    "operator": "!=",
+                    "value": "template-front-jumbtron.php"
+                },
+                {
+                    "param": "page_template",
+                    "operator": "!=",
+                    "value": "template-front-slider-premium.php"
+                }
+            ]
+        ],
+        "menu_order": 5,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": 1,
+        "description": ""
+    }
+]

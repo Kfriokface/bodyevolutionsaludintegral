@@ -1,0 +1,131 @@
+/* 16.0 Theme Footer */
+
+.footer {
+	color: #C1C7CE;
+	background: #6B727A;
+
+	.footer--top {
+		position: relative;
+		padding: 30px 0 0 0;
+
+		@media(min-width: $screen-md) {
+			padding: 0;
+		}
+
+		.footer--top-container {
+
+			@media(min-width: $screen-md) {
+				padding: 60px 0 15px 0;
+				border-bottom: 1px solid rgba(255,255,255,0.1);
+			}
+		}
+
+		p {
+			margin-bottom: 0;
+		}
+
+		.widget {
+			position: relative;
+			padding: 20px 0;
+			border-bottom: 1px solid rgba(255,255,255,0.1);
+
+			@media(min-width: $screen-md) {
+				padding: 0;
+				margin-bottom: 30px;
+				border: none;
+			}
+		}
+	}
+
+	.footer--middle {
+		padding: 30px 0;
+
+		@media(min-width: $screen-md) {
+			padding: 65px 0;
+		}
+
+		.widget {
+			padding: 15px 0;
+
+			@media(min-width: $screen-md) {
+				padding: 0;
+			}
+		}
+	}
+
+	.footer--bottom {
+		padding: 26px 0 23px 0;
+		color: #909BA2;
+		background: #555A5F;
+
+		.bottom-left {
+			text-align: center;
+
+			@media(min-width: $screen-md) {
+				text-align: left;
+			}
+		}
+		.bottom-middle {
+			text-align: center;
+		}
+		
+		.bottom-right {
+			text-align: center;
+
+			@media(min-width: $screen-md) {
+				text-align: right;
+			}
+		}
+
+		p {
+			margin: 5px 0;
+
+			@media(min-width: $screen-md) {
+				margin: 0;
+			}
+		}
+
+		a {
+			font-weight: bold;
+			color: #C6EEFF;
+			text-decoration: none;
+		}
+
+		i {
+			padding: 0 3px;
+		}
+	}
+
+	.scroll-to-top {
+		display: none;
+
+		@media(min-width: $screen-md) {
+			opacity: 0;
+			visibility: hidden;
+			position: fixed;
+			display: block;
+			bottom: 20px;
+			right: 20px;
+			width: 50px;
+			height: 50px;
+			text-align: center;
+			font-size: 17px;
+			color: #ffffff;
+			line-height: 48px;
+			-webkit-border-radius: 2px;
+			border-radius: 2px;
+			background: rgba(0, 0, 0, 0.1);
+		}
+
+		&.visible {
+			opacity: 1;
+			visibility: visible;
+			transition: all 250ms ease-out;
+		}
+
+		&:hover,
+		&:focus {
+			background-color: rgba(0,0,0,0.2);
+		}
+	}
+}

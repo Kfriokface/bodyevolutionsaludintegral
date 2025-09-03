@@ -1,0 +1,335 @@
+/* 10.0 WordPress Default Widgets */
+
+// Widget Nav Menu
+.content-area {
+
+	.widget_nav_menu {
+		border-bottom-right-radius: 2px;
+		border-bottom-left-radius: 50px;
+
+		.widget-title {
+			color: #ffffff;
+		}
+	}
+}
+.content-area .widget_nav_menu,
+.footer .widget_nav_menu {
+
+	ul.menu {
+		margin: 0;
+		padding: 0;
+
+		li {
+			position: relative;
+			list-style: none;
+
+			a {
+				display: inline-block;
+				margin: 5px 0;
+				padding-left: 20px;
+				text-decoration: none;
+
+				&::before {
+					position: absolute;
+					left: 0;
+					content: "\f105";
+					padding-right: 15px;
+					font-family: 'Font Awesome 5 Free';
+					font-weight: 900;
+					font-size: 15px;
+					color: rgba(0, 0, 0, 0.2);
+					transition: $primary-transition;
+				}
+
+				&:hover {
+					color: $white-color;
+
+					&::before{
+						color: rgba(50, 50, 50, 0.2);
+					}
+				}
+			}
+
+			&.current-menu-item {
+				
+				> a {
+					color: $white-color;
+					font-weight: bold;
+
+					&::before {
+						color: $white-color;
+					}
+				}
+			}
+		}
+
+		ul {
+			padding-left: 0;
+		}
+	}
+}
+
+.content-area {
+
+	.widget_nav_menu {
+		padding: 30px 35px;
+		border-radius: 2px;
+		border-bottom-right-radius: 50px;
+		background: $secondary-color;
+
+		ul.menu {
+
+			li {
+
+				a {
+					font-weight: 600;
+					color: rgba(255,255,255,0.5);
+				}
+			}
+		}
+	}
+}
+
+// Widget Nav Menu in the footer
+.footer {
+	
+	.widget_nav_menu {
+		padding: 0;
+		border-radius: 0;
+		background: none;
+
+		ul.menu {
+
+			li {
+
+				> a {
+					margin: 3px 0;
+					font-weight: normal;
+					color: #C1C7CE;
+
+					&::before {
+						color: rgba(255, 255, 255, 0.09);
+					}
+
+					&:hover {
+						color: $white-color;
+
+						&::before {
+							color: $white-color;
+						}
+					}
+				}
+
+				&.current-menu-item {
+					
+					>a {
+						font-weight: bold;
+						color: $white-color;
+
+						&::before {
+							color: $white-color;
+						}
+					}
+				}
+
+				&:first-of-type {
+
+					>a {
+						margin-top: 0;
+					}
+				}
+			}
+		}
+	}
+}
+
+
+.sidebar {
+
+	.widget {
+		margin-bottom: 45px;
+
+		&:last-of-type {
+			margin-bottom: 0;
+		}
+	
+		&.widget_recent_entries ul,
+		&.widget_recent_comments ul,
+		&.widget_archive ul,
+		&.widget_categories ul,
+		&.widget_meta ul,
+		&.widget_rss ul,
+		&.widget_pages ul,
+		&.widget_calendar ul {
+
+			padding-left: 0;
+			
+			li {
+				position: relative;
+				padding-left: 20px;
+				list-style: none;
+
+				a {
+					text-decoration: none;
+					word-wrap: break-word;
+				}
+
+				&::before {
+					position: absolute;
+					top: 0;
+					left: 0;
+					content: "\f105";
+					font-family: 'Font Awesome 5 Free';
+					font-weight: 900;
+					font-size: 14px;
+					color: rgba(50,50,50,0.15);
+				}
+			}
+		}
+
+		&.widget_rss {
+
+			.rsswidget {
+				text-decoration: none;
+			}
+		}
+	}
+}
+
+.widget_recent_entries,
+.widget_recent_comments,
+.widget_archive,
+.widget_categories,
+.widget_meta,
+.widget_rss,
+.widget_pages,
+.widget_calendar {
+
+	&::before {
+		display: none;
+	}
+
+	ul {
+		padding-left: 15px;
+
+		li {
+
+			> ul {
+				margin-left: 0;
+			}
+		}
+	}
+}
+
+/* Calendar Widget */
+.widget_calendar {
+
+	table {
+		border-collapse: collapse;
+		border-spacing: 0;
+	}
+
+	#wp-calendar {
+		width: 100%;
+	}
+
+	caption {
+		background-color: #dedede;
+		padding: 6px 0;
+		font-weight: bold;
+		text-align: center;
+	}
+
+	thead {
+
+		tr {
+
+			th {
+				padding: 5px 0;
+				text-align: center;
+				border: 1px solid #dedede;
+			}
+		}
+	}
+
+	tbody {
+
+		tr {
+
+			td {
+				padding: 5px 0;
+				text-align: center;
+				border: 1px solid #dedede;
+			}
+		}
+	}
+
+	tfoot {
+
+		tr {
+
+			td {
+				padding: 5px;
+				border-top: 1px solid #dedede;
+			}
+		}
+
+		#next {
+
+			a {
+				float: right;
+			}
+		}
+	}
+}
+
+/* Tagcloud Widget */
+.widget_tag_cloud a {
+	display: inline-block;
+	padding: 10px 12px;
+	margin-bottom: 4px;
+	color: $text-color;
+	text-decoration: none;
+	border-radius: 2px;
+    border: 1px solid rgba(0,0,0,0.1);
+	
+	&:hover {
+		color: $darker-color;
+		border-color: rgba(0,0,0,0.2);
+	}
+}
+
+/* Search Box Widget */
+.search-form label {
+	float: left;
+	width: 65%;
+}
+.search-field {
+	height: 55px;
+	padding: 0px 20px;
+	font-size: 13px;
+	font-weight: normal;
+	width: 100%;
+	outline: none;
+	border-width: 1px 0 1px 1px;
+	border-style: solid;
+	border-color: #f2f2f2;
+	border-top-left-radius: 2px;
+	border-bottom-left-radius: 2px;
+}
+.search-submit {
+	height: 55px;
+	border: none;
+	width: 35%;
+	cursor: pointer;
+	font-weight: bold;
+	color: $white-color;
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+	background-color: $primary-color;
+	transition: $primary-transition;
+
+	&:hover {
+		background-color: darken( $primary-color, 3);
+	}
+}

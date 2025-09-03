@@ -1,0 +1,179 @@
+/* 3.4 Shortcodes */
+
+/* Table Shortcode */
+.qt-table,
+.custom-table {
+	width: 100%;
+	margin-bottom: 0;
+
+	thead {	
+
+		td {
+			padding: 15px 30px;
+			color: $white-color;
+			font-weight: bold;
+			font-size: 15px;
+			border: none;
+			background-clip: padding-box;
+			background: $secondary-color;
+
+			&:first-of-type {
+				border-top-left-radius: 2px;
+			}
+
+			&:last-of-type {
+				border-top-right-radius: 2px;
+			}
+
+			&:empty {
+				background-color: transparent;
+			}
+		}
+	}
+
+	tbody td {
+		padding: 15px 30px;
+		border: none;
+		background-clip: padding-box;
+
+		&:first-of-type {
+			font-weight: 600;
+		}
+	}
+
+	tr {
+
+		&:hover {
+			background: none;
+		}
+
+		&:nth-child(2n+0),
+		&:nth-child(2n+0):hover {
+			background-color: #f9f9f9;
+		}
+	}
+}
+
+@media (max-width: 550px) { 
+	.qt-table-wrap {
+		overflow-x: auto;
+	}
+}
+
+
+/* FontAwesome Shortcode */
+.icon-wrap {
+	.fa {
+		font-size: 20px;
+	}
+}
+
+/* Accordion Shortcode */
+.panel-group {
+	
+	.panel {
+		margin-bottom: 15px;
+
+		.panel-heading {
+			.panel-title {
+				position: relative;
+				margin-bottom: 0;
+
+				a {
+					position: relative;
+					display: block;
+					margin-top: 0;
+					padding: 18px 30px;
+					font-family: $content-font;
+					font-size: 16px;
+					color: #a5a5a5;
+					text-decoration: none;
+					border-radius: 2px;
+					border: 1px solid rgba(0, 0, 0, 0.08);
+					background-color: $white-color;
+					transition: $primary-transition;
+
+					&:hover {
+						color: $dark-color;
+					}
+
+					&[aria-expanded="true"] {
+						color: $white-color;
+						border-color: transparent;
+						border-bottom-left-radius: 0;
+						border-bottom-right-radius: 0;
+						background: $secondary-color;
+
+						&::after {
+							content: "\f107";
+							color: $white-color;
+							transition: $primary-transition;
+						}
+
+						&:hover {
+							color: $white-color;
+						}
+					}
+
+					&::after {
+						position: absolute;
+						content: "\f105";
+						top: calc(50% - 10px);
+						right: 30px;
+						font-family: 'Font Awesome 5 Free';
+						font-weight: 900;
+						font-size: 16px;
+						color: $text-color;
+					}
+				}
+			}
+		}
+
+		.panel-collapse {
+			.panel-body {
+				padding: 25px 30px;
+				border-style: solid;
+				border-color: #f2f2f2;
+				border-width: 0 1px 1px 1px;
+				border-radius: 0 0 1px 1px;
+
+				p {
+					margin-bottom: 0;
+				}
+			}
+		}
+	}
+}
+
+// If accordion is used in sidebar
+.sidebar {
+	.panel-group {
+		.panel {
+			.panel-heading {
+				.panel-title {
+					a {
+						font-size: 16px;
+					}
+				}
+			}
+		}
+	}
+}
+
+/* Embed Shortcode */
+.embed-responsive {
+	position: relative;
+	padding-bottom: 56.25%;
+	height: 0;
+	overflow: hidden;
+
+	iframe,
+	object,
+	video {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+}

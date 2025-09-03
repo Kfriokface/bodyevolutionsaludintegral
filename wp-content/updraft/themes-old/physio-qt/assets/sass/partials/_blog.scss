@@ -1,0 +1,308 @@
+/* 13.0 Blog */
+
+.hentry--post-thumbnail {
+	position: relative;
+	display: block;
+
+	.hentry--thumbnail {
+		display: block;
+
+		img {
+			margin: 0 0 20px 0;
+			border-bottom-left-radius: 0;
+			border-bottom-right-radius: 0;
+		}
+	}
+
+	.meta-data--date {
+		position: absolute;
+		bottom: 40px;
+		left: 50px;
+		padding: 6px 20px;
+		font-weight: bold;
+		font-size: 13px;
+		color: $white-color;
+		text-shadow: 0 1px 1px rgba(50,50,50,0.2);
+		text-transform: uppercase;
+		border-radius: 2px;
+		background: $secondary-color;
+		transition: $primary-transition;
+	}
+}
+
+.hentry--meta-data {
+	padding: 0 0 20px 0;
+	margin-bottom: 30px;
+	font-weight: bold;
+	font-size: 14px;
+	color: $text-color;
+	border-bottom: 1px solid rgba(50,50,50,0.1);
+
+	a {
+		color: $text-color;
+		text-decoration: none;
+	}
+
+	.meta--seperator {
+	    display: inline-block;
+	    width: 2px;
+	    height: 10px;
+	    margin: 0 13px;
+	    background-color: rgba(50,50,50,0.15);
+	    transform: skew(-25deg);
+	}
+}
+
+.hentry--title {
+	margin: 0 0 20px 0;
+	font-size: 34px;
+
+	a {
+		color: $darker-color;
+		text-decoration: none;
+	}
+}
+
+.hentry--more {
+	position: relative;
+	font-weight: bold;
+
+	&:hover {
+		text-decoration: none;
+	}
+}
+
+
+// Styles for blog page only
+.hentry--border {
+
+	.hentry {
+		margin-bottom: 60px;
+
+		.hentry--post-thumbnail {
+			margin-bottom: -21px;
+		}
+
+		.hentry--content {
+			padding: 50px;
+			border: 1px solid rgba(0,0,0,0.1);
+			border-bottom-left-radius: 2px;
+			border-bottom-right-radius: 2px;
+
+			> p {
+				font-size: 15px;
+
+				&:last-of-type {
+					margin-bottom: 0;
+				}
+			}
+		}
+	}
+
+	// Sticky post
+	.sticky {
+
+		&.hentry {
+
+			.hentry--content {
+				border: none;
+				background: #F5F8FB;
+			}
+		}
+	}
+}
+
+body.blog {
+
+	.hentry--border {
+
+		&:last-of-type {
+
+			.hentry {
+				margin-bottom: 0;
+			}
+		}
+	}
+}
+
+
+// Single post
+.single-post {
+
+	.hentry--content {
+		line-height: 1.8;
+	}
+
+	.hentry--title {
+		margin-bottom: 30px;
+	}
+}
+
+// Blog grid layout
+.blog-grid {
+	clear: both;
+
+	@media(min-width: $screen-md) {
+		margin-left: -15px;
+		margin-right: -15px;
+	}
+
+	.pagination {
+
+		@media(min-width: $screen-md) {
+			clear: both;
+			margin: 0 15px;
+		}
+	}
+
+	.hentry--border {
+
+		.hentry {
+			margin-bottom: 30px;
+
+			@media(min-width: $screen-md) {
+				float: left;
+				padding: 0 15px;
+			}
+
+			.hentry--content {
+				padding: 30px;
+			}
+		}
+	}
+
+	.hentry--post-thumbnail {
+
+		.meta-data--date {
+			left: 30px;
+			bottom: 20px;
+		}
+	}
+
+	.hentry--meta-data {
+
+		.meta--seperator {
+			width: 1px;
+			margin: 0 6px;
+		}
+	}
+
+	.hentry--title {
+		font-size: 22px;
+	}
+
+	&.columns-2 {
+
+		.hentry--border {
+
+			.hentry {
+
+				@media(min-width: $screen-md) {
+					width: 50%;
+				}
+			}
+
+			&:nth-child(2n+1) {
+
+				.hentry {
+
+					@media(min-width: $screen-md) {
+						clear: left;
+					}
+				}
+			}
+		}
+	}
+
+	&.columns-3 {
+
+		.hentry--border {
+
+			.hentry {
+
+				@media(min-width: $screen-md) {
+					width: 33.33333%;
+				}
+			}
+
+			&:nth-child(3n+1) {
+
+				.hentry {
+
+					@media(min-width: $screen-md) {
+						clear: left;
+					}
+				}
+			}
+		}
+	}
+
+	&.columns-4 {
+
+		.hentry--border {
+
+			.hentry {
+
+				@media(min-width: $screen-md) {
+					width: 25%;
+				}
+			}
+
+			&:nth-child(4n+1) {
+
+				.hentry {
+
+					@media(min-width: $screen-md) {
+						clear: left;
+					}
+				}
+			}
+		}
+	}
+
+	&.columns-5 {
+
+		.hentry--border {
+
+			.hentry {
+
+				@media(min-width: $screen-md) {
+					width: 20%;
+				}
+			}
+
+			&:nth-child(5n+1) {
+
+				.hentry {
+
+					@media(min-width: $screen-md) {
+						clear: left;
+					}
+				}
+			}
+		}
+	}
+
+	&.columns-6 {
+
+		.hentry--border {
+
+			.hentry {
+
+				@media(min-width: $screen-md) {
+					width: 16.66667%;
+				}
+			}
+
+			&:nth-child(6n+1) {
+
+				.hentry {
+
+					@media(min-width: $screen-md) {
+						clear: left;
+					}
+				}
+			}
+		}
+	}
+}
