@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /wp-admin/
+Allow: /wp-admin/admin-ajax.php
+
+# Sitemap generado por Yoast SEO
+Sitemap: https://www.bodyevolutionsaludintegral.es/sitemap_index.xml
+
