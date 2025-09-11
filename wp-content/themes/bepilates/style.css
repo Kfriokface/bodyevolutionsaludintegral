@@ -1,0 +1,84 @@
+/*
+Theme Name: BePilates
+Theme URI: http://demo.qreativethemes.com/physio
+Template: physio-qt
+Author: QreativeThemes
+Author URI: http://qreativethemes.com/
+Description: A WordPress Theme for Physical Therapy &amp; Medical Clinic by QreativeThemes
+Tags: custom-background,custom-colors,custom-menu,featured-images,sticky-post,theme-options,translation-ready
+Version: 2.4.2.1668542974
+Updated: 2022-11-15 20:09:34
+
+*/
+
+/* HEADER WIDGETS */
+
+/*__sticky__*/
+.header-wrapper.is-sticky {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  z-index: 100;
+}
+body.sticky-navigation.admin-bar .header-wrapper.is-sticky {
+  top: 0px;
+}
+@media screen and (min-width: 601px) {
+  body.sticky-navigation.admin-bar .header-wrapper.is-sticky {
+    top: 46px;
+  }
+}
+@media screen and (min-width: 783px) {
+  body.sticky-navigation.admin-bar .header-wrapper.is-sticky {
+    top: 32px;
+  }
+}
+
+/*__widgets__*/
+.header-widgets .container {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.header-widgets .container .widget {
+  margin: 0;
+  flex: 0 1 25%;
+}
+
+.header-widgets .widget::after {
+  content: none;
+}
+
+.header-widgets .icon-box {
+  display: flex;
+  align-items: center;
+}
+
+.header-widgets .icon-box--icon i,
+.header-widgets .icon-box--title,
+.header-widgets .icon-box--description,
+.header-widgets .icon-box--description a {
+  color: #fff !important;
+}
+
+@media (min-width: 992px) {
+  .header-widgets .widget {
+    padding: 15px 0;
+  }
+}
+
+/* Carrusel */
+
+@media (min-width: 992px) {
+  .jumbotron .jumbotron-caption.center {
+      text-align: center;
+      background: #00000024;
+      padding: 1em;
+      border-radius: 5px;
+  }
+  .jumbotron .jumbotron-caption .caption-small-heading {
+    text-shadow: 1px 1px 2px #000000f2;
+  }
+}
